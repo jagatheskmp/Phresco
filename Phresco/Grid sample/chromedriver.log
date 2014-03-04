@@ -1,0 +1,51 @@
+[0.003][INFO]:      ChromeDriver 22.0.1203.0 D:\chromedriver_win_22.0.1203.0\chromedriver.exe
+[0.419][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "WINDOWS"
+}
+
+[0.420][INFO]:      Launching chrome: "C:\Documents and Settings\jagatheswaran_s\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[2.539][INFO]:      Connected to Chrome successfully. Version: 23.0.1271.97
+[2.551][FINE]:      Command received (/session/a4c17b8515f28174a95700927328054c)
+[2.551][FINE]:      Command finished (/session/a4c17b8515f28174a95700927328054c) with response {
+   "sessionId": "a4c17b8515f28174a95700927328054c",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "22.0.1203.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "23.0.1271.97",
+      "webStorageEnabled": true
+   }
+}
+
+[2.616][FINE]:      Command received (/session/a4c17b8515f28174a95700927328054c/url) with params {
+   "url": "http://172.16.29.45:9876/nodejshw"
+}
+
+[2.616][FINER]:     Waiting for all views to stop loading...
+[2.617][FINER]:     Done waiting for all views to stop loading
+[8.121][FINER]:     Waiting for all views to stop loading...
+[8.122][FINER]:     Done waiting for all views to stop loading
+[8.122][FINE]:      Command finished (/session/a4c17b8515f28174a95700927328054c/url) with response {
+   "sessionId": "a4c17b8515f28174a95700927328054c",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[311.464][FINE]:    Command received (/session/ea26ce08bd265b33edc2f349af3682da)
+[311.465][INFO]:    Chrome shutdown

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        
+        <Xamp_server_value>Xamp</Xamp_server_value>
+        <mongodb_value_pass>MongoDB</mongodb_value_pass>
+        <phpPilotProjectBlogValue>Blog</phpPilotProjectBlogValue>
+	</phresco>
+</environment>

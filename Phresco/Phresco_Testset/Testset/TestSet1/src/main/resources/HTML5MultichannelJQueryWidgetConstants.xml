@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+	    <multijQueryWidgetHelloworldNameValue>MultiJQueryWidHelloWorldProj</multijQueryWidgetHelloworldNameValue>
+        <multijQueryWidgetHelloworldDescriptionValue>This is MultiJQueryWidgetHelloworld Project</multijQueryWidgetHelloworldDescriptionValue>
+        <multijQueryWidgetEshopNameValue>MultiJQueryWidgetEshopProj</multijQueryWidgetEshopNameValue>
+        <multijQueryWidgetEshopDescriptionValue>This is MultiJQueryWidgetEshop Project</multijQueryWidgetEshopDescriptionValue>
+        <multijQueryWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'MultiJQueryWidHelloWorldProj-html5multichanne...')]</multijQueryWidgetHelloWorldEditApplicationLinkXpath>
+		<multijQueryMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'MultiJQueryWidgetEshopProj-html5multichannelj...')]</multijQueryMobWidgetEshopEditApplicationLinkXpath>
+		<widgetServerValue>Apache Tomcat</widgetServerValue>   
+	   	<widgetServerVersionValue>//input[@name='downloads_apache-tomcat']</widgetServerVersionValue>
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multijQueryWidgetValue>HTML5 Multichannel JQuery Widget</multijQueryWidgetValue>
+		<multijQueryWidgetVersionValue>1.6</multijQueryWidgetVersionValue>
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>This is Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>3030</configServPortValue>
+        <configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+        <multijqueryconfigServContextValueHelloWorld>MultiJqueryWidgetHelloworld</multijqueryconfigServContextValueHelloWorld>     
+        <multiJQueryServContextValueEshop>MultiJQueryWidgetEshop</multiJQueryServContextValueEshop>
+      	<configWebServiceNameValue>eshopService</configWebServiceNameValue>
+     	<configWebserviceDesc>This is eshopService configuration</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>6060</configWebservicePortValue>      	
+     	<multiJQueryWebserviceContextEshopValue>eshop</multiJQueryWebserviceContextEshopValue>
+     	<functionalFramework>Grid</functionalFramework>
+	</phresco>
+</environment>
+ 

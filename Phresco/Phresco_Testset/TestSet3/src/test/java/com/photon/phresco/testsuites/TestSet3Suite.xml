@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="PhrescoFrameworkTestCaseSuite" verbose="1">
+	
+ <test name="CleanTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp"/>
+			<methods>
+				<include name="testphpHelloWorldDatabase"></include>
+			</methods>
+		</classes>
+	</test> 
+ 	
+	<test name="TestSet3Test" junit="false" preserve-order="true">
+		<classes>
+		<class name="com.photon.phresco.TestSet3.TestSet3Test"/>
+		<methods>
+				 <include name="testPhpHelloWorldProjectCreation"></include>
+				<include name="testPhpHelloWorldProjectEdit"></include> 
+				<include name="testPhpProjectHelloWorldAddFeature"></include>
+				<include name="testphpProjectHelloWorldAddConfigurationServer"></include> 
+				<include name="testphpHelloWorldDatabasecreation"></include>
+				<include name="testphpHelloworldProjectBuild"></include>
+				<include name="testQualitygroupsTooltips"></include>
+				<include name="testReportTabVerification"></include>
+				<include name="testRootExpandDownloads"></include>
+				<include name="testEnvironmentAlretMessages"></include>
+				<include name="testEnvironmentPopupAlretMessages"></include>
+				<include name="testProjectEditToolTipMessages"></include>
+				<include name="testProjectdeleteAlretMessages"></include> 
+				<include name="testImportApplicationToolTipMessages"></include>
+				<include name="testAddProjectPageWarniongMessages"></include>
+				<include name="testHelpTab_Verification"></include> 
+				<include name="testTemeChange_About_phresco"></include>
+		</methods>
+		</classes>
+	</test> 
+  </suite>

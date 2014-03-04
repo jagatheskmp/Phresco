@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+         <nodeJsServiceHelloWorldNameValue>NodeJsWebRunHelloWorld</nodeJsServiceHelloWorldNameValue>
+        <nodeJsServiceHelloWorldDescriptionValue>This is the NodeJsWebRunHelloWorld project</nodeJsServiceHelloWorldDescriptionValue>
+        <technologynodeJsServiceValue>Node JS Web Service</technologynodeJsServiceValue>
+        <nodeJsServiceESHOPNameValue>NodeJsWebRunEShop</nodeJsServiceESHOPNameValue>
+        <nodeJsServiceESHOPDescriptionValue>This is the NodeJsWebRun ESHOP project</nodeJsServiceESHOPDescriptionValue>
+        <nodeJsServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'NodeJsWebRunHelloWorld-')]</nodeJsServiceHelloWorldEditApplicationLinkXpath>
+        <nodeJsServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'NodeJsWebRunEShop-')]</nodeJsServiceESHOPEditApplicationLinkXpath>
+ 	    <nodeJsServiceServerValue>NodeJs</nodeJsServiceServerValue>
+       	<nodeJsServiceDatabaseValue>MYSQL</nodeJsServiceDatabaseValue>
+ 		<nodeJsServicePilotProjectESHOPValue>Eshop</nodeJsServicePilotProjectESHOPValue>
+ 		<nodeJsServiceConfigurationServerNameValue>Server</nodeJsServiceConfigurationServerNameValue>
+        <nodeJsServiceConfigurationServerDescriptionValue>This is Server Configuration</nodeJsServiceConfigurationServerDescriptionValue>
+        <nodeJsServiceConfigurationServerEnvironmentValue>Production</nodeJsServiceConfigurationServerEnvironmentValue>
+        <nodeJsServiceConfigurationServerTypeValue>Server</nodeJsServiceConfigurationServerTypeValue>
+        <nodeJsServiceConfigurationServerProtocolHttpValue>http</nodeJsServiceConfigurationServerProtocolHttpValue>
+        <nodeJsServiceConfigurationServerProtocolHttpsValue>https</nodeJsServiceConfigurationServerProtocolHttpsValue>
+        <nodeJsServiceConfigurationServerHostValue>localhost</nodeJsServiceConfigurationServerHostValue>
+        <nodeJsServiceConfigurationServerPortValue>3035</nodeJsServiceConfigurationServerPortValue>
+        <nodeJsServiceConfigurationServerContextValueHelloWorld>NodeJsRunHelloWorld</nodeJsServiceConfigurationServerContextValueHelloWorld>
+        <nodeJsServiceConfigurationServerContextValueESHOP>NodeJsRunEshop</nodeJsServiceConfigurationServerContextValueESHOP> 
+        <nodeJsServiceConfigurationDatabaseNameValue>Database</nodeJsServiceConfigurationDatabaseNameValue>
+        <nodeJsServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</nodeJsServiceConfigurationDatabaseDescriptionValue>
+        <nodeJsServiceConfigurationDatabaseEnvironmentValue>Production</nodeJsServiceConfigurationDatabaseEnvironmentValue>
+        <nodeJsServiceConfigurationDatabaseTypeValue>Database</nodeJsServiceConfigurationDatabaseTypeValue>
+        <nodeJsServiceConfigurationDatabaseHostValue>localhost</nodeJsServiceConfigurationDatabaseHostValue>
+        <nodeJsServiceConfigurationDatabasePortValue>3306</nodeJsServiceConfigurationDatabasePortValue>
+        <nodeJsServiceConfigurationDatabaseDBUsernameValue>root</nodeJsServiceConfigurationDatabaseDBUsernameValue>
+		<nodeJsServiceConfigurationDatabaseDBNameValueESHOP>testNodeJsEshopRunDatabase</nodeJsServiceConfigurationDatabaseDBNameValueESHOP>
+	    <functionalFramework>Grid</functionalFramework>
+	    
+	    <javaWebServiceHelloWorldNameValue>JavaWebServiceRunHelloWorld</javaWebServiceHelloWorldNameValue>
+        <javaWebServiceHelloWorldDescriptionValue>This is the JavaWebServiceRun HelloWorld project</javaWebServiceHelloWorldDescriptionValue>
+        <technologyjavaWebServiceValue>Java WebService</technologyjavaWebServiceValue>
+        <javaWebServiceESHOPNameValue>JavaWebServiceRunEshop</javaWebServiceESHOPNameValue>
+        <javaWebServiceESHOPDescriptionValue>This is the JavaWebServiceRunEshop project</javaWebServiceESHOPDescriptionValue>
+		<javaWebServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceRunHelloWorld-')]</javaWebServiceHelloWorldEditApplicationLinkXpath>
+ 	 	<javaWebServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceRunEshop-')]</javaWebServiceESHOPEditApplicationLinkXpath>
+        <javaWebServiceServerValue>Apache Tomcat</javaWebServiceServerValue>
+        <javaWebServiceDatabaseValue>MYSQL</javaWebServiceDatabaseValue>
+        <javaWebServicePilotProjectESHOPValue>Eshop</javaWebServicePilotProjectESHOPValue>
+        <javaWebServiceConfigurationServerNameValue>Server</javaWebServiceConfigurationServerNameValue>
+        <javaWebServiceConfigurationServerDescriptionValue>This is Server Configuration</javaWebServiceConfigurationServerDescriptionValue>
+        <javaWebServiceConfigurationServerEnvironmentValue>Production</javaWebServiceConfigurationServerEnvironmentValue>
+        <javaWebServiceConfigurationServerTypeValue>Server</javaWebServiceConfigurationServerTypeValue>
+        <javaWebServiceConfigurationServerProtocolHttpValue>http</javaWebServiceConfigurationServerProtocolHttpValue>
+        <javaWebServiceConfigurationServerProtocolHttpsValue>https</javaWebServiceConfigurationServerProtocolHttpsValue>
+        <javaWebServiceConfigurationServerHostValue>localhost</javaWebServiceConfigurationServerHostValue>
+        <javaWebServiceConfigurationServerPortValue>3030</javaWebServiceConfigurationServerPortValue>        
+        <javaWebServiceConfigurationServerDeployDirectoryValue>D:\tomcat-7.0.14\webapps</javaWebServiceConfigurationServerDeployDirectoryValue>
+        <javaWebServiceConfigurationServerContextValueHelloWorld>JavaWebServiceRunHelloWorld</javaWebServiceConfigurationServerContextValueHelloWorld>
+        <javaWebServiceConfigurationServerContextValueESHOP>JavaWebServiceRunEshop</javaWebServiceConfigurationServerContextValueESHOP> 
+        <javaWebServiceConfigurationDatabaseNameValue>Database</javaWebServiceConfigurationDatabaseNameValue>
+        <javaWebServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</javaWebServiceConfigurationDatabaseDescriptionValue>
+        <javaWebServiceConfigurationDatabaseEnvironmentValue>Production</javaWebServiceConfigurationDatabaseEnvironmentValue>
+        <javaWebServiceConfigurationDatabaseTypeValue>Database</javaWebServiceConfigurationDatabaseTypeValue>
+        <javaWebServiceConfigurationDatabaseHostValue>localhost</javaWebServiceConfigurationDatabaseHostValue>
+        <javaWebServiceConfigurationDatabasePortValue>3306</javaWebServiceConfigurationDatabasePortValue>
+        <javaWebServiceConfigurationDatabaseDBUsernameValue>root</javaWebServiceConfigurationDatabaseDBUsernameValue>
+ 		<javaWebServiceConfigurationDatabaseDBNameValueHelloworld>testJavaWebServiceRunHelloWorldDatabase</javaWebServiceConfigurationDatabaseDBNameValueHelloworld>
+        <javaWebServiceConfigurationDatabaseDBNameValueESHOP>testJavaWebServiceEshopRunDatabase</javaWebServiceConfigurationDatabaseDBNameValueESHOP>
+   
+        
+        <multiYuiWidgetHelloworldNameValue>MultiYuiWidRunHelloworld</multiYuiWidgetHelloworldNameValue>
+        <multiYuiWidgetHelloworldDescriptionValue>This is MultiYuiWidRunHelloworld Project</multiYuiWidgetHelloworldDescriptionValue>
+		<multiYuiWidgetEshopNameValue>MultiYuiWidRunEshop</multiYuiWidgetEshopNameValue>
+        <multiYuiWidgetEshopDescriptionValue>This is MultiYuiWidRunEshop Project</multiYuiWidgetEshopDescriptionValue>
+	    <multiYuiWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidRunHelloworld-html5multichannelyu...')]</multiYuiWidgetHelloWorldEditApplicationLinkXpath>
+        <multiYuiMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidRunEshop-html5multichannelyuiwidg...')]</multiYuiMobWidgetEshopEditApplicationLinkXpath>
+		<widgetServerValue>Apache Tomcat</widgetServerValue>   
+	   	<widgetServerVersionValue>//input[@name='downloads_apache-tomcat']</widgetServerVersionValue>
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multiYuiWidgetValue>HTML5 Multichannel YUI Widget</multiYuiWidgetValue>
+		<multiYuiWidgetVersionValue>1.6</multiYuiWidgetVersionValue>
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>This is Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<multiYuiHWconfigServPortValue>4578</multiYuiHWconfigServPortValue>
+     	<multiYuiEshopconfigServPortValue>7845</multiYuiEshopconfigServPortValue>
+        <configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+        <multiYuiWidgetconfigServContextValueHelloWorld>MultiYuiWidgetHelloworld</multiYuiWidgetconfigServContextValueHelloWorld>
+        <multiYuiServContextValueEshop>MultiYuiWidgetEshop</multiYuiServContextValueEshop>
+      	
+      	<yuiMobileWidgetHelloworldNameValue>YuiMobileWidHelloProj</yuiMobileWidgetHelloworldNameValue>
+        <yuiMobileWidgetHelloworldDescriptionValue>This is YuiMobileWidgetHelloworld Project</yuiMobileWidgetHelloworldDescriptionValue>
+		<yuiMobileWidgetEshopNameValue>YuiMobileWidgetEshopProj</yuiMobileWidgetEshopNameValue>
+        <yuiMobileWidgetEshopDescriptionValue>This is YuiMobileWidgetEshop Project</yuiMobileWidgetEshopDescriptionValue>
+		<yuiMobileWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'YuiMobileWidHelloProj-html5yuimobilewidget')]</yuiMobileWidgetHelloWorldEditApplicationLinkXpath>
+	    <yuiMobileMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'YuiMobileWidgetEshopProj-html5yuimobilewidget')]</yuiMobileMobWidgetEshopEditApplicationLinkXpath>
+		<yuiMobileWidgetValue>HTML5 YUI Mobile Widget</yuiMobileWidgetValue>
+		<yuiMobileWidgetVersionValue>1.6</yuiMobileWidgetVersionValue>
+     	<yuiMobileHWconfigServPortValue>4567</yuiMobileHWconfigServPortValue>
+     	<yuiMobileEshopconfigServPortValue>4523</yuiMobileEshopconfigServPortValue>
+        <configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+        <yuiMobileconfigServContextHelloWorld>YuiMobileWidgetRunHelloworld</yuiMobileconfigServContextHelloWorld>    
+        <yuiMobileServContextValueEshop>YuiMobileWidgetRnEshop</yuiMobileServContextValueEshop>
+      	<configWebServiceNameValue>eshopService</configWebServiceNameValue>
+     	<configWebserviceDesc>This is eshopService configuration</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>6060</configWebservicePortValue>      	
+     	<MobileWebserviceContextEshopValue>eshop</MobileWebserviceContextEshopValue>
+    </phresco>
+</environment>

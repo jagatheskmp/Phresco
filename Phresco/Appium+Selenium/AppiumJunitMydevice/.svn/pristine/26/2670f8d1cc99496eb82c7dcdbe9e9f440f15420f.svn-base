@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Methodtestng" parallel="instances" thread-count="5"
+	verbose="3">
+
+	<test name="VerifyEshopApp" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.FailureTest" />
+			 <methods>
+				<include name="withoutGroup" />
+				<include name="verifyAudioDevices" />
+				<include name="verifyVideoGames" />
+				<include name="verifyTelevision" />
+				<include name="verifyCameras" />
+			</methods> 
+		</classes>
+		
+		
+
+	</test>
+ 
+</suite>
+ 
+
+ 	
+ 

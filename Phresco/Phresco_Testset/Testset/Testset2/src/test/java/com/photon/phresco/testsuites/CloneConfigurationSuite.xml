@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CloneConfigurationTestCaseSuite" verbose="1">
+	
+  <test name="CleanTest" junit="false" preserve-order="true">
+      <parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp"/>
+			<methods>
+				<include name="testphpHelloWorldDatabaseClone"></include>
+	    	</methods>
+		</classes>
+	</test>  
+ 	
+	 <test name="PhpCloneConfigurationTest" junit="false" preserve-order="true">
+	     <parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+		<class name="com.photon.phresco.CloneConfiguration.CloneConfigurationTest"/>
+			<methods>
+				<include name="testPhpHelloWorldProjectCreation"></include>
+				<include name="testPhpHelloWorldProjectEdit"></include> 
+				<include name="testPhpHelloWorldProjectAddFeature"></include>
+				<include name="testphpHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testphpHelloWorldDatabaseClone"></include>
+				<include name="testphpHelloWorldProjectCloneConfigurationServer"></include>
+				<include name="testphpHelloWorldProjectCloneConfigurationDatabase"></include>
+				<include name="testphpHelloWorldProjectCloneBuild"></include>
+				<include name="testphpHelloWorldProjectCloneDeploy"></include>
+			</methods>
+		</classes>
+	</test>  
+	
+	
+</suite>

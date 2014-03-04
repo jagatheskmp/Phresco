@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="LoginTestSuite" verbose="1">
+	<test name="LoginTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.testcases.LoginPageTest" />
+			<methods>
+	 			<include name="testInValidUsernameValidPasswordLogin" />
+				<include name="testValidUsernameInvalidPassword" />
+				<include name="testInvalidUsernameInvalidPassword" />
+				<include name="testWithoutUsernamePassword" />
+				<include name="invalidUsernameEmptyPassword" />
+				<include name="testValidUsernameEmptyPassword" /> 
+				<include name="testValidLogin" /> 
+				<include name="testDashboardPage" />
+			</methods>
+		</classes>
+	</test>
+</suite> 
+				

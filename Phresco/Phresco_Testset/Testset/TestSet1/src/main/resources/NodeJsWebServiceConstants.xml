@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <nodeJsServiceHelloWorldNameValue>NodeJsWebServiceHelloWorld</nodeJsServiceHelloWorldNameValue>
+        <nodeJsServiceHelloWorldDescriptionValue>This is the nodeJsService HelloWorld project</nodeJsServiceHelloWorldDescriptionValue>
+        <technologynodeJsServiceValue>Node JS Web Service</technologynodeJsServiceValue>
+        <nodeJsServiceESHOPNameValue>NodeJsServiceEshopProj</nodeJsServiceESHOPNameValue>
+        <nodeJsServiceESHOPDescriptionValue>This is the nodeJsService ESHOP project</nodeJsServiceESHOPDescriptionValue>
+        <nodeJsServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'NodeJsWebServiceHelloWorld-')]</nodeJsServiceHelloWorldEditApplicationLinkXpath>
+        <nodeJsServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'NodeJsServiceEshopProj-')]</nodeJsServiceESHOPEditApplicationLinkXpath>
+ 	    <nodeJsServiceServerValue>NodeJs</nodeJsServiceServerValue>
+       	<nodeJsServiceDatabaseValue>MYSQL</nodeJsServiceDatabaseValue>
+ 		<nodeJsServicePilotProjectESHOPValue>Eshop</nodeJsServicePilotProjectESHOPValue>
+ 		<nodeJsServiceConfigurationServerNameValue>Server</nodeJsServiceConfigurationServerNameValue>
+        <nodeJsServiceConfigurationServerDescriptionValue>This is Server Configuration</nodeJsServiceConfigurationServerDescriptionValue>
+        <nodeJsServiceConfigurationServerEnvironmentValue>Production</nodeJsServiceConfigurationServerEnvironmentValue>
+        <nodeJsServiceConfigurationServerTypeValue>Server</nodeJsServiceConfigurationServerTypeValue>
+        <nodeJsServiceConfigurationServerProtocolHttpValue>http</nodeJsServiceConfigurationServerProtocolHttpValue>
+        <nodeJsServiceConfigurationServerProtocolHttpsValue>https</nodeJsServiceConfigurationServerProtocolHttpsValue>
+        <nodeJsServiceConfigurationServerHostValue>localhost</nodeJsServiceConfigurationServerHostValue>
+        <nodeJsServiceConfigurationServerPortValue>3035</nodeJsServiceConfigurationServerPortValue>
+        <nodeJsServiceConfigurationServerContextValueHelloWorld>NodeJsServiceHelloWorld</nodeJsServiceConfigurationServerContextValueHelloWorld>
+        <nodeJsServiceConfigurationServerContextValueESHOP>NodeJsServiceEshop</nodeJsServiceConfigurationServerContextValueESHOP> 
+        <nodeJsServiceConfigurationDatabaseNameValue>Database</nodeJsServiceConfigurationDatabaseNameValue>
+        <nodeJsServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</nodeJsServiceConfigurationDatabaseDescriptionValue>
+        <nodeJsServiceConfigurationDatabaseEnvironmentValue>Production</nodeJsServiceConfigurationDatabaseEnvironmentValue>
+        <nodeJsServiceConfigurationDatabaseTypeValue>Database</nodeJsServiceConfigurationDatabaseTypeValue>
+        <nodeJsServiceConfigurationDatabaseHostValue>localhost</nodeJsServiceConfigurationDatabaseHostValue>
+        <nodeJsServiceConfigurationDatabasePortValue>3306</nodeJsServiceConfigurationDatabasePortValue>
+        <nodeJsServiceConfigurationDatabaseDBUsernameValue>root</nodeJsServiceConfigurationDatabaseDBUsernameValue>
+        <nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>testNodeJsHelloWorldProjectDatabase</nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>
+		<nodeJsServiceConfigurationDatabaseDBNameValueESHOP>testNodeJsEshopProjectDatabase</nodeJsServiceConfigurationDatabaseDBNameValueESHOP>
+	    <functionalFramework>Grid</functionalFramework>
+    </phresco>
+</environment>

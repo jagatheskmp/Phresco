@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="phrescoframeworkEnvironmentCreationSuite" verbose="1">
+ 	
+ <test name="CleanTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp"/>
+			<methods>
+				<include name="testEnvironmentDatabase"></include>
+	    	</methods>
+		</classes>
+	</test> 
+    
+  <test name="EnvironmentTest" junit="false" preserve-order="true">
+		<classes>
+		<class name="com.photon.phresco.Environment.EnvironmentTest"/>
+			<methods>
+				<include name="testEnvironmentCreation"></include>
+				<include name="testGlobalSettigsConfiguration"></include> 
+			</methods>
+		</classes>
+	</test>  
+	
+</suite>

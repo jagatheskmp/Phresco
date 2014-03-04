@@ -1,0 +1,46 @@
+IOS-pre-mac-10.8
+xcode-5
+ios-7
+node js and appium
+
+ANDROID-android-v-17
+ant,maven.
+
+D:\Softwares\Jar>java -jar selendroid-standalone-0.6.0-with-dependencies.jar -au
+t MyDeviceAndroid.apk
+
+java -jar selendroid-standalone-0.6.0-with-dependencies.jar -aut MyDeviceAndroid.apk
+
+android blow -4.1 -need to start selendroid :Commond 
+
+java -jar selendroid-standalone-0.5.1-with-dependencies.jar -aut CordovaPlugin.apk
+
+
+APK depoly in emulator and device 
+adb -d install "apk path=/Users/kalish/Desktop/cordovaautomation/CordovaPlugin.apk" 
++
+
+
+url 
+https://github.com/appium/appium/blob/master/docs/hybrid.md#android
+
+https://github.com/appium/appium/blob/master/docs/running-tests.md
+
+https://github.com/appium/appium/tree/master/sample-code/examples/java/junit
+https://github.com/appium/appium/blob/master/docs/finding-elements.md
+
+unable to find elemnets -https://groups.google.com/forum/#!topic/appium-discuss/0m2YdG7d5-Q
+
+adb uninstall com.target.stores.mystoremanager.prod
+adb uninstall com.target.stores.mystoremanager.prod.clean
+adb uninstall com.target.stores.mystoremanager.prod.selendroid
+
+adb install .apk
+adb uninstall "pakage name"
+
+Groupd
+https://groups.google.com/forum/#!topic/appium-discuss/gWzxJJHFR-4
+https://github.com/appium/appium/blob/master/sample-code/examples/java/junit/src/test/java/com/saucelabs/appium/SimpleTest.java
+
+sudo chmod 777 /usr/local/lib/node_modules/
+

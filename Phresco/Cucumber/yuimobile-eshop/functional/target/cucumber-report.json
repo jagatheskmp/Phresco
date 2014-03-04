@@ -1,0 +1,84 @@
+[
+  {
+    "id": "eshop-for-yui-mobile",
+    "description": "As it is a Eshop project\r\nIt should perform all the activities related to the Eshop",
+    "name": "Eshop for Yui mobile",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "eshop-for-yui-mobile;add-audio-devices-to-cart",
+        "description": "",
+        "name": "Add Audio Devices to cart",
+        "keyword": "Scenario",
+        "line": 5,
+        "steps": [
+          {
+            "name": "the user is on the Welcome page",
+            "keyword": "Given ",
+            "line": 6
+          },
+          {
+            "name": "he clicks Browse button for adding AudioDevices in the page",
+            "keyword": "And ",
+            "line": 7
+          },
+          {
+            "name": "he clicks Browse button for adding Cameras in the page",
+            "keyword": "And ",
+            "line": 8
+          },
+          {
+            "name": "he clicks Browse button for adding VideoGames in the page",
+            "keyword": "And ",
+            "line": 9
+          },
+          {
+            "name": "he clicks Browse button for adding Television in the page",
+            "keyword": "And ",
+            "line": 10
+          },
+          {
+            "name": "he clicks Browse button for adding Tablets in the page",
+            "keyword": "And ",
+            "line": 11
+          },
+          {
+            "name": "he clicks Browse button for adding MP3Players in the page",
+            "keyword": "And ",
+            "line": 12
+          },
+          {
+            "name": "he clicks Browse button for adding MoviesAndMusic in the page",
+            "keyword": "And ",
+            "line": 13
+          },
+          {
+            "name": "he clicks Browse button for adding MobilePhones in the page",
+            "keyword": "And ",
+            "line": 14
+          },
+          {
+            "name": "he clicks Browse button for adding Accessories in the page",
+            "keyword": "And ",
+            "line": 15
+          },
+          {
+            "result": {
+              "duration": 9005893,
+              "status": "passed"
+            },
+            "name": "he clicks Browse button for adding Computers in the page",
+            "keyword": "And ",
+            "line": 16,
+            "match": {
+              "location": "YuiMobileTestCase.heClicksBrowsebuttonforaddingComputersinthepage()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com\\photon\\phresco\\testcases\\yuimobile.feature"
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<androidNativeHelloWorldNameValue>AndroidNativeHelloWorldProj</androidNativeHelloWorldNameValue>
+        <androidNativeHelloWorldDescriptionValue>This is androidNativeHelloWorld Project</androidNativeHelloWorldDescriptionValue>
+        <androidNativeEshopNameValue>AndroidNativeEshopProj</androidNativeEshopNameValue>
+        <androidNativeEshopDescriptionValue>This is AndroidNativeEshop Project</androidNativeEshopDescriptionValue>
+        <androidNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AndroidNativeHelloWorldProj-androidnative')]</androidNativeHelloWorldEditApplicationLinkXpath>
+        <androidNativeEshopEditApplicationLinkXpath>//a[contains(text(),'AndroidNativeEshopProj-androidnative')]</androidNativeEshopEditApplicationLinkXpath>
+		<androidNativeValue>Android Native</androidNativeValue>
+  	  	<pilotProjectEshopValue>EShop</pilotProjectEshopValue>  
+  	  	<emulatorValue>Emulator</emulatorValue>
+  		<sdkValue>4.1.2</sdkValue> 
+      	<androidNativeConfigWebServiceNameValue>Native_Eshop</androidNativeConfigWebServiceNameValue>
+     	<androidNativeConfigWebserviceDesc>WebService configuration for Android Native Eshop project</androidNativeConfigWebserviceDesc>
+      	<androidNativeconfigWebserviceEnvValue>Production</androidNativeconfigWebserviceEnvValue>
+      	<androidNativeconfigWebserviceValue>WebService</androidNativeconfigWebserviceValue>      	
+      	<androidNativeconfigWebserviceProtocolValue>http</androidNativeconfigWebserviceProtocolValue>
+      	<androidNativeconfigWebserviceHostValue>172.16.17.180</androidNativeconfigWebserviceHostValue>
+      	<androidNativeconfigWebservicePortValue>6060</androidNativeconfigWebservicePortValue>      	
+     	<androidNativeEshopconfigWebserviceContextEshopValue>eshop</androidNativeEshopconfigWebserviceContextEshopValue>
+     	<functionalFramework>Robotium</functionalFramework>
+	</phresco>
+</environment>
+

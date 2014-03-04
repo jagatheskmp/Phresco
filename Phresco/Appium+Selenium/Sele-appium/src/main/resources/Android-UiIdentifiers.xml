@@ -1,0 +1,50 @@
+<identifiers>
+    <!-- Login Identifiers -->
+    <login type="id">tmId</login>
+    <go type="id">goFetch</go>
+    <!-- Menu button and menu List Identifiers -->
+    <menubutton type="id">menuButton</menubutton>
+    <find type="linkText">Find</find>
+    <labelprint type="linkText">Label Print</labelprint>
+    <signprint type="linkText">Sign Print</signprint>
+    <fill type="linkText">Fill</fill>
+    <!-- Find Search Identifiers-->
+	<findSearch type="xpath">//div[@id='searchBox']/form/input</findSearch>
+	<findSearchIcon type="id">searchBlock</findSearchIcon>
+	<findSearchIconField type="id">searchTerm</findSearchIconField>
+	<findSearchWomensCategory type="xpath">//ul[@id='categoryListScroll']/span/li[1]</findSearchWomensCategory>
+	<findSearchMensCategory type="xpath">//ul[@id='categoryListScroll']/span/li[5]</findSearchMensCategory>
+	<findSearchElectronicsCategory type="xpath">//ul[@id='categoryListScroll']/span/li[4]</findSearchElectronicsCategory>
+	<findSearchShoesCategory type="xpath">//ul[@id='categoryListScroll']/span/li[3]</findSearchShoesCategory>
+	<categoryDiscription type="xpath">//ul[@id='itemListScroll']/span/li[1]</categoryDiscription>
+	<categoryViewAll type="xpath"></categoryViewAll>
+	<categoryViewCancel type="name"></categoryViewCancel>
+	<!-- Label Print Identifiers -->    
+    <itemPogNumber type="id">pogAsileSearch</itemPogNumber>
+    <itemPrintTitle type="id">itemPrintTitle</itemPrintTitle>
+    <itemQuantity type="id">itemQty</itemQuantity>
+    <genericLabel type="classname">printButton</genericLabel>
+    <!-- Sign Print Identifiers -->
+    <singleItem type="xpath">(//img[@class='signIconImage'])[1]</singleItem>
+    <multiItemSign type="xpath">(//img[@class='signIconImage'])[2]</multiItemSign>
+    <planoGram type="xpath">(//img[@class='signIconImage'])[3]</planoGram>
+    <reprintExistingSign type="xpath">(//img[@class='signIconImage'])[4]</reprintExistingSign>
+    <signDate type="id">dateSelect</signDate>
+    <signSize type="id">sizeSelect</signSize>
+    <signNext type="classname">nextBtn</signNext>
+    <signSearch type="id">searchNumber</signSearch>
+    <multiSignDate type="id">dateSelect</multiSignDate>
+    <multiSignSize type="id">sizeSelect</multiSignSize>
+    <multiSignNext type="id">btnNext</multiSignNext>
+    <multiSignQuantity type="id">signQty</multiSignQuantity>
+    <batchNameButton type="classname">prevBtn</batchNameButton>
+    <batchNameField type="id">batchName</batchNameField>
+    <planoGramSearch type="id">pogNumber</planoGramSearch>
+    <planoGramSign type="className">selectFormat</planoGramSign>
+    <rePrintDate type="id">dateSelect</rePrintDate>  
+    <!-- Label Print Identifiers -->
+    <fillMenuSearch type="id">pogAsileSearch</fillMenuSearch>
+    <fillMenuContinue type="linktext">Continue</fillMenuContinue>
+    <!-- Logout Identifiers -->
+    <logout type="linkText">Logout</logout> 
+</identifiers>

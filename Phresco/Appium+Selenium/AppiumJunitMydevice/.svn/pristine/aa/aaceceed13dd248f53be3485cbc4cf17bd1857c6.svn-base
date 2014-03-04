@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="IncGroupExcMethodtestng" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="VerifyEshopApp" junit="false"
+		preserve-order="true">
+		
+		    <groups>
+			    <run>
+			   	   <include name="group1"/>
+			   	   <include name="group2"/>
+			    </run>
+			</groups> 
+
+			<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+			<parameter name="browser" value="firefox" />
+			<parameter name="platform" value="WINDOWS" />
+			
+			<classes>
+				<class name="com.photon.phresco.testcases.Eshop" />
+				 <methods>
+			        <exclude name="verifyAudioDevices" />  
+			        <exclude name="verifyVideoGames" /> 
+			     </methods>
+			</classes>
+			
+	</test>
+		
+</suite>
+ 
+
+ 	
+ 

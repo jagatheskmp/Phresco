@@ -1,0 +1,16 @@
+1.To start hub 
+java -jar selenium-server-standalone-2.37.0.jar -role hub -hubConfig hubconfig.json
+
+2.To start node(execpting chrome):
+
+java -jar selenium-server-standalone-2.37.0.jar -role webdriver -nodeConfig nodeconfig.json
+
+3.To start node(when tests need to be run in chrome also):
+	
+java -Dwebdriver.chrome.driver=D:\doc\Grid\chromedriver.exe -jar selenium-server-standalone-2.37.0.jar -role node -nodeConfig nodeconfig.json
+
+4.To run android 
+adb -s <device-id> -e install -r <path-to-selenium>/android-server-2.20.apk
+adb -s <device-id> shell am start -a android.intent.action.MAIN -n org.openqa.selenium.android.app/.MainActivity
+adb -s <device-id> forward tcp:8080, tcp:8080
+

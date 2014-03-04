@@ -1,0 +1,13 @@
+1.To start node(execpting chrome):
+
+java -jar selenium-server-standalone.jar -role node -nodeConfig nodeconfig.json
+
+2.To start node(when tests need to be run in chrome also):
+
+java -Dwebdriver.chrome.driver=D:\chromedriver_win_19.0.1068.0\chromedriver.exe -jar selenium-server-standalone-2.24.1.jar -role node -nodeConfig nodeconfig.json
+
+
+3.To start Hub:
+
+java -jar selenium-server-standalone.jar -role hub -hubConfig hubconfig.json
+

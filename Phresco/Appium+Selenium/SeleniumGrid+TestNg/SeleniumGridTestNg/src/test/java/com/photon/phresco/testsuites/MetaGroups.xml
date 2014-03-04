@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MetaGroups" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="MetaGroups" junit="false" preserve-order="true">
+		<groups>
+			<define name="functest">
+				<include name="windows"></include>
+				<exclude name="mac" />
+			</define>
+
+			<define name="all">
+				<include name="functest" />
+				<include name="checkintest" />
+			</define>
+
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.MetaGroupsEshop" />
+		</classes>
+
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

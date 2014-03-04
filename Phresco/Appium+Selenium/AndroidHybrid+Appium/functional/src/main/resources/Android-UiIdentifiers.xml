@@ -1,0 +1,58 @@
+<identifiers>
+	<!-- Login Identifiers -->
+	<loginButton type="linkText">Login</loginButton>
+	<loginEmail type="id">logEmail</loginEmail>
+	<loginPassword type="xpath">//*/input[@id='logpassword']</loginPassword>
+	<submitButton type="xpath">//a[text()='Submit']</submitButton>
+	<backButton type="xpath">//*[text()='Back']</backButton>
+	<registerButton type="xpath">//a[text()='Register']</registerButton>
+	<regFirstName type="xpath">//*/input[@id='regfirstname']</regFirstName>
+	<regLastName type="xpath">//*/input[@id='reglastname']</regLastName>
+	<regEmail type="xpath">//*/input[@id='regemail']</regEmail>
+	<regPassword type="xpath">//*/input[@id='regpassword']</regPassword>
+	<regPhoneNo type="xpath">//*/input[@id='regphonenumber']</regPhoneNo>
+	<homeButton type="xpath">//*[@class='home']</homeButton>
+	<browseButton type="xpath">//*[text()='Browse']</browseButton>
+	<television type="xpath">//*[text()='Television']</television>
+	<lgElectronic type="xpath">//*/div/h3/a</lgElectronic>
+	<addToCart type="xpath">//*[@id='Addtocart']</addToCart>
+	<computer type="xpath">//*[text()='Computers']</computer>
+	<apple type="xpath">//*/div/h3/a</apple>
+	<mobilePhone type="xpath">//*[text()='Mobile Phones']</mobilePhone>
+	<appleIphone type="xpath">//*/div/h3/a</appleIphone>
+	<audioDevice type="xpath">//*[text()='Audio Devices']</audioDevice>
+	<microPhone type="xpath">//*/div/h3/a</microPhone>
+	<camera type="xpath">//*[text()='Cameras']</camera>
+	<canon type="xpath">//*/div/h3/a</canon>
+	<tablet type="xpath">//*[text()='Tablets']</tablet>
+	<acer type="xpath">//*/div/h3/a</acer>
+	<movieMusic type="xpath">//*[text()='Movies and Music']</movieMusic>
+	<sony type="xpath">//*/div/h3/a</sony>
+	<videoGames type="xpath">//*[text()='Video Games']</videoGames>
+	<modernWarfare type="xpath">//*/div/h3/a</modernWarfare>
+	<mp3Player type="xpath">//*[text()='MP3 Players']</mp3Player>
+	<aluratek type="xpath">//*/div/h3/a</aluratek>
+	<accessories type="xpath">//*[text()='Accessories']</accessories>
+	<bracket1 type="xpath">//*/div/h3/a</bracket1>
+	<checkOutButton type="xpath">//*[text()='Check Out']</checkOutButton>
+	<reviewOrder type="xpath">//*[@id='revieworder']</reviewOrder>
+	<submitOrder type="xpath">//*[text()='Submit Order']</submitOrder>
+	<billInfoEmail type="xpath">//input[@id='email']</billInfoEmail>
+	<billInfoFirstName type="xpath">//input[@id='deliveryfirstname']</billInfoFirstName>
+	<billInfoLastName type="xpath">//input[@id='deliverylastname']</billInfoLastName>
+	<billInfoCompany type="xpath">//input[@id='deliverycompany']</billInfoCompany>
+	<billInfoAddress1 type="xpath">//input[@id='deliveryaddress1']</billInfoAddress1>
+	<billInfoAddress2 type="xpath">//input[@id='deliveryaddress2']</billInfoAddress2>
+	<billInfoCity type="xpath">//input[@id='deliverycity']</billInfoCity>
+	<billInfoState type="xpath">//input[@id='deliverystate']</billInfoState>
+	<billInfoPostCode type="xpath">//input[@id='deliverypostcode']</billInfoPostCode>
+	<billInfoPhoneNumber type="xpath">//input[@id='deliveryphonenumber']</billInfoPhoneNumber>
+	<billInfoComments type="xpath">//textarea[@name='comments']</billInfoComments>
+	<cardInfoCardType type="xpath">//form[@id='contact']/div[4]/fieldset/div/div/label[2]/input</cardInfoCardType>
+	<cardInfoCardNumber type="xpath">//input[@id='cardNumber']</cardInfoCardNumber>
+	<cardInfoSecurityNumber type="xpath">//input[@id='securityNumber']</cardInfoSecurityNumber>
+	<cardInfoNameOnCard type="xpath">//input[@id='nameOnCard']</cardInfoNameOnCard>
+	<billInfoButton type="xpath">//*[text()='billing Information']</billInfoButton>
+	<deliveryInfoButton type="xpath">//*[text()='Delivery Information']</deliveryInfoButton>
+	<billCheckBox type="xpath">//input[@id='checkaddress']</billCheckBox>
+</identifiers>

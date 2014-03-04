@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <javaWebServiceHelloWorldNameValue>JavaWebServiceHelloWorldProj</javaWebServiceHelloWorldNameValue>
+        <javaWebServiceHelloWorldDescriptionValue>This is the JavaWebService HelloWorld project</javaWebServiceHelloWorldDescriptionValue>
+        <technologyjavaWebServiceValue>Java WebService</technologyjavaWebServiceValue>
+        <javaWebServiceESHOPNameValue>JavaWebServiceEshopProj</javaWebServiceESHOPNameValue>
+        <javaWebServiceESHOPDescriptionValue>This is the JavaWebService ESHOP project</javaWebServiceESHOPDescriptionValue>
+		<javaWebServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceHelloWorldProj-')]</javaWebServiceHelloWorldEditApplicationLinkXpath>
+ 	 	<javaWebServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceEshopProj-')]</javaWebServiceESHOPEditApplicationLinkXpath>
+        <javaWebServiceServerValue>Apache Tomcat</javaWebServiceServerValue>
+        <javaWebServiceDatabaseValue>MYSQL</javaWebServiceDatabaseValue>
+        <javaWebServicePilotProjectESHOPValue>Eshop</javaWebServicePilotProjectESHOPValue>
+        <javaWebServiceConfigurationServerNameValue>Server</javaWebServiceConfigurationServerNameValue>
+        <javaWebServiceConfigurationServerDescriptionValue>This is Server Configuration</javaWebServiceConfigurationServerDescriptionValue>
+        <javaWebServiceConfigurationServerEnvironmentValue>Production</javaWebServiceConfigurationServerEnvironmentValue>
+        <javaWebServiceConfigurationServerTypeValue>Server</javaWebServiceConfigurationServerTypeValue>
+        <javaWebServiceConfigurationServerProtocolHttpValue>http</javaWebServiceConfigurationServerProtocolHttpValue>
+        <javaWebServiceConfigurationServerProtocolHttpsValue>https</javaWebServiceConfigurationServerProtocolHttpsValue>
+        <javaWebServiceConfigurationServerHostValue>localhost</javaWebServiceConfigurationServerHostValue>
+        <javaWebServiceConfigurationServerPortValue>3030</javaWebServiceConfigurationServerPortValue>        
+        <javaWebServiceConfigurationServerDeployDirectoryValue>D:\tomcat-7.0.14\webapps</javaWebServiceConfigurationServerDeployDirectoryValue>
+        <javaWebServiceConfigurationServerContextValueHelloWorld>JavaWebServiceHelloWorld</javaWebServiceConfigurationServerContextValueHelloWorld>
+        <javaWebServiceConfigurationServerContextValueESHOP>JavaWebServiceEshop</javaWebServiceConfigurationServerContextValueESHOP> 
+        <javaWebServiceConfigurationDatabaseNameValue>Database</javaWebServiceConfigurationDatabaseNameValue>
+        <javaWebServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</javaWebServiceConfigurationDatabaseDescriptionValue>
+        <javaWebServiceConfigurationDatabaseEnvironmentValue>Production</javaWebServiceConfigurationDatabaseEnvironmentValue>
+        <javaWebServiceConfigurationDatabaseTypeValue>Database</javaWebServiceConfigurationDatabaseTypeValue>
+        <javaWebServiceConfigurationDatabaseHostValue>localhost</javaWebServiceConfigurationDatabaseHostValue>
+        <javaWebServiceConfigurationDatabasePortValue>3306</javaWebServiceConfigurationDatabasePortValue>
+        <javaWebServiceConfigurationDatabaseDBUsernameValue>root</javaWebServiceConfigurationDatabaseDBUsernameValue>
+ 		<javaWebServiceConfigurationDatabaseDBNameValueHelloworld>testJavaWebServiceHelloWorldProjectDatabase</javaWebServiceConfigurationDatabaseDBNameValueHelloworld>
+        <javaWebServiceConfigurationDatabaseDBNameValueESHOP>testJavaWebServiceEshopProjectDatabase</javaWebServiceConfigurationDatabaseDBNameValueESHOP>
+        <functionalFramework>Grid</functionalFramework>
+     </phresco>
+</environment>

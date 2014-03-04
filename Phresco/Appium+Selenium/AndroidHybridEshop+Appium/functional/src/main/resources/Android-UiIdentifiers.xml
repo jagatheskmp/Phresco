@@ -1,0 +1,85 @@
+<identifiers>
+	<!-- Login Identifiers -->
+	<loginButton type="linkText">Login</loginButton>
+	<loginEmail type="id">logEmail</loginEmail>
+	<loginPassword type="xpath">//*/input[@id='logpassword']</loginPassword>
+	<submitButton type="xpath">//a[text()='Submit']</submitButton>
+	<backButton type="xpath">//*[text()='Back']</backButton>
+	<registerButton type="xpath">//*/div[2][text()='Register']</registerButton>
+	<regFirstName type="xpath">//*/input[@id='regfirstname']</regFirstName>
+	<regLastName type="xpath">//*/input[@id='reglastname']</regLastName>
+	<regEmail type="xpath">//*/input[@id='regemail']</regEmail>
+	<regPassword type="xpath">//*/input[@id='regpassword']</regPassword>
+	<regPhoneNo type="xpath">//*/input[@id='regphonenumber']</regPhoneNo>
+	<regSubmitButton type="xpath">//*/div[@class='log_reg_bu']/a</regSubmitButton>
+	<regCancelButton type="xpath">//*/div/a[text()='Cancel']</regCancelButton>
+	<regLoginButton type="xpath">//*/div/a[text()='Login']</regLoginButton>
+	<homeButton type="xpath">//*[@class='home']</homeButton>
+	<homeBrowseButton type="xpath">//li[@id='browse']</homeBrowseButton>
+	<homeSpecialOfferButton type="xpath">//li[@id='spl_offer']</homeSpecialOfferButton>
+	<browseButton type="xpath">//*[text()='Browse']</browseButton>
+	<television type="xpath">//*[text()='Television']</television>
+	<lgElectronic type="xpath">//*/div/h3/a</lgElectronic>
+	<addToCart type="xpath">//*[@id='Addtocart']</addToCart>
+	<computer type="xpath">//*[text()='Computers']</computer>
+	<apple type="xpath">//*/div/h3/a</apple>
+	<mobilePhone type="xpath">//*[text()='Mobile Phones']</mobilePhone>
+	<appleIphone type="xpath">//*/div/h3/a</appleIphone>
+	<audioDevice type="xpath">//*[text()='Audio Devices']</audioDevice>
+	<microPhone type="xpath">//*/div/h3/a</microPhone>
+	<camera type="xpath">//*[text()='Cameras']</camera>
+	<canon type="xpath">//*/div/h3/a</canon>
+	<tablet type="xpath">//*[text()='Tablets']</tablet>
+	<acer type="xpath">//*/div/h3/a</acer>
+	<movieMusic type="xpath">//*[text()='Movies and Music']</movieMusic>
+	<sony type="xpath">//*/div/h3/a</sony>
+	<videoGames type="xpath">//*[text()='Video Games']</videoGames>
+	<modernWarfare type="xpath">//*/div/h3/a</modernWarfare>
+	<mp3Player type="xpath">//*[text()='MP3 Players']</mp3Player>
+	<aluratek type="xpath">//*/div/h3/a</aluratek>
+	<accessories type="xpath">//*[text()='Accessories']</accessories>
+	<bracket1 type="xpath">//*/div/h3/a</bracket1>
+	<checkOutButton type="xpath">//div[@id='checkoutid']/a</checkOutButton>
+	<reviewOrder type="xpath">//*[@id='revieworder']</reviewOrder>
+	<submitOrder type="xpath">//*[text()='Submit Order']</submitOrder>
+	<billInfoEmail type="xpath">//input[@id='email']</billInfoEmail>
+	<billInfoFirstName type="xpath">//input[@id='deliveryfirstname']</billInfoFirstName>
+	<billInfoLastName type="xpath">//input[@id='deliverylastname']</billInfoLastName>
+	<billInfoCompany type="xpath">//input[@id='deliverycompany']</billInfoCompany>
+	<billInfoAddress1 type="xpath">//input[@id='deliveryaddress1']</billInfoAddress1>
+	<billInfoAddress2 type="xpath">//input[@id='deliveryaddress2']</billInfoAddress2>
+	<billInfoCity type="xpath">//input[@id='deliverycity']</billInfoCity>
+	<billInfoState type="xpath">//input[@id='deliverystate']</billInfoState>
+	<billInfoPostCode type="xpath">//input[@id='deliverypostcode']</billInfoPostCode>
+	<billInfoPhoneNumber type="xpath">//input[@id='deliveryphonenumber']</billInfoPhoneNumber>
+	<billInfoComments type="xpath">//textarea[@name='comments']</billInfoComments>
+	<cardInfoCardType type="xpath">//form[@id='contact']/div[4]/fieldset/div/div/label[2]/input</cardInfoCardType>
+	<cardInfoCardNumber type="xpath">//input[@id='cardNumber']</cardInfoCardNumber>
+	<cardInfoSecurityNumber type="xpath">//input[@id='securityNumber']</cardInfoSecurityNumber>
+	<cardInfoNameOnCard type="xpath">//input[@id='nameOnCard']</cardInfoNameOnCard>
+	<billInfoButton type="xpath">//*[text()='billing Information']</billInfoButton>
+	<deliveryInfoButton type="xpath">//*[text()='Delivery Information']</deliveryInfoButton>
+	<billCheckBox type="xpath">//input[@id='checkaddress']</billCheckBox>
+	<homeImage type="xpath">//*/div[@class='body_icon_row']/div/ul/li/a/div/img</homeImage>
+	<regImage type="xpath">//*/div[@class='body_icon_row']/div/ul/li[2]/a/div/img</regImage>
+	<mycardImage type="xpath">//*/div[@class='body_icon_row']/div/ul/li[3]/a/div/img</mycardImage>
+	<searchImage type="xpath">//*/div[@class='body_icon_row']/div[2]/ul/li[1]/a/div/img</searchImage>
+	<browseImage type="xpath">//*/div[@class='body_icon_row']/div[2]/ul/li[2]/a/div/img</browseImage>
+	<loginImage type="xpath">//*/div[@class='body_icon_row']/div[2]/ul/li[3]/a/div/img</loginImage>
+	<settingsImage type="xpath">//*/div[@class='body_icon_row']/div[3]/ul/li[1]/a/div/img</settingsImage>
+	<specialOfferImage type="xpath">//*/div[@class='body_icon_row']/div[3]/ul/li[2]/a/div/img</specialOfferImage>
+	<eventsImage type="xpath">//*/div[@class='body_icon_row']/div[3]/ul/li[3]/a/div/img</eventsImage>
+	<removeProduct type="xpath">//*/div[@class='mycart_remove']/a</removeProduct>
+	<paymentMethodsButton type="xpath">//*[text()='Payment Methods']</paymentMethodsButton>
+	<orderCommentsButton type="xpath">//*[text()='Order Comments']</orderCommentsButton>
+	<tvImage type="xpath">//*/div[@class='cat_lister']/ul/li[1]/a/span/img</tvImage>
+   	<computerImage  type="xpath">//*/div[@class='cat_lister']/ul/li[2]/a/span/img</computerImage>
+   	<mobilePhoneImage type="xpath">//*/div[@class='cat_lister']/ul/li[3]/a/span/img</mobilePhoneImage>
+   	<audioImage type="xpath">//*/div[@class='cat_lister']/ul/li[4]/a/span/img</audioImage>
+   	<cameraImage type="xpath">//*/div[@class='cat_lister']/ul/li[5]/a/span/img</cameraImage>
+   	<tabletImage type="xpath">//*/div[@class='cat_lister']/ul/li[6]/a/span/img</tabletImage>
+   	<movieImage type="xpath">//*/div[@class='cat_lister']/ul/li[7]/a/span/img</movieImage>
+   	<videoGameImage type="xpath">//*/div[@class='cat_lister']/ul/li[8]/a/span/img</videoGameImage>
+   	<mp3PlayerImage type="xpath">//*/div[@class='cat_lister']/ul/li[9]/a/span/img</mp3PlayerImage>
+   	<accessoriesImage type="xpath">//*/div[@class='cat_lister']/ul/li[10]/a/span/img</accessoriesImage>
+</identifiers>

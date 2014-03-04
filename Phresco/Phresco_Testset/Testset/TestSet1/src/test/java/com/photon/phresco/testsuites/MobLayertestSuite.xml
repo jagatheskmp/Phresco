@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MobileLayerMobileLayeruite" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="iPhoneNative" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.IPhoneNativeTest" />
+			<methods>
+				<include name="testiPhoneNativeHelloWorldProjectCreation"></include>
+				<include name="testiPhoneNativeHelloWorldProjectEdit"></include>
+				<include name="testiPhoneNativeHelloWorldProjectAddFeature"></include>
+				<include name="testiPhoneNativeHelloWorldProjectBuild"></include>
+				<include name="testiPhoneNativeHelloWorldProjectDeploy"></include>
+				<include name="testiPhoneNativeHelloWorldProjectUnitTest"></include>
+				<include name="testiPhoneNativeEshopProjectCreation"></include>
+				<include name="testiPhoneNativeEshopProjectEdit"></include>
+				<include name="testiPhoneNativeEshopProjectAddFeature"></include>
+				<include name="testiPhoneNativeEshopProjectAddConfigurationWebService"></include>
+				<include name="testiPhoneNativeEshopProjectBuild"></include>
+				<include name="testiPhoneNativeEshopProjectDeploy"></include>
+				<include name="testiPhoneNativeEshopProjectUnitTestLogic"></include>
+				<include name="testiPhoneNativeEshopProjectUnitTestApplication"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="iPhoneHybrid" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.IPhoneHybridTest" />
+			<methods>
+				<include name="testiPhoneHybridHelloWorldProjectCreation"></include>
+				<include name="testiPhoneHybridHelloWorldProjectEdit"></include>
+				<include name="testiPhoneHybridHelloWorldProjectAddFeature"></include>
+				<include name="testiPhoneHybridHelloWorldProjectBuild"></include>
+				<include name="testiPhoneHybridHelloWorldProjectDeploy"></include>
+				<include name="testiPhoneHybridEshopProjectCreation"></include>
+				<include name="testiPhoneHybridEshopProjectEdit"></include>
+				<include name="testiPhoneHybridEshopProjectAddFeature"></include>
+				<include name="testiPhoneHybridEshopProjectAddConfigurationServer"></include>
+				<include name="testiPhoneHybridEshopProjectBuild"></include>
+				<include name="testiPhoneHybridEshopProjectDeploy"></include>
+				<include name="testiPhoneHybridEshopUnitTest"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="iPhoneLibrary" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.IPhoneLibraryTest" />
+			<methods>
+				<include name="testiPhoneLibarayProjectCreation"></include>
+				<include name="testiPhoneLibraryProjectEdit"></include>
+				<include name="testiPhoneLibraryProjectAddFeature"></include>
+				<include name="testiPhoneLibraryProjectBuild"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="AndroidNative" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.AndroidNativeTest" />
+			<methods>
+				<include name="testAndroidNativeHelloWorldProjectCreation"></include>
+				<include name="testAndroidNativeHelloWorldProjectEdit"></include>
+				<include name="testAndroidNativeHelloWorldProjectAddFeature"></include>
+				<include name="testAndroidNativeHelloWorldProjectBuild"></include>
+				<include name="testAndroidNativeHelloWorldProjectDeploy"></include>
+				<include name="testAndroidNativeEshopProjectCreation"></include>
+				<include name="testAndroidNativeEshopProjectEdit"></include>
+				<include name="testAndroidNativeEshopProjectAddFeature"></include>
+				<include name="testAndroidNativeEshopProjectAddConfigurationWebService"></include>
+				<include name="testAndroidNativeEshopProjectBuild"></include>
+				<include name="testAndroidNativeEshopProjectDeploy"></include>
+				<include name="testAndroidNativeEshopProjectUnitTest"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="AndroidHybrid" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.AndroidHybridTest" />
+			<methods>
+				<include name="testAndroidHybridHelloWorldProjectCreation"></include>
+				<include name="testandroidHybridHelloWorldProjectEdit"></include>
+				<include name="testandroidHybridHelloWorldProjectAddFeature"></include>
+				<include name="testAndroidHybridHelloWorldProjectBuild"></include>
+				<include name="testAndroidHybridHelloWorldProjectDeploy"></include>
+				<include name="testAndroidHybridEshopProjectCreation"></include>
+				<include name="testandroidHybridEshopProjectEdit"></include>
+				<include name="testandroidHybridEshopProjectAddFeature"></include>
+				<include name="testandroidHybridEshopProjectAddConfigurationServer"></include>
+				<include name="testAndroidHybridEshopProjectBuild"></include>
+				<include name="testAndroidHybridEshopProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="AndroidLibrary" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.AndroidLibraryTest" />
+			<methods>
+				<include name="testAndroidLibarayProjectCreation"></include>
+				<include name="testAndroidLibraryProjectEdit"></include>
+				<include name="testAndroidLibraryProjectAddFeature"></include>
+				<include name="testAndroidLibraryProjectBuild"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="BlackBerryHybrid" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.BlackBerryHybridTest" />
+			<methods>
+				<include name="testBlackBerryHybridProjectCreation"></include>
+				<include name="testBlackBerryHybridProjectEdit"></include>
+				<include name="testBlackBerryHybridProjectAddFeature"></include>
+				<include name="testBlackBerryHybridProjectAddServerConfiguration"></include>
+				<include name="testBlackBerryHybridProjectBuild"></include>
+				<include name="testBlackBerryHybridProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="WindowsMetro" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.WindowsMetroTest" />
+			<methods>
+				<include name="testWindowsMetroProjectCreation"></include>
+				<include name="testWindowsMetroProjectEdit"></include>
+				<include name="testWindowsMetroProjectAddFeature"></include>
+				<include name="testWindowsMetroProjectBuild"></include>
+				<include name="testWindowsMetroProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="WindowsPhone" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.MobileLayer.WindowsPhoneTest" />
+			<methods>
+				<include name="testWindowsPhoneProjectCreation"></include>
+				<include name="testWindowsPhoneProjectEdit"></include>
+				<include name="testWindowsPhoneProjectAddFeature"></include>
+				<include name="testWindowsPhoneProjectBuild"></include>
+				<include name="testWindowsPhoneProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+</suite> 

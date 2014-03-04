@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DataProvider" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="VerifyEshopAppsafari" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="platform" value="WINDOWS" />
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.DataProviderEshop" />
+		</classes>
+
+	</test>
+
+
+</suite>
+ 
+
+ 	
+ 

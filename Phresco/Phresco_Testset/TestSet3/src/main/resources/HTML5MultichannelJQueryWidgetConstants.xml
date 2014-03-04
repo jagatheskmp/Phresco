@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+	    <multijQueryWidgetHelloworldNameValue>MultiJQueryWidHelloWorldProj</multijQueryWidgetHelloworldNameValue>
+        <multijQueryWidgetHelloworldCodeValue>MultiJQHello</multijQueryWidgetHelloworldCodeValue>
+        <multijQueryWidgetHelloworldDescriptionValue>This is MultiJQueryWidgetHelloworld Project</multijQueryWidgetHelloworldDescriptionValue>
+        <multijQueryWidgetHelloworldVersionValue>1.0.0</multijQueryWidgetHelloworldVersionValue> 
+		
+		<multijqueryconfigServContextValueHelloWorld>MultiJqueryWidgetHelloworld</multijqueryconfigServContextValueHelloWorld>
+		
+		<multijQueryWidgetHelloWorldCheckBoxXpath>//a[text()='MultiJQueryWidHelloWorldProj']/preceding-sibling::input</multijQueryWidgetHelloWorldCheckBoxXpath>
+        <multijQueryWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'MultiJQueryWidHelloWorldProj-html5multichanneljquerywidget')]</multijQueryWidgetHelloWorldEditApplicationLinkXpath>
+       	
+       	<appInfoMultiJQueryWidgetServerValue>Apache Tomcat</appInfoMultiJQueryWidgetServerValue>     
+		<TomacatServerVersionValue>//td[2]/div/div/div/div/input</TomacatServerVersionValue>
+
+		<multijQueryWidgetEshopNameValue>MultiJQueryWidgetEshopProj</multijQueryWidgetEshopNameValue>
+        <multijQueryWidgetEshopCodeValue>MultiJQEshop</multijQueryWidgetEshopCodeValue>
+        <multijQueryWidgetEshopDescriptionValue>This is MultiJQueryWidgetEshop Project</multijQueryWidgetEshopDescriptionValue>
+        <multijQueryWidgetEshopVersionValue>1.0.0</multijQueryWidgetEshopVersionValue> 
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multijQueryWidgetValue>HTML5 Multichannel JQuery Widget</multijQueryWidgetValue>
+		<multijQueryWidgetVersionValue>1.5</multijQueryWidgetVersionValue>
+		
+		<multijQueryMobWidgetEshopCheckBoxXpath>//a[text()='MultiJQueryWidgetEshopProj']/preceding-sibling::input</multijQueryMobWidgetEshopCheckBoxXpath>
+        <multijQueryMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'MultiJQueryWidgetEshopProj-html5multichanneljquerywidget')]</multijQueryMobWidgetEshopEditApplicationLinkXpath>
+       	
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+            	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+              
+        <multiJQueryServContextValueEshop>MultiJQueryWidgetEshop</multiJQueryServContextValueEshop>
+     
+      	<configWebServiceNameValue>WebService</configWebServiceNameValue>
+     	<configWebserviceDesc>WebService configuration for Jquery Widget project</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>2020</configWebservicePortValue>      	
+           	
+     	<multiJQueryWebserviceContextEshopValue>eshop</multiJQueryWebserviceContextEshopValue>
+	
+	
+	
+	
+	
+
+
+</phresco>
+</environment>
+ 

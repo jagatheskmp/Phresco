@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+ 		<yuiMobileWidgetHelloworldNameValue>YuiMobileWidHelloProj</yuiMobileWidgetHelloworldNameValue>
+        <yuiMobileWidgetHelloworldCodeValue>YuiHello</yuiMobileWidgetHelloworldCodeValue>
+        <yuiMobileWidgetHelloworldDescriptionValue>This is YuiMobileWidgetHelloworld Project</yuiMobileWidgetHelloworldDescriptionValue>
+        <yuiMobileWidgetHelloworldVersionValue>1.0.0</yuiMobileWidgetHelloworldVersionValue> 
+				
+		<yuiMobileconfigServContextHelloWorld>YuiMobileWidgetHelloworld</yuiMobileconfigServContextHelloWorld>
+				
+		<yuiMobileWidgetHelloWorldCheckBoxXpath>//a[text()='YuiMobileWidHelloProj']/preceding-sibling::input</yuiMobileWidgetHelloWorldCheckBoxXpath>
+        <yuiMobileWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'YuiMobileWidHelloProj-html5yuimobilewidget')]</yuiMobileWidgetHelloWorldEditApplicationLinkXpath>
+       	
+        <appInfoMobileyuiMobileWidgetServerValue>Apache Tomcat</appInfoMobileyuiMobileWidgetServerValue>     
+		<TomacatServerVersionValue>//td[2]/div/div/div/div/input</TomacatServerVersionValue>
+
+		<yuiMobileWidgetEshopNameValue>YuiMobileWidgetEshopProj</yuiMobileWidgetEshopNameValue>
+        <yuiMobileWidgetEshopCodeValue>YuiEshop</yuiMobileWidgetEshopCodeValue>
+        <yuiMobileWidgetEshopDescriptionValue>This is YuiMobileWidgetEshop Project</yuiMobileWidgetEshopDescriptionValue>
+        <yuiMobileWidgetEshopVersionValue>1.0.0</yuiMobileWidgetEshopVersionValue> 
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<yuiMobileWidgetValue>HTML5 YUI Mobile Widget</yuiMobileWidgetValue>
+		<yuiMobileWidgetVersionValue>1.5</yuiMobileWidgetVersionValue>
+		
+		<yuiMobileMobWidgetEshopCheckBoxXpath>//a[text()='YuiMobileWidgetEshopProj']/preceding-sibling::input</yuiMobileMobWidgetEshopCheckBoxXpath>
+        <yuiMobileMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'YuiMobileWidgetEshopProj-html5yuimobilewidget')]</yuiMobileMobWidgetEshopEditApplicationLinkXpath>
+       	
+       	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+            	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+              
+        <yuiMobileServContextValueEshop>YuiMobileWidgetEshop</yuiMobileServContextValueEshop>
+     
+      	<configWebServiceNameValue>WebService</configWebServiceNameValue>
+     	<configWebserviceDesc>WebService configuration for Jquery Widget project</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>2020	</configWebservicePortValue>      	
+           	
+     	<yuiMobileWebserviceContextEshopValue>eshop</yuiMobileWebserviceContextEshopValue>
+		 
+</phresco>
+</environment>

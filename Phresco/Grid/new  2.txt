@@ -1,0 +1,14 @@
+Distributed Testing with Selenium Grid
+
+"configuration": {
+"port": 5555,
+"register": true,
+"host": "172.16.22.28",
+"proxy": "org.openqa.grid.selenium.proxy.
+DefaultRemoteProxy",
+"maxSession": 5,
+"hubHost": "172.16.22.28",
+"role": "webdriver",
+"registerCycle": 5000,
+"hub": "http://172.16.22.28:4444/grid/register",
+"hubPort": 4444,

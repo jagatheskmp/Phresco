@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="NoPackageTest" verbose="1">
+
+	<test name="NopackageTest">
+		<classes>
+			<class name="NoPackageEshop" />
+		</classes>
+	</test>
+
+	<test name="PackageTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

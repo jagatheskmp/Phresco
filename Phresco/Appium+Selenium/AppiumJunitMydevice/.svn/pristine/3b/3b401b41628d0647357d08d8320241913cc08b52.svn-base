@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="platformGroupTest" parallel="tests" thread-count="5"
+	verbose="3">
+	<test name="platformGroupWindows">
+		<groups>
+			<run>
+				<include name="windows.*" />
+			</run>
+		</groups>
+		<parameter name="platform" value="WINDOWS" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.photon.phresco.testcases.PlatformGroupTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="platformGroupMac">
+		<groups>
+			<run>
+				<include name="mac.*" />
+			</run>
+		</groups>
+		<parameter name="platform" value="MAC" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.photon.phresco.testcases.PlatformGroupTest"/>
+		</classes>
+	</test>
+ -->
+	
+</suite>
+

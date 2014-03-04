@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+	<Envirionmentname>Testing</Envirionmentname>
+    <decscription_value>This is sample Environment creation</decscription_value>
+     <configname>Server</configname>
+    <DescriptionvField>Server Configuration</DescriptionvField>
+    <EnvValue>Testing</EnvValue>
+    <typeValue>Server</typeValue>
+    <protocalvalue>http</protocalvalue>
+    <host_value>172.16.17.180</host_value>
+    <portvalue>8080</portvalue>
+    <deploydirectory>D:\tomcat-7.0.14\webapps</deploydirectory>
+    <ServerValue>Apache Tomcat</ServerValue>
+    <context_value>GlobalSettings</context_value>
+   
+    </phresco>
+    
+ </environment>
+        

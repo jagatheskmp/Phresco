@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="WebTestFactory" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="WebTestFactory" junit="false" preserve-order="true">
+
+
+		<classes>
+			<class name="com.photon.phresco.testcases.WebTestFactory" />
+		</classes>
+
+	</test>
+
+	</suite>
+ 
+
+ 	
+ 

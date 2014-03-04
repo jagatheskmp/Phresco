@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<iPhoneLibraryNameValue>iPhoneLibrarySampleProj</iPhoneLibraryNameValue>
+        <iPhoneLibraryDescriptionValue>This is the iPhone Library  project</iPhoneLibraryDescriptionValue>
+        <technologyiPhoneLibraryValue>Iphone Library</technologyiPhoneLibraryValue>
+      	<iPhoneLibraryEditApplicationLinkXpath>//a[contains(text(),'iPhoneLibrarySampleProj-iphone')]</iPhoneLibraryEditApplicationLinkXpath>
+      	<sdkValue>iphonesimulator6.0</sdkValue>
+     	<targetValue>Phresco</targetValue>
+     	<functionalFramework>Grid</functionalFramework>
+	</phresco>
+</environment>

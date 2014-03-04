@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+ 
+  		<wordPressHelloWorldNameValue>WordPressSampleHelloWorldProj</wordPressHelloWorldNameValue>
+        <wordPressHelloWorldCodeValue>WordPressHello</wordPressHelloWorldCodeValue>
+        <wordPressHelloWorldDescriptionValue>This is the WordPress HelloWorld project</wordPressHelloWorldDescriptionValue>
+        <wordPressHelloWorldVersionValue>1.1.1</wordPressHelloWorldVersionValue>        
+        <technologyWordPressValue>WordPress</technologyWordPressValue>
+        
+
+        <wordPressHelloWorldCheckBoxXpath>//a[text()='WordPressSampleHelloWorldProj']/preceding-sibling::input</wordPressHelloWorldCheckBoxXpath>
+        <wordPressHelloWorldEditApplicationLinkXpath>//a[contains(text(),'WordPressSampleHelloWorldProj-wordpress')]</wordPressHelloWorldEditApplicationLinkXpath>
+     
+        <wordPressServerValue>Apache Server</wordPressServerValue>
+        <wordPressDatabaseValue>MYSQL</wordPressDatabaseValue>
+
+        
+        <wordPressConfigurationServerNameValue>Server</wordPressConfigurationServerNameValue>
+        <wordPressConfigurationServerDescriptionValue>This is Server Configuration</wordPressConfigurationServerDescriptionValue>
+        <wordPressConfigurationServerEnvironmentValue>Production</wordPressConfigurationServerEnvironmentValue>
+        <wordPressConfigurationServerTypeValue>Server</wordPressConfigurationServerTypeValue>
+        <wordPressConfigurationServerProtocolHttpValue>http</wordPressConfigurationServerProtocolHttpValue>
+        <wordPressConfigurationServerProtocolHttpsValue>https</wordPressConfigurationServerProtocolHttpsValue>
+        <wordPressConfigurationServerHostValue>localhost</wordPressConfigurationServerHostValue>
+        <wordPressConfigurationServerPortValue>80</wordPressConfigurationServerPortValue>
+        
+        <wordPressConfigurationServerDeployDirectoryValue>C:\wamp\www</wordPressConfigurationServerDeployDirectoryValue>
+        <wordPressConfigurationServerContextValueHelloWorld>WordpressHelloworld</wordPressConfigurationServerContextValueHelloWorld>
+       
+        <wordPressConfigurationDatabaseNameValue>Database</wordPressConfigurationDatabaseNameValue>
+        <wordPressConfigurationDatabaseDescriptionValue>This is Database Configuration</wordPressConfigurationDatabaseDescriptionValue>
+        <wordPressConfigurationDatabaseEnvironmentValue>Production</wordPressConfigurationDatabaseEnvironmentValue>
+        <wordPressConfigurationDatabaseTypeValue>Database</wordPressConfigurationDatabaseTypeValue>
+        <wordPressConfigurationDatabaseHostValue>localhost</wordPressConfigurationDatabaseHostValue>
+        <wordPressConfigurationDatabasePortValue>3306</wordPressConfigurationDatabasePortValue>
+        <wordPressConfigurationDatabaseDBUsernameValue>root</wordPressConfigurationDatabaseDBUsernameValue>
+        <wordPressConfigurationDatabaseDBNameValueHelloWorld>testWordPressDatabase</wordPressConfigurationDatabaseDBNameValueHelloWorld>
+     
+        
+ 
+ 
+</phresco>
+</environment>

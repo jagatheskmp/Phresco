@@ -1,0 +1,5 @@
+#surefire
+#Wed Sep 11 12:25:34 IST 2013
+user.dir=C\:\\Documents and Settings\\jagatheswaran_s\\Desktop\\Cucumber\\yuimobile-eshop\\functional
+localRepository=C\:\\Documents and Settings\\jagatheswaran_s\\Desktop\\Cucumber\\yuimobile-eshop\\functional\\${env.PHRESCO_HOME}\\workspace\\repo
+basedir=C\:\\Documents and Settings\\jagatheswaran_s\\Desktop\\Cucumber\\yuimobile-eshop\\functional

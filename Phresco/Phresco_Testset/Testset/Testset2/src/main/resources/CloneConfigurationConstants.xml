@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <phpHelloWorldNameValue>PHPCloneHelloWorldProj</phpHelloWorldNameValue>
+        <phpHelloWorldDescriptionValue>This is the PHP HelloWorld project Clone Configuration</phpHelloWorldDescriptionValue>
+        <technologyPHPValue>PHP</technologyPHPValue> 
+        <phpHelloWorldEditApplicationLinkXpath>//a[contains(text(),'PHPCloneHelloWorldProj-PHPCloneHelloWorldProj...')]</phpHelloWorldEditApplicationLinkXpath>
+        <phpServerValue>Apache Server</phpServerValue>
+        <phpDatabaseValue>MYSQL</phpDatabaseValue>
+        <phpConfigurationServerNameValue>Server</phpConfigurationServerNameValue>
+        <phpConfigurationServerDescriptionValue>This is Server Configuration</phpConfigurationServerDescriptionValue>
+        <phpConfigurationServerEnvironmentValue>Production</phpConfigurationServerEnvironmentValue>
+        <phpConfigurationServerTypeValue>Server</phpConfigurationServerTypeValue>
+        <phpConfigurationServerProtocolHttpValue>http</phpConfigurationServerProtocolHttpValue>
+        <phpConfigurationServerProtocolHttpsValue>https</phpConfigurationServerProtocolHttpsValue>
+        <phpConfigurationServerHostValue>localhost</phpConfigurationServerHostValue>
+        <phpConfigurationServerPortValue>80</phpConfigurationServerPortValue>
+        <phpConfigurationServerDeployDirectoryValue>C:\wamp\www</phpConfigurationServerDeployDirectoryValue>
+        <phpConfigurationServerContextValueHelloWorld>PhpNoneClone</phpConfigurationServerContextValueHelloWorld>
+        <phpConfigurationDatabaseNameValue>Database</phpConfigurationDatabaseNameValue>
+        <phpConfigurationDatabaseDescriptionValue>This is Database Configuration</phpConfigurationDatabaseDescriptionValue>
+        <phpConfigurationDatabaseEnvironmentValue>Production</phpConfigurationDatabaseEnvironmentValue>
+        <phpConfigurationDatabaseTypeValue>Database</phpConfigurationDatabaseTypeValue>
+        <phpConfigurationDatabaseHostValue>localhost</phpConfigurationDatabaseHostValue>
+        <phpConfigurationDatabasePortValue>3306</phpConfigurationDatabasePortValue>
+        <phpConfigurationDatabaseDBUsernameValue>root</phpConfigurationDatabaseDBUsernameValue>
+        <phpConfigurationDatabaseDBNameValueHelloWorld>testphpHelloWorldDatabaseClone</phpConfigurationDatabaseDBNameValueHelloWorld>
+        <functionalFramework>Grid</functionalFramework>
+        <EnvName>Testing</EnvName>
+        <envDesc>This is Testing Environment</envDesc>
+    </phresco>
+</environment>

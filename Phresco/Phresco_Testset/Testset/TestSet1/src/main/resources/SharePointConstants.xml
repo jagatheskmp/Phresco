@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <SharePointHelloWorldNameValue>SharePointHelloWorldProject</SharePointHelloWorldNameValue>
+        <SharePointHelloWorldDescriptionValue>This is the SharePoint HelloWorld project</SharePointHelloWorldDescriptionValue>
+        <technologySharePointValue>Sharepoint</technologySharePointValue>
+        <pilotProject>Resource Management</pilotProject>
+        <SharePointResourceNameValue>SharePointResourceManaProject</SharePointResourceNameValue>
+        <SharePointResourceDescriptionValue>This is the SharePoint Resource project</SharePointResourceDescriptionValue>
+        <SharePointHelloWorldEditApplicationLinkXpath>//a[contains(text(),'SharePointHelloWorldProject-')]</SharePointHelloWorldEditApplicationLinkXpath>
+       	<SharePointResourceEditApplicationLinkXpath>//a[contains(text(),'SharePointResourceManaProject-')]</SharePointResourceEditApplicationLinkXpath>
+    	<SharePointConfigurationServerNameValue>Server</SharePointConfigurationServerNameValue>
+        <SharePointConfigurationServerDescriptionValue>This is Server Configuration</SharePointConfigurationServerDescriptionValue>
+        <SharePointConfigurationServerEnvironmentValue>Production</SharePointConfigurationServerEnvironmentValue>
+        <SharePointConfigurationServerTypeValue>Server</SharePointConfigurationServerTypeValue>
+        <SharePointConfigurationServerProtocolHttpValue>http</SharePointConfigurationServerProtocolHttpValue>
+        <SharePointConfigurationServerHostValue>framework-win2</SharePointConfigurationServerHostValue>
+        <SharePointConfigurationServerHelloWorldPortValue>2020</SharePointConfigurationServerHelloWorldPortValue>
+        <SharePointConfigurationServerResourcePortValue>8000</SharePointConfigurationServerResourcePortValue>
+        <SharePointConfigurationServerDeployDirectoryValue>C:\</SharePointConfigurationServerDeployDirectoryValue>
+        <SharePointConfigurationServerContextValue>Pages/Default.aspx</SharePointConfigurationServerContextValue>
+        <functionalFramework>WebDriver</functionalFramework>
+     </phresco>
+</environment>

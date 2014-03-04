@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<windowsMetroNameValue>WindowsMetroSampleProject</windowsMetroNameValue>
+		<windowsMetroDescriptionValue>This is the Windows Metro project</windowsMetroDescriptionValue>
+		<technologyWindowsMetroValue>Windows Metro</technologyWindowsMetroValue>
+		<windowsMetroEditApplicationLinkXpath>//a[contains(text(),'WindowsMetroSampleProject-windowsmetro')]</windowsMetroEditApplicationLinkXpath>
+	</phresco>
+</environment>

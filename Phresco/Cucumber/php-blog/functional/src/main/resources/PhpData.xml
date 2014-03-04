@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    PHR_PhpBlog
+
+    Copyright (C) 1999-2013 Photon Infotech Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<environment>
+<phresco>
+	<phpblog>
+       
+      	<searchvalue>Drupal</searchvalue>    	
+      	<textaccupdate>Account has been updated successfully.</textaccupdate>   	
+      	<categoryname>selenium1</categoryname>
+	    <categorydescription>Selenium is open source framework</categorydescription>   
+        <catdescriptionadd>Selenium is open source framework we can write the test cases using at any programming language</catdescriptionadd>
+        <textcategoryadd>Category has been added successfully.</textcategoryadd>
+        <textcategoryupdate>Category has been updated successfully.</textcategoryupdate>
+        <textcategoryremove>Category has been removed successfully</textcategoryremove>
+        <topictitle>PHP</topictitle>
+        <topictext>PHP Technology is used to develope the web application</topictext>
+        <topictitle1> Drupal</topictitle1>
+        <topictext1>,Drupal is a free software package that allows you to easily organize, manage and publish your content, with an endless variety of customization.</topictext1>
+        <texttopicadd>Topic has been added successfully</texttopicadd>
+        <texttopicupdate>Topic updated</texttopicupdate>
+        <texttopicremove>Topic has been removed successfully</texttopicremove>
+        
+      </phpblog>>
+			   
+</phresco>
+</environment>

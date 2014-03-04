@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ImportApplicationSvnandGithubSuite" verbose="1">
+ 
+   <test name="ImportApplicationSvnandGithubTest" junit="false" preserve-order="true">
+   		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+       	<classes>
+   			<class name="com.photon.phresco.ImportApplicationSvnandGithub.ImportApplicationSvnandGithubTest"/>
+  				<methods>
+  					<include name="testImportApplicationSvnHeadRevisionWithCredential"></include>
+					<include name="testImportApplicationSvnHeadRevisionWithOtherCredential"></include>
+  					<include name="testImportApplicationSvnRevisionWithCredential"></include>
+  					<include name="testImportApplicationGithub"></include>
+  					<include name="testImportApplicationSvnRevisionWithOtherCredential"></include>
+  					<include name="testImportApplicationGithub"></include>
+  	   			</methods>
+      	</classes>
+   </test>
+   </suite>

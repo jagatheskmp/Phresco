@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <AspDotNetHelloWorldNameValue>AspDotNetHelloWorldProj</AspDotNetHelloWorldNameValue>
+        <AspDotNetHelloWorldDescriptionValue>This is the AspDotNet HelloWorld project</AspDotNetHelloWorldDescriptionValue>
+        <technologyAspDotNetValue>ASP.NET</technologyAspDotNetValue>
+		<AspDotNetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AspDotNetHelloWorldProj-')]</AspDotNetHelloWorldEditApplicationLinkXpath>
+	    <AspDotNetServerName>Server</AspDotNetServerName>
+        <AspDotNetServerDescription>Asp DotNet Server configuration</AspDotNetServerDescription>
+        <AspDotNetServerEnvironment>Production</AspDotNetServerEnvironment>
+        <AspDotNetServerType>Server</AspDotNetServerType>
+        <AspDotNetServerProtocol>http</AspDotNetServerProtocol>
+        <AspDotNetServerHost>localhost</AspDotNetServerHost>
+        <AspDotNetServerPort>8090</AspDotNetServerPort>
+        <AspDotNetServerDeployDir>C:\inetpub\wwwroot</AspDotNetServerDeployDir>
+        <AspDotNetContextName>SampleProject</AspDotNetContextName>
+        <functionalFramework>Grid</functionalFramework>
+    </phresco>
+</environment>

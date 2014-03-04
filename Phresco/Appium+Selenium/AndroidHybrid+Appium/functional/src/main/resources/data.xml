@@ -1,0 +1,24 @@
+<uiData>
+	<loginEmail>PhrescoTester@photoninfotech.com</loginEmail>
+	<loginPassword>Phresco</loginPassword>
+	<loginFailedMsg>Login failed</loginFailedMsg>
+	<regFirstName>Phresco</regFirstName>
+	<regLastName>Tester</regLastName>
+	<regEmail>PhrescoTester@photoninfotech.com</regEmail>
+	<regPassword>Phresco</regPassword>
+	<regPhoneNo>5555555555</regPhoneNo>
+	<billInfoCommentsValue>First order</billInfoCommentsValue>
+	<billInfoPhoneNumberValue>+1 212-398-2449</billInfoPhoneNumberValue>
+	<billInfoStateValue>Boston</billInfoStateValue>
+	<billInfoPostCodeValue>4989898</billInfoPostCodeValue>
+	<billInfoAddress2Value>Newyork</billInfoAddress2Value>
+	<billInfoCityValue>NewJersey city</billInfoCityValue>
+	<billInfoCompanyValue>Photon</billInfoCompanyValue>
+	<billInfoAddress1Value>USA</billInfoAddress1Value>
+	<billInfoLastNameValue>David</billInfoLastNameValue>
+	<billInfoFirstNameValue>John</billInfoFirstNameValue>
+	<billInfoEmailValue>Phresco@PhotonInfotech.net</billInfoEmailValue>
+	<cardInfoNameOnCardValue>JohnDavid</cardInfoNameOnCardValue>
+	<cardInfoCardNumberValue>235967841</cardInfoCardNumberValue>
+	<cardInfoSecurityNumberValue>5836</cardInfoSecurityNumberValue>
+</uiData>

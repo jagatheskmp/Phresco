@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SelectiveTestSuiteInSelectiveNodes" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="VerifyEshopAppFirefox" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="platform" value="WINDOWS" />
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+
+	<test name="VerifyEshopAppsafari" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="platform" value="MAC" />
+		<parameter name="browser" value="safari" />
+
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+
+	<test name="VerifyEshopAppChrome" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="platform" value="Windows" />
+		<parameter name="browser" value="googlechrome" />
+
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

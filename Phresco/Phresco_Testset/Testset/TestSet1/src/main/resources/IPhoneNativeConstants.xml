@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+    	<iPhoneNativeHelloWorldNameValue>iPhoneNativeHelloWorld</iPhoneNativeHelloWorldNameValue>
+        <iPhoneNativeHelloWorldDescriptionValue>This is iPhoneNativeHelloWorld Project</iPhoneNativeHelloWorldDescriptionValue>
+		<iPhoneNativeEshopNameValue>iPhoneNativeEshop</iPhoneNativeEshopNameValue>
+        <iPhoneNativeEshopDescriptionValue>This is iPhoneNativeEshop Project</iPhoneNativeEshopDescriptionValue>
+		<iPhoneNativeEshopEditApplicationLinkXpath>//a[contains(text(),'iPhoneNativeEshop-iphone')]</iPhoneNativeEshopEditApplicationLinkXpath>
+		<iPhoneNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'iPhoneNativeHelloWorld-iphone')]</iPhoneNativeHelloWorldEditApplicationLinkXpath>
+		<iPhoneNativeValue>iPhone Native</iPhoneNativeValue>
+  	  	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>    
+      	<iPhoneNativeConfigWebServiceNameValue>eshopService</iPhoneNativeConfigWebServiceNameValue>
+     	<iPhoneNativeConfigWebserviceDesc>WebService configuration for IPhone Native Eshop project</iPhoneNativeConfigWebserviceDesc>
+      	<iPhoneNativeconfigWebserviceEnvValue>Production</iPhoneNativeconfigWebserviceEnvValue>
+      	<iPhoneNativeconfigWebserviceValue>WebService</iPhoneNativeconfigWebserviceValue>      	
+      	<iPhoneNativeconfigWebserviceProtocolValue>http</iPhoneNativeconfigWebserviceProtocolValue>
+      	<iPhoneNativeconfigWebserviceHostValue>172.16.17.180</iPhoneNativeconfigWebserviceHostValue>
+      	<iPhoneNativeconfigWebservicePortValue>6060</iPhoneNativeconfigWebservicePortValue>      	
+     	<iPhoneNativeEshopconfigWebserviceContextEshopValue>eshop</iPhoneNativeEshopconfigWebserviceContextEshopValue>
+     	<sdkValue>iphonesimulator6.0</sdkValue>
+     	<targetValue>Phresco</targetValue>
+     	<sdkVersion>6.0</sdkVersion>
+     	<sdkFamily>iphone</sdkFamily>
+     	<unitTestSdkValue>iphonesimulator6.0</unitTestSdkValue>
+     	<unitTestLogic>LogicTest</unitTestLogic>
+     	<unitTestApplication>ApplicationTest</unitTestApplication>
+     	<functionalFramework>UI Automation</functionalFramework>
+	</phresco>
+</environment>
+

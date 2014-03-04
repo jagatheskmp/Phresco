@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PhrescoFrameworkTestCaseSuite" verbose="1">
+	<test name="ServerDBWebTest" junit="false" preserve-order="true">
+		<classes>
+		<class name="com.photon.phresco.Different_Server_DB_Webservice.ServerDBWebTest"/>
+			<methods>
+			 	<include name="testPhpBlogProjectCreation"></include>
+				<include name="testPhpBlogProjectEdit"></include> 
+				<include name="testPhpProjectBlogAddFeature"></include>
+			</methods>
+		</classes>
+		</test>  
+</suite>

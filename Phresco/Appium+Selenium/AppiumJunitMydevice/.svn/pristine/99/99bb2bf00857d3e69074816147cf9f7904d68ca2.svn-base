@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Methodtestng" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="RunFailedTestAlone" junit="false" preserve-order="true">
+
+		<suite-files>
+
+			<suite-file path="./test-output/testng-failed.xml" />
+
+		</suite-files>
+
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

@@ -1,0 +1,134 @@
+
+package com.photon.phresco.testcases;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.photon.phresco.Screens.WelcomeScreen;
+import com.photon.phresco.uiconstants.PhrescoUiConstants;
+import com.photon.phresco.uiconstants.UIConstants;
+import com.photon.phresco.uiconstants.UserInfoConstants;
+
+public class MetaGroupsEshop {
+
+	private PhrescoUiConstants phrescoUiConstants;
+	private WelcomeScreen welcomeScreen;
+	private String methodName;
+	private UIConstants uiConstants;
+	private UserInfoConstants userInfoConstants;
+
+	@Parameters(value = { "browser", "platform" })
+	@BeforeTest(alwaysRun=true)
+	public void setUp(String browser, String platform) throws Exception {
+		try {
+			phrescoUiConstants = new PhrescoUiConstants();
+			userInfoConstants = new UserInfoConstants();
+			uiConstants = new UIConstants();
+			String selectedBrowser = browser;
+			String selectedPlatform = platform;
+
+			methodName = Thread.currentThread().getStackTrace()[1]
+					.getMethodName();
+
+			String applicationURL = phrescoUiConstants.getProtocol() + "://"
+					+ phrescoUiConstants.getHost() + ":"
+					+ phrescoUiConstants.getPort() + "/";
+			welcomeScreen = new WelcomeScreen(selectedBrowser,
+					selectedPlatform, applicationURL,
+					phrescoUiConstants.getContext(), userInfoConstants,
+					uiConstants,  phrescoUiConstants);
+
+		} catch (Exception exception) {
+			exception.printStackTrace();
+		}
+	}
+
+	@Test
+	public void withoutGroup() throws InterruptedException,
+			IOException, Exception {
+		try {
+			System.out.println("*************withoutGroup***********************");
+			Assert.assertNotNull(welcomeScreen);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	@Test(groups = {"windows"} )
+	public void verifyAudioDeviceswindows()
+			throws InterruptedException, IOException, 
+			Exception {
+		try {
+
+			System.out
+					.println("--------- verifyAudioDevices() in windows-------------");
+			methodName = Thread.currentThread().getStackTrace()[1]
+					.getMethodName();
+
+			welcomeScreen.clickOnBrowse(methodName);
+			welcomeScreen.AudioDevices(methodName);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+		
+	}
+
+	@Test(groups = {"mac"} )
+	public void verifyCamerasMac()
+			throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+					.println("---------verifyCameras() in Mac-------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			welcomeScreen.Cameras(methodName);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	@Test(groups = {"checkintest"} )
+	public void verifyVideoGamesCheckintest()
+	 		throws InterruptedException, IOException, Exception {
+	 	try {
+
+	 		System.out
+	 				.println("---------verifyVideoGames() in checkintest-------------");
+	 		welcomeScreen.clickOnBrowseTab(methodName);
+	 		welcomeScreen.VideoGames(methodName);
+		} catch (Exception t) {
+	 		t.printStackTrace();
+
+	 	}
+	}
+
+	 @Test(groups = { "mac"})
+	 public void verifyTelevisionMac()
+	 		throws InterruptedException, IOException, Exception {
+	 	try {
+
+	 		System.out
+	 				.println("---------verifyTelevision() in mac-------------");
+	 		welcomeScreen.clickOnBrowseTab(methodName);
+	 		welcomeScreen.Television(methodName);
+	 	} catch (Exception t) {
+	 		t.printStackTrace();
+
+	 	}
+	 }
+
+	 
+	@AfterTest(alwaysRun=true)
+	public void tearDown() {
+		welcomeScreen.closeBrowser();
+	}
+}
+

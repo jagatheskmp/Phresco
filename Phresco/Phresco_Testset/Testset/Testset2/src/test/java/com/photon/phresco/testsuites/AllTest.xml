@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTest" >
+     <suite-files>
+  			<suite-file path="/AppLayertestSuite.xml" /> 
+    	  	<suite-file path="/WebLayertestSuite.xml" />
+    	    <suite-file path="/MobiLayertestSuite.xml" />  
+   		    <suite-file path="/RunAgainstSourceSuite.xml"/>      
+   		    <suite-file path="/CloneConfigurationSuite.xml"/>
+   		    <suite-file path="/ArchetypeCreateSuite.xml"/>
+   		    <suite-file path="/ImportApplicationSvnandGithubSuite.xml"/>
+   		    <!-- <suite-file path="/HomePageTestSuite.xml"/>  -->
+   		    <suite-file path="/ProjectUpdationTestSuite.xml"/>  
+      </suite-files>
+</suite>

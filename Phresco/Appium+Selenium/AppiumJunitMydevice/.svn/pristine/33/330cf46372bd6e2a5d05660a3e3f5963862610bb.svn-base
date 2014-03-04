@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BrowserVersionTest" verbose="1">
+
+	<test name="BrowserVersionTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<!-- <parameter name="version" value="5.0"/> -->
+		<classes>
+			<class name="com.photon.phresco.testcases.VersionEshop" />
+		</classes>
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

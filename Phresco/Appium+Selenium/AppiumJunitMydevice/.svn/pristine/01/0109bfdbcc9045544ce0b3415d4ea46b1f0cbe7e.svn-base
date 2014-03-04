@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="PriorityTestng" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="VerifyEshopApp" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.PriorityEshop" />
+			 <methods>
+			 <include name="verifyTelevisionP" />
+			 <include name="verifyCamerasP0" />
+				<include name="withoutGroupP" />
+				<include name="verifyAudioDevicesPmin1" />
+				<include name="verifyVideoGamesPplus1" />
+				
+			</methods> 
+		</classes>
+		
+		
+
+	</test>
+ 
+</suite>
+ 
+
+ 	
+ 

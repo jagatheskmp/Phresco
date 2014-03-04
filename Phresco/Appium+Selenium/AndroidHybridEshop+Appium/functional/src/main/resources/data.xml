@@ -1,0 +1,98 @@
+<uiData>
+	<loginEmail>PhrescoTester@photoninfotech.com</loginEmail>
+	<loginPassword>Phresco</loginPassword>
+	<loginFailedMsg>Login failed</loginFailedMsg>
+	<regFirstName>Phresco</regFirstName>
+	<regLastName>Tester</regLastName>
+	<regEmail>PhrescoTester@photoninfotech.com</regEmail>
+	<regPassword>Phresco</regPassword>
+	<regPhoneNo>5555555555</regPhoneNo>
+	<billInfoCommentsValue>First order</billInfoCommentsValue>
+	<billInfoPhoneNumberValue>+1 212-398-2449</billInfoPhoneNumberValue>
+	<billInfoStateValue>Boston</billInfoStateValue>
+	<billInfoPostCodeValue>4989898</billInfoPostCodeValue>
+	<billInfoAddress2Value>Newyork</billInfoAddress2Value>
+	<billInfoCityValue>NewJersey city</billInfoCityValue>
+	<billInfoCompanyValue>Photon</billInfoCompanyValue>
+	<billInfoAddress1Value>USA</billInfoAddress1Value>
+	<billInfoLastNameValue>David</billInfoLastNameValue>
+	<billInfoFirstNameValue>John</billInfoFirstNameValue>
+	<billInfoEmailValue>Phresco@PhotonInfotech.net</billInfoEmailValue>
+	<cardInfoNameOnCardValue>JohnDavid</cardInfoNameOnCardValue>
+	<cardInfoCardNumberValue>235967841</cardInfoCardNumberValue>
+	<cardInfoSecurityNumberValue>5836</cardInfoSecurityNumberValue>
+	<homeImage>home_icon.png</homeImage>
+	<regImage>register_icon.png</regImage>
+	<mycardImage>my_cart_icon.png</mycardImage>
+	<searchImage>search_icon.png</searchImage>
+	<browseImage>browse_icon.png</browseImage>
+	<loginImage>loginicon.png</loginImage>
+	<settingsImage>setting_icon.png</settingsImage>
+	<specialOfferImage>special_offer_icon.png</specialOfferImage>
+	<eventsImage>events_icon.png</eventsImage>
+	<homeText>Home</homeText>
+	<regText>Register</regText>
+	<mycardText>My Cart</mycardText>
+	<searchText>Search</searchText>
+	<browseText>Browse</browseText>
+	<loginText>Login</loginText>
+	<settingsText>Settings</settingsText>
+	<specialOfferText>Special Offers</specialOfferText>
+	<eventsText>Events</eventsText>
+	<firstName>First Name</firstName>
+	<lastName>Last Name</lastName>
+	<email>Email</email>
+	<password>Password</password>
+	<phoneNo>Phone Number</phoneNo>
+	<emailIdText>Email Id</emailIdText>
+	<phoneText>Phone</phoneText>
+	<checkOutText>Checkout</checkOutText>
+	<customerInformationText>Customer Information</customerInformationText>
+	<orderInfoEmailText>Order Information will be sent to your A/C email list below.</orderInfoEmailText>
+	<emailAddressText>Email address *</emailAddressText>
+	<deliveryInfoText>Delivery Information</deliveryInfoText>
+	<enterDeliveryText>Enter your delivery address and information here</enterDeliveryText>
+	<firstNameText>First name *</firstNameText>
+    <lastNameText>Last name</lastNameText>
+    <companyText>Company</companyText>
+    <addres1Text>Address 1 *</addres1Text>
+    <address2Text>Address 2</address2Text>
+    <cityText>City *</cityText>
+    <stateText>State/Province *</stateText>
+    <countryText>Country *</countryText>
+    <postCodeText>Postcode *</postCodeText>
+    <phonenoText>Phone Number *</phonenoText>
+    <billingInfoText>billing Information</billingInfoText>
+    <enterBillInfoText>Enter your billing address and information here</enterBillInfoText>
+    <sameBillandDeliText>My billing information is the same as my delivery information</sameBillandDeliText>
+    <paymentMethodText>Payment Methods</paymentMethodText>
+    <paymentOptionText>Select a payment method from the following options</paymentOptionText>
+    <moneyOrderText>Cheque or money order</moneyOrderText>
+    <cashText>Cash on delivery</cashText>
+    <totalItemText>Total Items</totalItemText>
+    <orderTotalText>ordertotal</orderTotalText>
+    <chequeText>Cheque should be made out to Phresco</chequeText>
+    <orderCommentsText>Order Comments</orderCommentsText>
+    <regardsOrderText>Use this area for special instructions or question regards your order</regardsOrderText>
+    <tvImage>tv_1.png</tvImage>
+   	<computerImage>computers_2.png</computerImage>
+   	<mobilePhoneImage>mobile_3.png</mobilePhoneImage>
+   	<audioImage>audio_4.png</audioImage>
+   	<cameraImage>cameras_5.png</cameraImage>
+   	<tabletImage>tablets_6.png</tabletImage>
+   	<movieImage>movies_7.png</movieImage>
+   	<videoGameImage>videogames_8.png</videoGameImage>
+   	<mp3PlayerImage>mp3players_9.png</mp3PlayerImage>
+   	<accessoriesImage>accessories_10.png</accessoriesImage>
+   	<tvText>Television</tvText>
+   	<computerText>Computers</computerText>
+   	<mobilePhoneText>Mobile Phones</mobilePhoneText>
+   	<audioText>Audio Devices</audioText>
+   	<cameraText>Cameras</cameraText>
+   	<tabletText>Tablets</tabletText>
+   	<movieText>Movies and Music</movieText>
+   	<videoGameText>Video Games</videoGameText>
+   	<mp3PlayerText>MP3 Players</mp3PlayerText>
+   	<accessoriesText>Accessories</accessoriesText>
+    
+</uiData>

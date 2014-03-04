@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PhrescoFrameworkCloneConfigurationTestCaseSuite" verbose="1">
+	
+ <test name="CleanTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp"/>
+			<methods>
+				<include name="testphpHelloWorldCloneDatabase"></include>
+	    	</methods>
+		</classes>
+	</test> 
+ 	
+	 <test name="PhpCloneConfigurationTest" junit="false" preserve-order="true">
+		<classes>
+		<class name="com.photon.phresco.CloneConfiguration.CloneConfigurationTest"/>
+			<methods>
+				<include name="testPhpHelloWorldProjectCreation"></include>
+				<include name="testPhpHelloWorldProjectEdit"></include> 
+				<include name="testPhpProjectHelloWorldAddFeature"></include>
+				<include name="testphpProjectHelloWorldAddConfigurationServer"></include>
+				<include name="testphpHelloWorldDatabaseClone"></include>
+				<include name="testphpBlogProjectCloneConfigurationServer"></include>
+				<include name="testphpBlogProjectCloneConfigurationDatabase"></include>
+				<include name="testphpBlogProjectCloneBuild"></include>
+				<include name="testphpBlogProjectCloneDeploy"></include>
+			</methods>
+		</classes>
+	</test>  
+	
+	
+</suite>

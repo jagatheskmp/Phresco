@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<windowsPhoneNameValue>WindowsPhoneSampleProject</windowsPhoneNameValue>
+        <windowsPhoneCodeValue>WindPhonProj</windowsPhoneCodeValue>
+        <windowsPhoneDescriptionValue>This is the Windows Phone  project</windowsPhoneDescriptionValue>
+        <windowsPhoneVersionValue>1.0.0</windowsPhoneVersionValue>        
+        <technologyWindowsPhoneValue>Windows Phone</technologyWindowsPhoneValue>
+        <technologyWindowsPhoneVersionValue>7.x</technologyWindowsPhoneVersionValue>
+        
+       	<windowsPhoneCheckBoxXpath>//a[text()='WindowsPhoneSampleProject']/preceding-sibling::input</windowsPhoneCheckBoxXpath>
+      	<windowsPhoneEditApplicationLinkXpath>//a[contains(text(),'WindowsPhoneSampleProject-windowsphone')]</windowsPhoneEditApplicationLinkXpath>
+ 		
+</phresco>             
+</environment>

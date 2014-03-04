@@ -1,0 +1,32 @@
+1.Group1 is included in GroupingDiffTestsuitepathOne.xml.
+Both Group1 and Group2 are included in both GroupingDiffTestsuitepathTwo.xml and GroupingDiffTestsuitepathThree.xml
+
+Result:	Each group is run in each of the three XML's
+	i.e. Both Group1  and Group two is run in GroupingDiffTestsuitepathTwo.xml
+	     Both Group1  and Group two is run in GroupingDiffTestsuitepathThree.xml
+	     Group1 is run in GroupingDiffTestsuitepathOne.xml
+
+
+2.Both Group1and Group2 is included in GroupingDiffTestsuitepathOne.xml.
+Only Group1 is included in both GroupingDiffTestsuitepathTwo.xml and GroupingDiffTestsuitepathThree.xml
+
+Result: Each group is run in each of the three XML's
+	i.e. Group1 is run in GroupingDiffTestsuitepathTwo.xml
+	     Group1 is run in GroupingDiffTestsuitepathThree.xml
+	     Both Group1 and Group2 is run in GroupingDiffTestsuitepathOne.xml
+
+
+3.Include Group1 and exclude Group2 in GroupingDiffTestsuitepathOne.xml.
+Both Group1 and Group2 are included in both GroupingDiffTestsuitepathTwo.xml and GroupingDiffTestsuitepathThree.xml
+
+Result: Each group is run in each of the three XML's(exclude has no effect on GroupingDiffTestsuitepathTwo.xml and GroupingDiffTestsuitepathThree.xml)
+	i.e. Both Group1  and Group two is run in GroupingDiffTestsuitepathTwo.xml
+	     Both Group1  and Group two is run in GroupingDiffTestsuitepathThree.xml
+	     Group1 is run in GroupingDiffTestsuitepathOne.xml
+
+
+
+4.Remove the class tag in GroupingDiffTestsuitepathOne.xml
+
+Result: Runs only GroupingDiffTestsuitepathTwo.xml and GroupingDiffTestsuitepathThree.xml
+	Does not consider the groups mentioned in GroupingDiffTestsuitepathOne.xml

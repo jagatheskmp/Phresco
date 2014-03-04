@@ -1,0 +1,37 @@
+<uiData>
+	<loginData>12341234</loginData>
+	<searchProductText>Search Product</searchProductText>
+	<scanorKeyAisleText>Scan or Key Aisle,</scanorKeyAisleText>
+	<inputTypeText>Input Type</inputTypeText>
+	<enterPOGNumbert>Enter POG Number</enterPOGNumbert>
+	<enterKeyboardEvent>Enter</enterKeyboardEvent>
+	<!-- Data values for find search -->
+	<searchDpci>4567</searchDpci>
+	<searchPlu>1010</searchPlu>
+	<searchUpc>0007</searchUpc>
+	<searchKeyword>chocolate</searchKeyword>
+	<searchWomensCategory>Sarees</searchWomensCategory>
+	<searchMensCategory>tshirt</searchMensCategory>
+	<searchElectronicsCategory>ipad</searchElectronicsCategory>
+	<searchShoesCategory>fila</searchShoesCategory>
+	<!-- data values for label print -->
+	<itemPogNumber>2020</itemPogNumber>
+	<quantityValue>3</quantityValue>
+	<!-- data values for sign print -->
+	<singleSignDate>01/08/2013</singleSignDate>
+	<singleSignSize>7*11</singleSignSize>
+	<sigleSignSearch>2020</sigleSignSearch>
+	<multiSignDate>02/08/2013</multiSignDate>
+	<multiSignSize>4*11</multiSignSize>
+	<multiSignSearch>99999</multiSignSearch>
+	<multiSignQuantity>3</multiSignQuantity>
+	<multiSignBatchName>test</multiSignBatchName>
+	<planoSignSearch>1100</planoSignSearch>
+	<planoSignFormat>7*11 [4]</planoSignFormat>
+	<panoSignBatchName>planoTest</panoSignBatchName>
+	<rePrintDateFormat>02/08/2013</rePrintDateFormat>
+	<fillSearchData>1234</fillSearchData>
+	<dateCordinates>52X459</dateCordinates>
+	<sizeCordinates>52X559</sizeCordinates>
+	<doneCordinates>263X268</doneCordinates>
+</uiData>

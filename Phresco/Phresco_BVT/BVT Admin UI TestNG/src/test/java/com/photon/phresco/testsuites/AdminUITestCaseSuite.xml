@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="AdminUITestSuite" verbose="1" >
+   <test name="LoginPageTest" junit="false" preserve-order="false">
+    <classes>
+       <class name="com.photon.phresco.testcases.LoginPageTest"/>
+    <methods>
+       <include name="testEmptyLogin" />
+       <include name="testInvalidLogin" />
+       <include name="testValidLogin" />
+   </methods>
+     </classes>
+  </test>
+ 
+  <test name="DashboardPageTest" junit="false" preserve-order="false">>
+    <classes>
+      <class name="com.photon.phresco.testcases.DashboardPageTest"/>
+      <methods>
+      <include name="testDashboardPage" />
+     </methods>
+    </classes>
+  </test>
+  
+  <test name="ComonentsPageTest" junit="false" preserve-order="false">>
+   <classes>
+    <class name="com.photon.phresco.testcases.ComponentsPageTest"/>
+     <methods>
+      <include name="testComponentsFeaturesCreateEmptyModulesPage"/>
+      <include name="testComponentsFeaturesCreateInvalidModulesPage"/>
+      <include name="testComponentsFeaturesCreateValidModulesPage"/>
+      <include name="testComponentsFeaturesUpdateValidModulesPage"/>
+      <include name="testComponentsFeaturesCreateEmptyJSlibrariesPage"/>
+      <include name="testComponentsFeaturesCreateInvalidJSlibrariesPage"/>
+      <include name="testComponentsFeaturesCreateValidJSlibrariesPage"/>
+      <include name="testComponentsFeaturesUpdateJSlibrariesPage"/>
+      <include name="testEmptyApplicationTypePage"/>
+      <include name="testApplicationTypePage"/>
+      <include name="testUpdateApplicationTypePage"/>
+      <include name="testCreateEmptyArchetypesPage"/>
+      <include name="testCreateInvalidArchetypesPage"/>
+      <include name="testCreateWebLayerArchetypesPage"/>
+      <include name="testCreateApplicationLayerArchetypesPage"/>
+      <include name="testCreateMobileLayerArchetypesPage"/>
+    </methods>
+   </classes>
+ </test>
+  
+  
+    <test name="CustomerPageTest" junit="false" preserve-order="false">>
+    <classes>
+      <class name="com.photon.phresco.testcases.CustomerPageTest"/>
+      <methods>
+      <include name="testEmptyCreateCustomerAdminTab"/>
+      <include name="testInvalidCreateCustomerAdminTab"/>
+      <include name="testCreateCustomerAdminTab"/>
+      <include name="testUpdateCustomerAdminTab"/>
+      </methods>
+    </classes>
+  </test> 
+
+</suite>
+ 
+

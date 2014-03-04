@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+    <phresco>
+
+        <AspDotNetHelloWorldNameValue>AspDotNetHelloWorldProj</AspDotNetHelloWorldNameValue>
+        <AspDotNetHelloWorldCodeValue>AspDotHello</AspDotNetHelloWorldCodeValue>
+        <AspDotNetHelloWorldDescriptionValue>This is the AspDotNet HelloWorld project</AspDotNetHelloWorldDescriptionValue>
+        <AspDotNetHelloWorldVersionValue>1.1.1</AspDotNetHelloWorldVersionValue>        
+        <technologyAspDotNetValue>ASP.NET</technologyAspDotNetValue>
+        
+
+       <AspDotNetHelloWorldCheckBoxXpath>//a[text()='AspDotNetHelloWorldProj']/preceding-sibling::input</AspDotNetHelloWorldCheckBoxXpath>
+       <AspDotNetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AspDotNetHelloWorldProj-asp.net')]</AspDotNetHelloWorldEditApplicationLinkXpath>
+ 		
+            
+        <AspDotNetServerValue>IIS</AspDotNetServerValue>
+        <AspDotNetServerCheckBox>//td[2]/div/div/div/div/input</AspDotNetServerCheckBox>
+        
+        <AspDotNetServerName>SeverConfiguration</AspDotNetServerName>
+        <AspDotNetServerDiscription>Asp DotNet Server configuration</AspDotNetServerDiscription>
+        <AspDotNetServerEnvironment>Production</AspDotNetServerEnvironment>
+        <AspDotNetServerType>Server</AspDotNetServerType>
+        <AspDotNetServerProtocol>http</AspDotNetServerProtocol>
+        <AspDotNetServerHost>localhost</AspDotNetServerHost>
+        <AspDotNetServerPort>8090</AspDotNetServerPort>
+     
+        <AspDotNetServerDeployDir>C:\inetpub\wwwroot</AspDotNetServerDeployDir>
+        <AspDotNetServerSiteName>SampleAspDotSite</AspDotNetServerSiteName>
+        <AspDotNetServerAppName>SampleAspDotApp</AspDotNetServerAppName>
+        </phresco>
+
+</environment>

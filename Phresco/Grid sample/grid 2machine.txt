@@ -1,0 +1,4 @@
+java -Dwebdriver.chrome.driver=D:\Grid\chromedriver.exe -jar selenium-server-standalone.jar -role node -nodeConfig nodeconfig.json
+
+
+Start another node with googlechrome in the second machine. java -Dwebdriver.chrome.driver=D:\Selenium\chromedriver.exe -jar selenium-server-standalone-2.21.0.jar -role node -hub http://10.196.255.100:4444/grid/register -port 5556 -browser browserName=chrome   (First machine’s IP address should be added in the URL)

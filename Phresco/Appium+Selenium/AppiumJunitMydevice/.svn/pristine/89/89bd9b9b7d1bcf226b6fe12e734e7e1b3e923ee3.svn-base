@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ListenerTest" parallel="false">
+
+	<test name="ListenerTest" preserve-order="true">
+		<classes>
+			<class name="com.photon.phresco.Listener.WindowsTest" />
+			<class name="com.photon.phresco.Listener.MacTest" />
+			<class name="com.photon.phresco.Listener.LinuxTest" />
+
+		</classes>
+	</test> <!-- RandomTest -->
+
+
+
+</suite> <!-- Random -->
+

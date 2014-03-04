@@ -1,0 +1,14 @@
+ name: PartialGrouping
+threadCount: 5
+
+ 
+tests:
+  - name: PartialGroupingTest
+    parameters: { browser: firefox,platform:WINDOWS}
+    includedGroups: [ funcTest ]
+    classes:
+      - com.photon.phresco.testcases.PartialGroupingEshop
+ 
+
+ 	
+ 

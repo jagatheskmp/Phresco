@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		<jQueryMobWidgetHelloworldNameValue>JQueryMobileWidgHelloworldProj</jQueryMobWidgetHelloworldNameValue>
+        <jQueryMobWidgetHelloworldCodeValue>JQMobWiHello</jQueryMobWidgetHelloworldCodeValue>
+        <jQueryMobWidgetHelloworldDescriptionValue>This is JQueryMobileWidgetHelloworld Project</jQueryMobWidgetHelloworldDescriptionValue>
+        <jQueryMobWidgetHelloworldVersionValue>1.0.0</jQueryMobWidgetHelloworldVersionValue> 
+		<jqueryconfigServContextValueHelloWorld>JqueryMobileWidgetHelloworld</jqueryconfigServContextValueHelloWorld>
+        
+        <jQueryMobWidgetHelloWorldCheckBoxXpath>//a[text()='JQueryMobileWidgHelloworldProj']/preceding-sibling::input</jQueryMobWidgetHelloWorldCheckBoxXpath>
+        <jQueryMobWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JQueryMobileWidgHelloworldProj-html5jquerymobilewidget')]</jQueryMobWidgetHelloWorldEditApplicationLinkXpath>
+       	
+       	<appInfoJQueryMobWidgetServerValue>Apache Tomcat</appInfoJQueryMobWidgetServerValue>   
+	   	<jQueryMobWidgetHelloworldTomacatServerVersionValue>//td[2]/div/div/div/div/input</jQueryMobWidgetHelloworldTomacatServerVersionValue>
+        
+        <jQueryMobWidgetEshopNameValue>JQueryMobileWidEshopProj</jQueryMobWidgetEshopNameValue>
+        <jQueryMobWidgetEshopCodeValue>JQMobWiEshop</jQueryMobWidgetEshopCodeValue>
+        <jQueryMobWidgetEshopDescriptionValue>This is JQueryMobileWidgetEshop Project</jQueryMobWidgetEshopDescriptionValue>
+        <jQueryMobWidgetEshopVersionValue>1.0.0</jQueryMobWidgetEshopVersionValue> 
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<jQueryMobWidgetValue>HTML5 JQuery Mobile Widget</jQueryMobWidgetValue>
+		<jQueryMobWidgetVersionValue>1.5</jQueryMobWidgetVersionValue>
+		
+		<jQueryMobWidgetEshopCheckBoxXpath>//a[text()='JQueryMobileWidEshopProj']/preceding-sibling::input</jQueryMobWidgetEshopCheckBoxXpath>
+        <jQueryMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'JQueryMobileWidEshopProj-html5jquerymobilewidget')]</jQueryMobWidgetEshopEditApplicationLinkXpath>
+       		
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+      	        	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+        
+        <jqueryconfigServContextValueEshop>JQueryMobileWidgetEshop</jqueryconfigServContextValueEshop>
+     
+      	<configWebServiceNameValue>WebService</configWebServiceNameValue>
+     	<configWebserviceDesc>WebService configuration for JQueryMobileWidget project</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>2020</configWebservicePortValue> 
+     	
+     	<jqueryconfigWebserviceContextEshopValue>eshop</jqueryconfigWebserviceContextEshopValue>
+	
+	
+		
+</phresco>
+</environment>

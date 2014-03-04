@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.24.1.jar -role webdriver -hub http://localhost:4444/grid/register -browser browserName=firefox,platform=WINDOWS -port 5555

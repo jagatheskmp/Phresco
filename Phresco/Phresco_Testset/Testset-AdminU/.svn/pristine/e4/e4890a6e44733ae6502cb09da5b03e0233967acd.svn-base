@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DownloadsTestSuite" verbose="1">
+	<test name="DownloadsPageTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.testcases.DownloadsPageTest" />
+			<methods>
+				<include name="testValidLogin" />
+				<include name="testDrupal6ComponentsAddValidDownloadPage" />
+				<include name="testComponentsAddValidDownloadPage" />
+				<include name="testDrupal7ComponentsAddValidDownloadPage" />
+				<include name="testAddDownloadFileForSever"/>
+				<include name="testAddDownloadFileForDataBase"/>
+				<include name="testAddDownloadFileForEditor"/>
+				<include name="testAddDownloadFileForTools"/>
+				<include name="testAddDownloadFileForOthers"/>
+				<include name="testMandatoryFieldValidationDownloads"/>
+				</methods>
+		</classes>
+	</test>
+</suite>
+			
+			

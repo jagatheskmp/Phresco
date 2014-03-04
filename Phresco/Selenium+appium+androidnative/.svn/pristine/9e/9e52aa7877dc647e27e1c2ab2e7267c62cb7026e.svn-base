@@ -1,0 +1,49 @@
+<identifiers>
+    <!-- Login Identifiers -->
+	<login type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</login>
+	<go type="xpath">//window[1]/scrollview[1]/webview[1]/button[1]</go>
+	<!-- Menu button and menu List Identifiers -->
+	<menubutton type="xpath">//window[1]/scrollview[1]/webview[1]/image[1]</menubutton>
+	<find type="name">Find</find>
+	<labelprint type="name">Label Print</labelprint>
+	<signprint type="name">Sign Print</signprint>
+	<fill type="name">Fill</fill>
+	<!-- Find Search Identifiers-->
+	<findSearch type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</findSearch>
+	<findSearchIcon type="xpath">//window[1]/scrollview[1]/webview[1]/image[3]</findSearchIcon>
+	<findSearchWomensCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[14]</findSearchWomensCategory>
+	<findSearchMensCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[22]</findSearchMensCategory>
+	<findSearchElectronicsCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[20]</findSearchElectronicsCategory>
+	<findSearchShoesCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[18]</findSearchShoesCategory>
+	<categoryDiscription type="xpath"> //window[1]/scrollview[1]/webview[1]/text[14]</categoryDiscription>
+	<categoryViewAll type="xpath">//window[1]/scrollview[1]/webview[1]/link[1]</categoryViewAll>
+	<categoryViewCancel type="name">Store Info</categoryViewCancel>
+	<!-- Label Print Identifiers -->
+	<itemPogNumber type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</itemPogNumber>
+    <itemPrintTitle type="name">Print Generic Label</itemPrintTitle>
+    <itemQuantity type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</itemQuantity>
+    <genericLabel type="name">Generic Label</genericLabel>
+    <!-- Sign Print Identifiers -->
+    <singleItem type=""></singleItem>
+    <multiItemSign type=""></multiItemSign>
+    <planoGram type=""></planoGram>
+    <reprintExistingSign type=""></reprintExistingSign>
+    <signDate type=""></signDate>
+    <signSize type=""></signSize>
+    <signNext type=""></signNext>
+    <signSearch type=""></signSearch>
+    <multiSignDate type=""></multiSignDate>
+    <multiSignSize type=""></multiSignSize>
+    <multiSignNext type=""></multiSignNext>
+    <multiSignQuantity type=""></multiSignQuantity>
+    <batchNameButton type=""></batchNameButton>
+    <batchNameField type=""></batchNameField>
+    <planoGramSearch type=""></planoGramSearch>
+    <planoGramSign type=""></planoGramSign>
+    <rePrintDate type=""></rePrintDate>
+    <!-- Label Print Identifiers -->
+    <fillMenuSearch type=""></fillMenuSearch>
+    <fillMenuContinue type=""></fillMenuContinue>
+	 <!-- Logout Identifiers -->
+	<logout type="name">Logout</logout>
+</identifiers>

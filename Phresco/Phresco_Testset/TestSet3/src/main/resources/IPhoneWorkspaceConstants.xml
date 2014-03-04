@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<iPhoneWorkspaceNameValue>iPhoneWorkspaceSampleProj</iPhoneWorkspaceNameValue>
+        <iPhoneWorkspaceCodeValue>iPhoneWork</iPhoneWorkspaceCodeValue>
+        <iPhoneWorkspaceDescriptionValue>This is the iPhone Workspace  project</iPhoneWorkspaceDescriptionValue>
+        <iPhoneWorkspaceVersionValue>1.0.0</iPhoneWorkspaceVersionValue>        
+        <technologyiPhoneWorkspaceValue>Iphone Workspace</technologyiPhoneWorkspaceValue>
+        <technologyiPhoneWorkspaceVersionValue>2.2</technologyiPhoneWorkspaceVersionValue>
+        
+       	<iPhoneWorkspaceCheckBoxXpath>//a[text()='iPhoneWorkspaceSampleProj']/preceding-sibling::input</iPhoneWorkspaceCheckBoxXpath>
+      	<iPhoneWorkspaceEditApplicationLinkXpath>//a[contains(text(),'iPhoneWorkspaceSampleProj-iphone')]</iPhoneWorkspaceEditApplicationLinkXpath>
+ 		
+      
+</phresco>             
+</environment>

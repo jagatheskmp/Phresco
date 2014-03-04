@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+    PHR_HTML5YUIWidget
+
+    Copyright (C) 1999-2013 Photon Infotech Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<jquerymobilewidgets>
+
+      <mobilewidget>               
+	           <billInfoEmailValue>Phresco@photoninfotech.net</billInfoEmailValue>
+	           <billInfoFirstNameValue>John</billInfoFirstNameValue>
+	           <billInfoLastNameValue>David</billInfoLastNameValue>
+	           <billInfoCompanyValue>Photon</billInfoCompanyValue>
+	           <billInfoAddress1Value>200 E MAIN ST PHOENIX AZ</billInfoAddress1Value>
+	           <billInfoAddress2Value>421 E DRACHMAN TUCSON AZ</billInfoAddress2Value>
+	           <billInfoCityValue>SEATTLE WA</billInfoCityValue>
+	           <billInfoStateValue>Boston</billInfoStateValue>
+	           <billInfoPostCodeValue>10019</billInfoPostCodeValue>
+	           <billInfoPhoneNumberValue>+1 212-398-2449</billInfoPhoneNumberValue>
+	           <billInfoCommentsValue>First order</billInfoCommentsValue>			   
+      </mobilewidget>
+      
+       <mobilewidget>               
+	           <billInfoEmailValue>Photon@photoninfotech.net</billInfoEmailValue>
+	           <billInfoFirstNameValue>David</billInfoFirstNameValue>
+	           <billInfoLastNameValue>John</billInfoLastNameValue>
+	           <billInfoCompanyValue>Photon</billInfoCompanyValue>
+	           <billInfoAddress1Value>200 E MAIN ST PHOENIX AZ</billInfoAddress1Value>
+	           <billInfoAddress2Value>421 E DRACHMAN TUCSON AZ</billInfoAddress2Value>
+	           <billInfoCityValue>SEATTLE WA</billInfoCityValue>
+	           <billInfoStateValue>Boston</billInfoStateValue>
+	           <billInfoPostCodeValue>20019</billInfoPostCodeValue>
+	           <billInfoPhoneNumberValue>+1 212-398-2449</billInfoPhoneNumberValue>
+	           <billInfoCommentsValue>second order</billInfoCommentsValue>			   
+      </mobilewidget>
+     
+      
+
+</jquerymobilewidgets>

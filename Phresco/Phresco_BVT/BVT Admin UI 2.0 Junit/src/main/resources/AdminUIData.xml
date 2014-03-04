@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+    
+   <invalidLoginUsername>jagathes</invalidLoginUsername>
+ <invalidLoginPassword>jjjj</invalidLoginPassword>
+ 
+ <emptyErrorMsgLogin>Username or password is empty</emptyErrorMsgLogin>
+ 
+ 
+<CreateModuleNameValue>Common-net</CreateModuleNameValue>
+<createModuleDescriptionValue>This is the Common-net Description</createModuleDescriptionValue>
+<createModuleHelpTextValue>This is the Help text</createModuleHelpTextValue>
+<createModuleTechnologyValue>PHP</createModuleTechnologyValue>
+<createModuleModuleTypeValue>Custom Module</createModuleModuleTypeValue>
+ 
+
+<updateModuleNameValue>ddd</updateModuleNameValue>
+<updateModuleDescriptionValue>sasa</updateModuleDescriptionValue>
+<updateModuleHelpTextValue>sjjb</updateModuleHelpTextValue>
+    
+
+
+<emptyCreateModuleNameMsg>Name is missing</emptyCreateModuleNameMsg>
+<emptyCreateModuleUploadFileMsg>File is missing</emptyCreateModuleUploadFileMsg>
+
+<invalidCreateModuleUploadFileValue></invalidCreateModuleUploadFileValue>
+
+<invalidCreateModuleUploadFileMsg>Choose only jar or zip file</invalidCreateModuleUploadFileMsg>
+
+
+
+
+
+<emptyCreateJSlibrariesNameMsg>Name is missing</emptyCreateJSlibrariesNameMsg>
+<emptyCreateJSlibrariesUploadFileMsg>File is missing</emptyCreateJSlibrariesUploadFileMsg>
+
+<invalidCreateJSlibrariesUploadFileMsg>Choose only jar or zip file </invalidCreateJSlibrariesUploadFileMsg>
+/*Update Components Features Modules Value*/
+<editModuleDescriptionValue>This EDIT  is the Common-net Description</editModuleDescriptionValue>
+
+ /*Create Components Features JSlibraries Value*/
+<createJSlibrariesNameValue>Common-net</createJSlibrariesNameValue>
+<createJSlibrariesDescriptionValue>This is the Common-net Description</createJSlibrariesDescriptionValue>
+<createJSlibrariesHelpTextValue>This is the Help text</createJSlibrariesHelpTextValue>
+<createJSlibrariesTechnologyPHP>PHP</createJSlibrariesTechnologyPHP>
+
+
+ /*Update Components Features JSlibraries Value*/
+<updateFeatureJSlibrariesNameValue>DSFDSF</updateFeatureJSlibrariesNameValue>
+<updateFeatureJSlibrariesDescriptionValue>ASDSD</updateFeatureJSlibrariesDescriptionValue>
+<updateFeatureJSlibrariesHelpTextValue>ASDSDSDSDASD</updateFeatureJSlibrariesHelpTextValue>
+
+
+ 
+/*Create Components Application Types Value*/
+<createApplicationTypesNameValue>Application types</createApplicationTypesNameValue>
+<createApplicationTypesDescriptionValue>This is application types description</createApplicationTypesDescriptionValue>
+ 
+
+<createEmptyApplicationTypeNameErrorMsg>Name is missing</createEmptyApplicationTypeNameErrorMsg>
+
+/*Update Components Application Types Value*/
+<updateApplicationTypesDescriptionValue>This is the Application types description update</updateApplicationTypesDescriptionValue>
+
+/*Create Admin Customer Value*/
+<createCustomerNameValue>jagathes</createCustomerNameValue>              
+<createCustomerDescriptionValue>This the jagathes</createCustomerDescriptionValue>
+<createCustomerEmailValue>jagathesfff</createCustomerEmailValue>
+<createCustomerAddressValue>jjjjjjjjj</createCustomerAddressValue>
+<createCustomerCountryValue>India</createCustomerCountryValue>
+<createCustomerStateValue>TamilNadu</createCustomerStateValue>
+<createCustomerZipcodeValue>4556666</createCustomerZipcodeValue>
+<createCustomerContactNumberValue>9751055807</createCustomerContactNumberValue>
+<createCustomerFaxValue>456977445</createCustomerFaxValue>
+<createCustomerHelpTextValue>44646464</createCustomerHelpTextValue>
+<createCustomerLicenceTypeValue>TYPE_SILVER</createCustomerLicenceTypeValue>
+
+
+<errorCustomerNameMsg>Name is missing</errorCustomerNameMsg>
+<errorCustomerEmailMsg>Email is missing</errorCustomerEmailMsg>
+<errorCustomerAddressMsg>Address is missing</errorCustomerAddressMsg>
+<errorCustomerCountryMsg>Select country</errorCustomerCountryMsg>
+<errorCustomerZipcodeMsg>Zipcode is missing</errorCustomerZipcodeMsg>
+<errorCustomerContactNumberMsg>Contact number is missing</errorCustomerContactNumberMsg>
+<errorCustomerFaxNumberMsg>Fax number is missing</errorCustomerFaxNumberMsg>
+<errorCustomerLicenceTypeMsg>Select licence type</errorCustomerLicenceTypeMsg>
+
+
+<invalidCreateCustomerNameValue>JJJJJJJJJJJJJHVVVVVVVVVVVVVVVVVVV</invalidCreateCustomerNameValue>         
+<invalidCreateCustomerDescriptionValue>klndfkldfdafieeipwipjiieee2451</invalidCreateCustomerDescriptionValue>
+<invalidCreateCustomerEmailValue>dfjkbafikbdfkbddkjspsdpwdsodisodosdsdosds</invalidCreateCustomerEmailValue>
+<invalidCreateCustomerAddressValue>fbudfdfoadiofiodfodfck mmkllkklnzXCC8u</invalidCreateCustomerAddressValue>
+<invalidCreateCustomerCountryValue>India</invalidCreateCustomerCountryValue>
+<invalidCreateCustomerStateValue>799999999999</invalidCreateCustomerStateValue>
+<invalidCreateCustomerZipcodeValue>4666666666666664464</invalidCreateCustomerZipcodeValue>
+<invalidCreateCustomerContactNumberValue>444444444444444444446</invalidCreateCustomerContactNumberValue>
+<invalidCreateCustomerFaxValue>456789999999999999999999</invalidCreateCustomerFaxValue>
+<invalidCreateCustomerHelpTextValue>hgkgkgk</invalidCreateCustomerHelpTextValue>
+<invalidCreateCustomerLicenceTypeValue>TYPE_SILVER</invalidCreateCustomerLicenceTypeValue>
+ 
+<invalidCreateCustomerEmailMsg>Enter Valid Email</invalidCreateCustomerEmailMsg>
+
+
+
+<updateCustomerNameValue>jjjjjjs</updateCustomerNameValue>
+<updateCustomerDescriptionValue>hiiiiiiiiiii</updateCustomerDescriptionValue>
+<updateCustomerEmailValue>assssssssss</updateCustomerEmailValue>
+<updateCustomerAddressValue>asdd</updateCustomerAddressValue>
+<updateCustomerHelpTextValue>JHHHHK</updateCustomerHelpTextValue>
+
+
+
+<createWebLayerArchetypeNameValue>weblayer</createWebLayerArchetypeNameValue>
+<createWebLayerArchetypeDescriptionValue>webb</createWebLayerArchetypeDescriptionValue>
+<createWebLayerArchetypeTechnologyVersionValue>tech</createWebLayerArchetypeTechnologyVersionValue>
+<createWebLayerArchetypeVersionCommentValue>version</createWebLayerArchetypeVersionCommentValue>
+<createWebLayerArchetypeApplicationTypeValue>Web Layer</createWebLayerArchetypeApplicationTypeValue>
+
+<createApplicationLayerArchetypeNameValue>Application layer</createApplicationLayerArchetypeNameValue>
+<createApplicationLayerArchetypeDescriptionValue>descapp</createApplicationLayerArchetypeDescriptionValue>
+<createApplicationLayerArchetypeTechnologyVersionValue>versionapp</createApplicationLayerArchetypeTechnologyVersionValue>
+<createApplicationLayerArchetypeVersionCommentValue>vcCmm</createApplicationLayerArchetypeVersionCommentValue>
+<createApplicationLayerArchetypeApplicationTypeValue>Application Layer</createApplicationLayerArchetypeApplicationTypeValue>
+
+<createMobileLayerArchetypeNameValue>Mobile Layer</createMobileLayerArchetypeNameValue>
+<createMobileLayerArchetypeDescriptionValue>Mldesc</createMobileLayerArchetypeDescriptionValue>
+<createMobileLayerArchetypeTechnologyVersionValue>Mlversion</createMobileLayerArchetypeTechnologyVersionValue>
+<createMobileLayerArchetypeVersionCommentValue>MlComment</createMobileLayerArchetypeVersionCommentValue>
+<createMobileLayerArchetypeApplicationTypeValue>MobileLayer</createMobileLayerArchetypeApplicationTypeValue>
+
+
+<createEmptyArchetypeNameErrorMsg>Name is missing</createEmptyArchetypeNameErrorMsg>
+<createEmptyArchetypeTechnologyVersionErrorMsg>Technology version is missing</createEmptyArchetypeTechnologyVersionErrorMsg>
+<createEmptyArchetypeJarErrorMsg>Archetype Jar is missing</createEmptyArchetypeJarErrorMsg> 
+<createEmptyArchetypeFeatureErrorMsg>Select atleast one feature</createEmptyArchetypeFeatureErrorMsg>
+</phresco>
+</environment>

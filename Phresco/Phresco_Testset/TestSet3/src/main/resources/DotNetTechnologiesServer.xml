@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+    <phresco>
+
+        <serverName>Server</serverName>
+        <serverDescription>Asp DotNet Server</serverDescription>
+        <serverType>Server</serverType>
+        <serverHost>localhost</serverHost>
+        <serverPort>8090</serverPort>
+        <serverSelectType>IIS</serverSelectType>
+        <serverVersion>7.5</serverVersion>
+        <deployDirectiory>C:\</deployDirectiory>
+        <serverContext>/phrescohelloworld/home.aspx</serverContext>
+        
+        <sharePointServerDesc>SharePoint Sample</sharePointServerDesc>
+        <sharePointServerContext>/Page/Default.aspx</sharePointServerContext>
+        <sharepointNonePort></sharepointNonePort>
+        <sharepointHost></sharepointHost>
+        <sharepointEshopPort></sharepointEshopPort>
+        
+       	
+        </phresco>
+
+</environment>

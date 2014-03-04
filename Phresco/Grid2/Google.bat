@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="D:\chromedriver_win_19.0.1068.0" -jar selenium-server-standalone-2.24.1.jar -role webdriver -hub http://localhost:4444/grid/register -browser browserName=chrome,maxInstances=5,port=5555

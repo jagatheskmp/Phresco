@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<androidHybridHelloWorldNameValue>AndroidHybridHelloWorldPrj</androidHybridHelloWorldNameValue>
+        <androidHybridHelloWorldDescriptionValue>This is AndroidHybridHelloWorld Project</androidHybridHelloWorldDescriptionValue>
+		<androidHybridEshopNameValue>AndroidHybridEshopProj</androidHybridEshopNameValue>
+        <androidHybridEshopDescriptionValue>This is AndroidHybridEshop Project</androidHybridEshopDescriptionValue>
+        <androidHybridHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AndroidHybridHelloWorldPrj-androidhybrid')]</androidHybridHelloWorldEditApplicationLinkXpath>
+		<androidHybridEshopEditApplicationLinkXpath>//a[contains(text(),'AndroidHybridEshopProj-androidhybrid')]</androidHybridEshopEditApplicationLinkXpath>
+        <pilotProjectEshopValue>EShop</pilotProjectEshopValue> 
+		<emulatorValue>Emulator</emulatorValue>
+		<androidHybridValue>Android Hybrid</androidHybridValue>
+       	<androidHybridConfigServNameValue>Native_Server</androidHybridConfigServNameValue>
+      	<androidHybridConfigservDescValue>Server configuration</androidHybridConfigservDescValue>
+      	<androidHybridconfigServEnvValue>Production</androidHybridconfigServEnvValue>
+      	<androidHybridconfigServValue>Server</androidHybridconfigServValue>      	
+      	<androidHybridconfigServProtocolValue>http</androidHybridconfigServProtocolValue>
+      	<androidHybridconfigServHostValue>172.16.17.180</androidHybridconfigServHostValue>
+     	<androidHybridconfigServPortValue>8080</androidHybridconfigServPortValue>
+        <androidHybridconfigServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</androidHybridconfigServDeployDirectoryValue>
+        <androidHybridconfigServContextValueEshop>mobilewidget</androidHybridconfigServContextValueEshop>
+        <sdkValue>4.1.2</sdkValue>
+        <functionalFramework>Robotium</functionalFramework>
+	</phresco>
+</environment>
+
+

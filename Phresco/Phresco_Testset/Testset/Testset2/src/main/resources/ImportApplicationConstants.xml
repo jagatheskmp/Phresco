@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<environment>
+<phresco>
+				<svn>svn</svn>
+				<github>git</github>				
+				<username>jagatheswaran_s</username>
+				<password>Jagathes1309</password>				
+				<svnURL>https://insight.photoninfotech.com/svn/repos/phresco-svn-projects/ci/2.2.0.3000/Windows/drupal7none-drupal7/</svnURL>
+				<svnRevision>965</svnRevision>
+				
+				
+				<otherUsername>nikhilkumar_a</otherUsername>
+				<otherPassword>Nikhil@E3218</otherPassword>
+				<gitUrl></gitUrl>
+				<importCancelButton>//div[3]/input</importCancelButton>
+				
+			
+</phresco>
+</environment>

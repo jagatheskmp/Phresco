@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <drupal6HelloWorldNameValue>Drupal6SampleHelloWorldProj</drupal6HelloWorldNameValue>
+        <drupal6HelloWorldDescriptionValue>This is the  HelloWorld project</drupal6HelloWorldDescriptionValue>
+        <technologyDrupal6Value>Drupal6</technologyDrupal6Value>
+ 		<drupal6HelloWorldEditApplicationLinkXpath>//a[contains(text(),'Drupal6SampleHelloWorldProj-')]</drupal6HelloWorldEditApplicationLinkXpath>
+ 		<drupal6ServerValue>Apache Server</drupal6ServerValue>
+        <drupal6DatabaseValue>MYSQL</drupal6DatabaseValue>
+        <drupal6ConfigurationServerNameValue>Server</drupal6ConfigurationServerNameValue>
+        <drupal6ConfigurationServerDescriptionValue>This is Server Configuration</drupal6ConfigurationServerDescriptionValue>
+        <drupal6ConfigurationServerEnvironmentValue>Production</drupal6ConfigurationServerEnvironmentValue>
+        <drupal6ConfigurationServerTypeValue>Server</drupal6ConfigurationServerTypeValue>
+        <drupal6ConfigurationServerProtocolHttpValue>http</drupal6ConfigurationServerProtocolHttpValue>
+        <drupal6ConfigurationServerProtocolHttpsValue>https</drupal6ConfigurationServerProtocolHttpsValue>
+        <drupal6ConfigurationServerHostValue>localhost</drupal6ConfigurationServerHostValue>
+        <drupal6ConfigurationServerPortValue>80</drupal6ConfigurationServerPortValue>
+        <drupal6ConfigurationServerDeployDirectoryValue>C:\wamp\www</drupal6ConfigurationServerDeployDirectoryValue>
+        <drupal6ConfigurationServerContextValueHelloWorld>Drupal6HelloWorld</drupal6ConfigurationServerContextValueHelloWorld>
+        <drupal6ConfigurationDatabaseNameValue>Database</drupal6ConfigurationDatabaseNameValue>
+        <drupal6ConfigurationDatabaseDescriptionValue>This is Database Configuration</drupal6ConfigurationDatabaseDescriptionValue>
+        <drupal6ConfigurationDatabaseEnvironmentValue>Production</drupal6ConfigurationDatabaseEnvironmentValue>
+        <drupal6ConfigurationDatabaseTypeValue>Database</drupal6ConfigurationDatabaseTypeValue>
+        <drupal6ConfigurationDatabaseHostValue>localhost</drupal6ConfigurationDatabaseHostValue>
+        <drupal6ConfigurationDatabasePortValue>3306</drupal6ConfigurationDatabasePortValue>
+        <drupal6ConfigurationDatabaseDBUsernameValue>root</drupal6ConfigurationDatabaseDBUsernameValue>
+        <drupal6ConfigurationDatabaseDBNameValueHelloWorld>testDrupal6HelloWorldProjectDatabase</drupal6ConfigurationDatabaseDBNameValueHelloWorld>
+         <functionalFramework>Grid</functionalFramework>
+    </phresco>
+</environment>

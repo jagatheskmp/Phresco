@@ -1,0 +1,6 @@
+<aspectj>
+<aspects>
+<aspect name="com.bestbuy.search.merchandising.common.ModelValidatorAspect"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,14 @@
+<testsuites>
+	<baseinfo>
+		<huburl>http://localhost:4444/wd/hub/</huburl>
+		<appurl>http://172.16.22.28:3030/jquerymobileshop</appurl>
+	</baseinfo>
+	<testsuite name="eshop">
+		<browser>Firefox</browser>
+		<platform>mac</platform>
+		<testcase name="audio device">
+			<step action="Click" name="Browse Button" xpath="//img[@src='images/eshop/browse_icon.png']" />
+			<step action="Click" name="audio device icon" xpath="//a/span[contains(text(),'Audio Devices')]" />
+		</testcase>
+	</testsuite>
+</testsuites>

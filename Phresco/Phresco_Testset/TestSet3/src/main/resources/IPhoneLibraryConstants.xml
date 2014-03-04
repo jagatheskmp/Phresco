@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<iPhoneLibraryNameValue>iPhoneLibrarySampleProj</iPhoneLibraryNameValue>
+        <iPhoneLibraryCodeValue>iPhonLib</iPhoneLibraryCodeValue>
+        <iPhoneLibraryDescriptionValue>This is the iPhone Library  project</iPhoneLibraryDescriptionValue>
+        <iPhoneLibraryVersionValue>1.0.0</iPhoneLibraryVersionValue>        
+        <technologyiPhoneLibraryValue>Iphone Library</technologyiPhoneLibraryValue>
+        <technologyiPhoneLibraryVersionValue></technologyiPhoneLibraryVersionValue>
+        
+       	<iPhoneLibraryCheckBoxXpath>//a[text()='iPhoneLibrarySampleProj']/preceding-sibling::input</iPhoneLibraryCheckBoxXpath>
+      	<iPhoneLibraryEditApplicationLinkXpath>//a[contains(text(),'iPhoneLibrarySampleProj-iphone')]</iPhoneLibraryEditApplicationLinkXpath>
+ 		
+             
+</phresco>
+</environment>

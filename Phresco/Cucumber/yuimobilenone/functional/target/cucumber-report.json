@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hello-world",
+    "description": "As it is a Hello World project\r\nI want the browser to display Hello World",
+    "name": "Hello World",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "hello-world;hello-world-should-be-displayed",
+        "description": "",
+        "name": "Hello World should be displayed",
+        "keyword": "Scenario",
+        "line": 5,
+        "steps": [
+          {
+            "name": "the user is on the widgets page",
+            "keyword": "Given ",
+            "line": 6
+          },
+          {
+            "result": {
+              "duration": 181092289,
+              "status": "failed",
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:48)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:20)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:27)\r\n\tat com.photon.phresco.Screens.BaseScreen.isTextPresent(BaseScreen.java:207)\r\n\tat com.photon.phresco.testcases.HelloWorldTestCase.thePageTitleReturned(HelloWorldTestCase.java:61)\r\n\tat ?.Then the page title returned should be \"Hello World\"(com\\photon\\phresco\\testcases\\helloworld.feature:8)\r\n"
+            },
+            "name": "the page title returned should be \"Hello World\"",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 35
+                }
+              ],
+              "location": "HelloWorldTestCase.thePageTitleReturned(String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com\\photon\\phresco\\testcases\\helloworld.feature"
+  }
+]

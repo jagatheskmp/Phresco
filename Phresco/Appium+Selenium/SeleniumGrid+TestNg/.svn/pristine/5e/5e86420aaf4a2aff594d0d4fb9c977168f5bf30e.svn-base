@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="PackageTest" parellel="tests" verbose="1">
+	<parameter name="platform" value="WINDOWS" />
+	<parameter name="browser" value="firefox" />
+	<test name="packageTest">
+		<packages>
+			<package name="PackageTest" />
+		</packages>
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

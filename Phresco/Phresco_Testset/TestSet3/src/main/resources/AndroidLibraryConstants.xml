@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<androidLibraryNameValue>AndroidLibrarySampleProj</androidLibraryNameValue>
+        <androidLibraryCodeValue>AndrLibProj</androidLibraryCodeValue>
+        <androidLibraryDescriptionValue>This is the Android Library sample project</androidLibraryDescriptionValue>
+        <androidLibraryVersionValue>1.0.0</androidLibraryVersionValue>        
+        <technologyAndroidLibraryValue>Android Library</technologyAndroidLibraryValue>
+        <technologyAndroidLibraryVersionValue>2.3.3</technologyAndroidLibraryVersionValue>
+        
+       	<androidLibraryCheckBoxXpath>//a[text()='AndroidLibrarySampleProj']/preceding-sibling::input</androidLibraryCheckBoxXpath>
+      	<androidLibraryEditApplicationLinkXpath>//a[contains(text(),'AndroidLibrarySampleProj-androidlibrary')]</androidLibraryEditApplicationLinkXpath>
+ 		
+</phresco>
+</environment>

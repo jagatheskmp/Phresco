@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		<androidNativeEshopNameValue>AndroidNativeEshopProj</androidNativeEshopNameValue>
+        <androidNativeEshopCodeValue>AndNaEshop</androidNativeEshopCodeValue>
+        <androidNativeEshopDescriptionValue>This is AndroidNativeEshop Project</androidNativeEshopDescriptionValue>
+        <androidNativeEshopVersionValue>1.0.0</androidNativeEshopVersionValue> 
+		<androidNativeValue>Android Native</androidNativeValue>
+		<androidNativeVersionValue>2.3.3</androidNativeVersionValue>
+		
+		
+		
+		<androidNativeEshopCheckBoxXpath>//a[text()='AndroidNativeEshopProj']/preceding-sibling::input</androidNativeEshopCheckBoxXpath>
+        <androidNativeEshopEditApplicationLinkXpath>//a[contains(text(),'AndroidNativeEshopProj-androidnative')]</androidNativeEshopEditApplicationLinkXpath>
+       
+		
+  	  	<pilotProjectEshopValue>EShop</pilotProjectEshopValue>    
+       
+       
+      	<androidNativeConfigWebServiceNameValue>Native_Eshop</androidNativeConfigWebServiceNameValue>
+     	<androidNativeConfigWebserviceDesc>WebService configuration for Android Native Eshop project</androidNativeConfigWebserviceDesc>
+     	<androidNativeHelloWorldConfigWebserviceDesc>WebService configuration for Android Native HelloWorld project</androidNativeHelloWorldConfigWebserviceDesc>
+      	<androidNativeconfigWebserviceEnvValue>Production</androidNativeconfigWebserviceEnvValue>
+      	<androidNativeconfigWebserviceValue>WebService</androidNativeconfigWebserviceValue>      	
+      	<androidNativeconfigWebserviceProtocolValue>http</androidNativeconfigWebserviceProtocolValue>
+      	<androidNativeconfigWebserviceHostValue>172.16.17.180</androidNativeconfigWebserviceHostValue>
+      	<androidNativeconfigWebservicePortValue>2020</androidNativeconfigWebservicePortValue>      	
+      	<androidNativeconfigWebserviceUsernameValue>admin</androidNativeconfigWebserviceUsernameValue>
+     	<androidNativeconfigWebservicepasswordValue>admin</androidNativeconfigWebservicepasswordValue>
+     	<androidNativeEshopconfigWebserviceContextEshopValue>eshop</androidNativeEshopconfigWebserviceContextEshopValue>
+     	<androidNativeHelloWorldEshopconfigWebserviceContextEshopValue>None</androidNativeHelloWorldEshopconfigWebserviceContextEshopValue>
+		
+		
+		<androidNativeHelloWorldNameValue>AndroidNativeHelloWorldProj</androidNativeHelloWorldNameValue>
+        <androidNativeHelloWorldCodeValue>AndrHello</androidNativeHelloWorldCodeValue>
+        <androidNativeHelloWorldDescriptionValue>This is androidNativeHelloWorld Project</androidNativeHelloWorldDescriptionValue>
+        <androidNativeHelloWorldVersionValue>1.0.0</androidNativeHelloWorldVersionValue> 
+	
+		
+		<androidNativeHelloWorldCheckBoxXpath>//a[text()='AndroidNativeHelloWorldProj']/preceding-sibling::input</androidNativeHelloWorldCheckBoxXpath>
+        <androidNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AndroidNativeHelloWorldProj-android')]</androidNativeHelloWorldEditApplicationLinkXpath>
+       
+		
+  		<emulatorValue>Emulator</emulatorValue>
+	
+		
+		
+
+</phresco>
+</environment>
+

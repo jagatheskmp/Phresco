@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		<javaStandaloneHelloWorldNameValue>JavaStandHelloWorld</javaStandaloneHelloWorldNameValue>
+        <javaStandaloneHelloWorldCodeValue>JavaHello</javaStandaloneHelloWorldCodeValue>
+        <javaStandaloneHelloWorldDescriptionValue>This is JavaStandalonHelloWorld Project</javaStandaloneHelloWorldDescriptionValue>
+        <javaStandaloneHelloWorldVersionValue>1.0.0</javaStandaloneHelloWorldVersionValue> 
+		<javaStandaloneHelloWorldValue>Java Standalone</javaStandaloneHelloWorldValue>
+		<javaStandaloneHelloWorldVersionValue>1.6</javaStandaloneHelloWorldVersionValue>
+		
+		
+		<javaStandaloneHelloWorldCheckBoxXpath>//a[text()='JavaStandHelloWorld']/preceding-sibling::input</javaStandaloneHelloWorldCheckBoxXpath>
+        <javaStandaloneHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JavaStandHelloWorld-javastandalone')]</javaStandaloneHelloWorldEditApplicationLinkXpath>
+       
+		
+  	  	 
+       
+	
+</phresco>
+</environment>
+
+

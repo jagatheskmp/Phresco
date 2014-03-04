@@ -1,0 +1,180 @@
+
+package com.photon.phresco.testcases;
+
+import java.awt.event.ItemListener;
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.ITest;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.photon.phresco.Screens.BaseScreen;
+import com.photon.phresco.Screens.WelcomeScreen;
+import com.photon.phresco.uiconstants.PhrescoUiConstants;
+import com.photon.phresco.uiconstants.UIConstants;
+import com.photon.phresco.uiconstants.UserInfoConstants;
+
+
+@Listeners({ com.photon.phresco.Listener.MyListener.class })
+public class ReportWithNodeIP implements ITest{
+	//public class ListenerInEshop {
+
+	private PhrescoUiConstants phrescoUiConstants;
+	private WelcomeScreen welcomeScreen;
+	private String methodName;
+	private UIConstants uiConstants;
+	private UserInfoConstants userInfoConstants;
+	private String nodeIP ;
+	
+	String ipNode;
+	
+
+	@Parameters(value = { "browser", "platform" })
+	@BeforeClass(alwaysRun=true)
+	public void setUp(String browser, String platform) throws Exception {
+		try {
+			phrescoUiConstants = new PhrescoUiConstants();
+			userInfoConstants = new UserInfoConstants();
+			uiConstants = new UIConstants();
+			String selectedBrowser = browser;
+			String selectedPlatform = platform;
+
+			methodName = Thread.currentThread().getStackTrace()[1]
+			                                                    .getMethodName();
+
+			String applicationURL = phrescoUiConstants.getProtocol() + "://"
+			+ phrescoUiConstants.getHost() + ":"
+			+ phrescoUiConstants.getPort() + "/";
+			welcomeScreen = new WelcomeScreen(selectedBrowser,
+					selectedPlatform, applicationURL,
+					phrescoUiConstants.getContext(), userInfoConstants,
+					uiConstants,  phrescoUiConstants);
+			nodeIP = welcomeScreen.getNodeIpaddress().get("nodeIP");
+
+		} catch (Exception exception) {
+			exception.printStackTrace();
+		}
+	}
+	@Test
+	public void AwithoutGroup() throws InterruptedException,
+	IOException, Exception {
+
+		
+		try {
+			System.out.println("*************withoutGroup***********************" );
+			Assert.assertNotNull(welcomeScreen);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	//@Test(dataProvider = "jqueryMobilewidgetdata", dataProviderClass = com.photon.phresco.uiconstants.TestDataProvider.class,groups = {"functest" })
+	@Test
+	public void verifyAudioDevices()
+	throws InterruptedException, IOException, 
+	Exception {
+		try {
+
+			System.out
+			.println("--------- verifyAudioDevices() -------------");
+			methodName = Thread.currentThread().getStackTrace()[1]
+			                                                    .getMethodName();
+			Thread.sleep(5000);
+			welcomeScreen.clickOnBrowse(methodName);
+			/*welcomeScreen.AudioDevices(methodName);*/
+			/*welcomeScreen.BillingInf
+			(methodName, mobilewidget);*/
+
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+
+	}
+
+	//@Test(dataProvider = "jqueryMobilewidgetdata", dataProviderClass = com.photon.phresco.uiconstants.TestDataProvider.class,groups = { "functest", "checkintest" })
+	@Test
+	public void verifyCameras()
+	throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+			.println("---------verifyCameras()-------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			/*welcomeScreen.Cameras(methodName);*/
+			/*welcomeScreen.BillingInfo(methodName, mobilewidget);*/
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	//@Test(dataProvider = "jqueryMobilewidgetdata", dataProviderClass = com.photon.phresco.uiconstants.TestDataProvider.class,groups = { "with_DataProvider" })
+	@Test 
+	public void verifyVideoGames()
+	throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+			.println("---------verifyVideoGames()-------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			/*welcomeScreen.VideoGames(methodName);
+			welcomeScreen.BillingInfo(methodName, mobilewidget);*/
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	//@Test(dataProvider = "jqueryMobilewidgetdata", dataProviderClass = com.photon.phresco.uiconstants.TestDataProvider.class,groups = { "with_DataProvider" })
+	@Test 
+	public void verifyTelevision()
+	throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+			.println("---------verifyTelevision()-------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			/*welcomeScreen.Television(methodName);
+			welcomeScreen.BillingInfo(methodName, mobilewidget);*/
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+
+	@Test 
+	public void verifyTelevisionandCamera()
+	throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+			.println("---------verifyTelevisionandCamera() -------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			/*welcomeScreen.Television(methodName);
+			welcomeScreen.BillingInfo(methodName, mobilewidget);
+*/		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+	
+	public String getTestName() {
+		// TODO Auto-generated method stub
+		return nodeIP;
+	}
+
+	@AfterTest(alwaysRun=true)
+	public void tearDown() {
+		welcomeScreen.closeBrowser();
+	}
+}
+

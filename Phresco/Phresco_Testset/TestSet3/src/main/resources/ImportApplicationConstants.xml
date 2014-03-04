@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<environment>
+<phresco>
+				<svn>svn</svn>
+				<github>git</github>				
+				<username>jagatheswaran_s</username>
+				<password>Jagathes1309</password>					
+				<svnrepoUrlPhpBlog>https://insight.photoninfotech.com/svn/repos/phresco-svn-projects/ci/2.0.0.33000/1-php/</svnrepoUrlPhpBlog>		
+				<phpText>php</phpText>				
+				<svnrepoUrlNodejsEshop>https://insight.photoninfotech.com/svn/repos/phresco-svn-projects/ci/2.0.0.33000/3-nodejswebservice/</svnrepoUrlNodejsEshop>
+				<svnrevisionNodejsEshop>862</svnrevisionNodejsEshop>
+				<NodejsEshopText>nodejs</NodejsEshopText>
+				<otherUsername>nikhilkumar_a</otherUsername>
+				<otherPassword>Nikhil@E3218</otherPassword>
+				<gitUrl>https://insight.photoninfotech.com/svn/repos/phresco-svn-projects/ci/2.0.0.33000/3-nodejswebservice/</gitUrl>
+				
+
+</phresco>
+</environment>

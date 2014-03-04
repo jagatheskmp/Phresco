@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ApplicationLayerTestCaseSuite" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="CleanTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp" />
+			<methods>
+				<include name="testPhpHelloWorldProjectDatabase"></include>
+				<include name="testPhpBlogProjectDatabase"></include>
+				<include name="testDrupal6HelloWorldProjectDatabase"></include>
+				<include name="testDrupal7HelloWorldProjectDatabase"></include>
+				<include name="testDrupal7EshopProjectDatabase"></include>
+				<include name="testWordPressHelloWorldProjectDatabase"></include>
+				<include name="testJavaWebServiceEshopProjectDatabase"></include>
+				<include name="testNodeJsEshopProjectDatabase"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="PhpTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.PHPTest" />
+			<methods>
+				<include name="testPhpHelloWorldProjectCreation"></include>
+				<include name="testPhpHelloWorldProjectEdit"></include>
+				<include name="testPhpHelloWorldProjectAddFeature"></include>
+				<include name="testPhpHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testPhpHelloWorldProjectDatabase"></include>
+				<include name="testPhpHelloworldProjectBuild"></include>
+				<include name="testPhpHelloworldProjectDeploy"></include>
+				<include name="testPhpHelloWorldProjectUnitTest"></include>
+				<include name="testPhpHelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testPhpHelloWorldProjectPerformanceAganistDatabase"></include>
+				<include name="testPhpHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testPhpBlogProjectCreation"></include>
+				<include name="testPhpBlogProjectEdit"></include>
+				<include name="testPhpBlogProjectAddFeature"></include>
+				<include name="testPhpBlogProjectAddConfigurationServer"></include>
+				<include name="testPhpBlogProjectDatabase"></include>
+				<include name="testphpBlogProjectBuild"></include>
+				<include name="testphpBlogProjectDeploy"></include>
+				<include name="testPhpBlogProjectUnitTest"></include>
+				<include name="testPhpBlogProjectPerformanceAganistServer"></include>
+				<include name="testPhpBlogProjectPerformanceAganistDatabase"></include>
+				<include name="testPhpBlogProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="Drupal6Test" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.Drupal6Test" />
+			<methods>
+				<include name="testDrupal6HelloWorldProjectCreation"></include>
+				<include name="testDrupal6HelloWorldProjectEdit"></include>
+				<include name="testDrupal6HelloWorldProjectAddFeature"></include>
+				<include name="testDrupal6HelloWorldProjectAddConfigurationServer"></include>
+				<include name="testDrupal6HelloWorldProjectDatabase"></include>
+				<include name="testDrupal6HelloWorldProjectBuild"></include>
+				<include name="testDrupal6HelloWorldProjectDeploy"></include>
+				<include name="testDrupal6HelloWorldProjectUnittest"></include>
+				<include name="testDrupal6HelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testDrupal6HelloWorldProjectPerformanceAganistDatabase"></include>
+				<include name="testDrupal6HelloWorldProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="Drupal7Test" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.Drupal7Test" />
+			<methods>
+				<include name="testDrupal7HelloWorldProjectCreation"></include>
+				<include name="testDrupal7HelloWorldProjectEdit"></include>
+				<include name="testDrupal7HelloWorldProjectAddFeature"></include>
+				<include name="testDrupal7HelloWorldProjectAddConfigurationServer"></include>
+				<include name="testDrupal7HelloWorldProjectDatabase"></include>
+				<include name="testDrupal7HelloWorldProjectBuild"></include>
+				<include name="testDrupal7HelloWorldProjectDeploy"></include>
+				<include name="testDrupal7HelloWorldProjectUnittest"></include>
+				<include name="testDrupal7HelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testDrupal7HelloWorldProjectPerformanceAganistDatabase"></include>
+				<include name="testDrupal7HelloworldProjectLoadTestAganistServer"></include>
+				<include name="testDrupal7EshopProjectCreation"></include>
+				<include name="testDrupal7EshopProjectEdit"></include>
+				<include name="testDrupal7EshopProjectAddFeature"></include>
+				<include name="testDrupal7EshopProjectAddConfigurationServer"></include>
+				<include name="testDrupal7EshopProjectDatabase"></include>
+				<include name="testDrupal7EshopProjectBuild"></include>
+				<include name="testDrupal7EshopProjectDeploy"></include>
+				<include name="testDrupal7EshopProjectUnittest"></include>
+				<include name="testDrupal7EshopProjectPerformanceAganistServer"></include>
+				<include name="testDrupal7EshopProjectPerformanceAganistDatabase"></include>
+				<include name="testDrupal7EshopProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="WordPressTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.WordPressTest" />
+			<methods>
+				<include name="testWordpressHelloWorldProjectCreation"></include>
+				<include name="testWordPressHelloWorldProjectEdit"></include>
+				<include name="testWordPressHelloWorldProjectAddFeature"></include>
+				<include name="testWordPressHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testWordPressHelloWorldProjectDatabase"></include>
+				<include name="testWordPressHelloWorldProjectBuild"></include>
+				<include name="testWordPressHelloWorldProjectDeploy"></include>
+				<include name="testWordPressHelloWorldProjectUnitTest"></include>
+				<include name="testWordPressHelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testWordPressHelloWorldProjectPerformanceAganistDatabase"></include>
+				<include name="testWordPressHelloWorldProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+
+	<test name="SiteCoreTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.SiteCoreTest" />
+			<methods>
+				<include name="testSiteCoreHelloWorldProjectCreation"></include>
+				<include name="testSiteCoreHelloWorldProjectEdit"></include>
+				<include name="testSiteCoreHelloWorldProjectAddFeature"></include>
+				<include name="testSiteCoreHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testSiteCoreHelloWorldProjectBuild"></include>
+				<include name="testSiteCoreHelloWorldProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="AspDotNetTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.AspDotNetTest" />
+			<methods>
+				<include name="testAspDotNetHelloWorldProjectCreation"></include>
+				<include name="testAspDotNetHelloWorldProjectEdit"></include>
+				<include name="testAspDotNetHelloWorldProjectAddFeature"></include>
+				<include name="testAspDotNetHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testAspDotNetHelloWorldProjectBuild"></include>
+				<include name="testAspDotNetHelloWorldProjectDeploy"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="SharePointTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.SharePointTest" />
+			<methods>
+				<include name="testSharepointHelloWorldProjectCreation"></include>
+				<include name="testSharepointHelloWorldProjectEdit"></include>
+				<include name="testSharepointHelloWorldProjectAddFeature"></include>
+				<include name="testSharepointHelloWorldProjectAddFeature"></include>
+				<include name="testSharepointHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testSharepointHelloWorldProjectBuild"></include>
+				<include name="testSharepointHelloWorldProjectDeploy"></include>
+				<include name="testSharepointHelloWorldProjectUnitTest"></include>
+				<include name="testSharepointHelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testSharepointHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testSharepointResourceManagementProjectCreation"></include>
+				<include name="testSharepointResourceManagementProjectEdit"></include>
+				<include name="testSharepointResourceManagementProjectAddfeature"></include>
+				<include
+					name="testSharepointResourceManagementProjectAddConfigurationServer"></include>
+				<include name="testSharepointResourceManagementProjectBuild"></include>
+				<include name="testSharepointResourceManagementProjectDeploy"></include>
+				<include name="testSharepointResourceManagementProjectUnitTest"></include>
+				<include
+					name="testSharepointResourceManagementProjectPerformanceAganistServer"></include>
+				<include
+					name="testSharepointResourceManagementProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="JavaStandaloneTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.JavaStandAloneTest" />
+			<methods>
+				<include name="testJavaStandAloneProjectCreation"></include>
+				<include name="testJavaStandAloneProjectEdit"></include>
+				<include name="testJavaStandAloneProjectAddFeature"></include>
+				<include name="testJavaStandAloneProjectBuild"></include>
+				<include name="testJavaStandAloneProjectUnitTest"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="JavaWebserviceTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.JavaWebserviceTest" />
+			<methods>
+				<include name="testJavaWebServiceHelloWorldProjectCreation"></include>
+				<include name="testJavaWebServiceHelloWorldProjectEdit"></include>
+				<include name="testJavaWebServiceHelloWorldProjectAddFeature"></include>
+				<include name="testJavaWebServiceHelloWorldProjectAddServerConfiguration"></include>
+				<include name="testJavaWebServiceHelloWorldProjectBuild"></include>
+				<include name="testJavaWebServiceHelloWorldProjectDeploy"></include>
+				<include name="testJavaWebServiceHelloWorldProjectUnittest"></include>
+				<include
+					name="testJavaWebServiceHelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testJavaWebServiceHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testJavaWebServiceEshopProjectCreation"></include>
+				<include name="testJavaWebServiceEshopProjectEdit"></include>
+				<include name="testJavaWebServiceEshopProjectAddFeature"></include>
+				<include name="testJavaWebServiceEshopProjectAddServerConfiguration"></include>
+				<include name="testJavaWebServiceEshopProjectDatabase"></include>
+				<include name="testJavaWebServiceEshopProjectBuild"></include>
+				<include name="testJavaWebServiceEshopProjectDeploy"></include>
+				<include name="testJavaWebServiceEshopProjectUnitTest"></include>
+				<include name="testJavaWebServiceEshopProjectPerformanceAganistServer"></include>
+				<include name="testJavaWebServiceEshopProjectPerformanceAganistDatabase"></include>
+				<include name="testJavaWebServiceEshopProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="NodeJsWebserviceTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.ApplicationLayer.NodeJsWebserviceTest" />
+			<methods>
+				<include name="testNodeJsHelloWorldProjectCreation"></include>
+				<include name="testNodeJsHelloWorldProjectEdit"></include>
+				<include name="testNodeJsHelloWorldProjectAddFeature"></include>
+				<include name="testNodeJsHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testNodeJsHelloWorldProjectBuild"></include>
+				<include name="testNodeJsHelloWorldProjectUnitTest"></include>
+				<include name="testNodeJsHelloWorldProjectPerformanceAganistServer"></include>
+				<include name="testNodeJsHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testNodeJsEshopProjectCreation"></include>
+				<include name="testNodeJsEshopProjectEdit"></include>
+				<include name="testNodeJsEshopProjectAddFeature"></include>
+				<include name="testNodeJsEshopProjectAddConfigurationServer"></include>
+				<include name="testNodeJsEshopProjectDatabase"></include>
+				<include name="testNodeJsEshopProjectBuild"></include>
+				<include name="testNodeJsEshopProjectUnitTest"></include>
+				<include name="testNodeJsEshopProjectPerformanceAganistServer"></include>
+				<include name="testNodeJsEshopProjectPerformanceAganistDatabase"></include>
+				<include name="testNodeJsEshopProjectLoadTestAganistServer"></include>
+			</methods>
+		</classes>
+	</test>
+</suite> 
+  

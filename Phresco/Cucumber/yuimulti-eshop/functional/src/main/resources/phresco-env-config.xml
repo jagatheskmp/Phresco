@@ -1,0 +1,26 @@
+<environment>
+           <Browser>opera</Browser>
+		   <selenium>
+               <server.host>localhost</server.host>
+               <server.port>4444</server.port>
+               <speed>300</speed>
+           </selenium>
+           
+          
+<Resolution>1024x768</Resolution>
+
+
+<Server desc="" name="server">
+        <context>yuimultieshop</context>
+        <admin_username/>
+        <deploy_dir>D:/tomcat-7.0.14/webapps/</deploy_dir>
+        <additional_context/>
+        <port>7080</port>
+        <admin_password/>
+        <version>7.0.x</version>
+        <type>Apache Tomcat</type>
+        <remoteDeployment>false</remoteDeployment>
+        <host>localhost</host>
+        <protocol>http</protocol>
+    </Server>
+</environment>

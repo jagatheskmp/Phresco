@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<environment>
+<phresco>
+		<projectName>CombinationofThreeLayer</projectName>
+		<projectCode>2.0</projectCode>
+		<projectDesc>This is 2.0 New Feature of creation archetype with many technology</projectDesc>
+		<projetcVersion>2.0.0</projetcVersion>
+		<technologynodeJsServiceValue>Node JS Web Service</technologynodeJsServiceValue>
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multiYuiWidgetValue>HTML5 Multichannel YUI Widget</multiYuiWidgetValue>
+		<multiYuiWidgetVersionValue>1.5</multiYuiWidgetVersionValue>
+		
+		<androidNativeValue>Android Native</androidNativeValue>
+		<androidNativeVersionValue>2.3.3</androidNativeVersionValue>
+		
+		<nodeJsServiceHelloWorldCheckBoxXpath>//a[text()='CombinationofThreeLayer']/preceding-sibling::input</nodeJsServiceHelloWorldCheckBoxXpath>
+        <nodeJsServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-nodejswebservice')]</nodeJsServiceHelloWorldEditApplicationLinkXpath>
+ 		                     
+        <nodeJsServiceServerValue>NodeJs</nodeJsServiceServerValue>
+        <nodeJsServiceDatabaseValue>MYSQL</nodeJsServiceDatabaseValue>
+
+        
+        <nodeJsServiceConfigurationServerNameValue>Server</nodeJsServiceConfigurationServerNameValue>
+        <nodeJsServiceConfigurationServerDescriptionValue>This is Server Configuration</nodeJsServiceConfigurationServerDescriptionValue>
+        <nodeJsServiceConfigurationServerEnvironmentValue>Production</nodeJsServiceConfigurationServerEnvironmentValue>
+        <nodeJsServiceConfigurationServerTypeValue>Server</nodeJsServiceConfigurationServerTypeValue>
+        <nodeJsServiceConfigurationServerProtocolHttpValue>http</nodeJsServiceConfigurationServerProtocolHttpValue>
+        <nodeJsServiceConfigurationServerProtocolHttpsValue>https</nodeJsServiceConfigurationServerProtocolHttpsValue>
+        <nodeJsServiceConfigurationServerHostValue>localhost</nodeJsServiceConfigurationServerHostValue>
+        <nodeJsServiceConfigurationServerPortValue>8090</nodeJsServiceConfigurationServerPortValue>
+      
+        <nodeJsServiceConfigurationServerDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</nodeJsServiceConfigurationServerDeployDirectoryValue>
+        <nodeJsServiceConfigurationServerContextValueHelloWorld>nodeJsServiceHelloworld</nodeJsServiceConfigurationServerContextValueHelloWorld>
+       
+        <nodeJsServiceConfigurationDatabaseNameValue>Database</nodeJsServiceConfigurationDatabaseNameValue>
+        <nodeJsServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</nodeJsServiceConfigurationDatabaseDescriptionValue>
+        <nodeJsServiceConfigurationDatabaseEnvironmentValue>Production</nodeJsServiceConfigurationDatabaseEnvironmentValue>
+        <nodeJsServiceConfigurationDatabaseTypeValue>Database</nodeJsServiceConfigurationDatabaseTypeValue>
+        <nodeJsServiceConfigurationDatabaseHostValue>localhost</nodeJsServiceConfigurationDatabaseHostValue>
+        <nodeJsServiceConfigurationDatabasePortValue>3306</nodeJsServiceConfigurationDatabasePortValue>
+        <nodeJsServiceConfigurationDatabaseDBUsernameValue>root</nodeJsServiceConfigurationDatabaseDBUsernameValue>
+        <nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>testNodeJsHelloworldDatabase</nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>
+        
+     
+		
+		<multiYuiWidgetHelloWorldCheckBoxXpath>//a[text()='CombinationofThreeLayer']/preceding-sibling::input</multiYuiWidgetHelloWorldCheckBoxXpath>
+        <multiYuiWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-html5multichannelyuiwidget')]</multiYuiWidgetHelloWorldEditApplicationLinkXpath>
+       	
+       	<appInfoMultiYuiWidgetServerValue>Apache Tomcat</appInfoMultiYuiWidgetServerValue>     
+		<TomacatServerVersionValue>//td[2]/div/div/div/div/input</TomacatServerVersionValue>
+            	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration for MultiYui Widget project</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+       
+       
+		<multiYuiWidgetconfigServContextValueHelloWorld>MultiYuiWidgetHelloWorld</multiYuiWidgetconfigServContextValueHelloWorld>
+
+ 
+		
+		<androidNativeHelloWorldCheckBoxXpath>//a[text()='CombinationofThreeLayer']/preceding-sibling::input</androidNativeHelloWorldCheckBoxXpath>
+        <androidNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-android')]</androidNativeHelloWorldEditApplicationLinkXpath>
+       
+		
+  		<emulatorValue>Emulator</emulatorValue>
+	
+        
+</phresco>
+</environment>

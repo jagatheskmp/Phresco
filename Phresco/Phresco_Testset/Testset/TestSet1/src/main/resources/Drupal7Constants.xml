@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <drupal7HelloWorldNameValue>Drupal7SampleHelloWorldProj</drupal7HelloWorldNameValue>
+        <drupal7HelloWorldDescriptionValue>This is the drupal7 HelloWorld project</drupal7HelloWorldDescriptionValue>
+        <technologyDrupal7Value>Drupal7</technologyDrupal7Value>
+        <drupal7EshopNameValue>Drupal7SampleEshopProj</drupal7EshopNameValue>
+        <drupal7EshopDescriptionValue>This is the DRUPAL7 Eshop project</drupal7EshopDescriptionValue>
+        <drupal7HelloWorldEditApplicationLinkXpath>//a[contains(text(),'Drupal7SampleHelloWorldProj-')]</drupal7HelloWorldEditApplicationLinkXpath>
+ 	 	<drupal7EshopEditApplicationLinkXpath>//a[contains(text(),'Drupal7SampleEshopProj-')]</drupal7EshopEditApplicationLinkXpath>
+        <drupal7ServerValue>Apache Server</drupal7ServerValue>
+        <drupal7DatabaseValue>MYSQL</drupal7DatabaseValue>
+		<drupal7PilotProjectEshopValue>Eshop</drupal7PilotProjectEshopValue>
+		<drupal7ConfigurationServerNameValue>Server</drupal7ConfigurationServerNameValue>
+        <drupal7ConfigurationServerDescriptionValue>This is Server Configuration</drupal7ConfigurationServerDescriptionValue>
+        <drupal7ConfigurationServerEnvironmentValue>Production</drupal7ConfigurationServerEnvironmentValue>
+        <drupal7ConfigurationServerTypeValue>Server</drupal7ConfigurationServerTypeValue>
+        <drupal7ConfigurationServerProtocolHttpValue>http</drupal7ConfigurationServerProtocolHttpValue>
+        <drupal7ConfigurationServerProtocolHttpsValue>https</drupal7ConfigurationServerProtocolHttpsValue>
+        <drupal7ConfigurationServerHostValue>localhost</drupal7ConfigurationServerHostValue>
+        <drupal7ConfigurationServerPortValue>80</drupal7ConfigurationServerPortValue>
+        <drupal7ConfigurationServerDeployDirectoryValue>C:\wamp\www</drupal7ConfigurationServerDeployDirectoryValue>
+        <drupal7ConfigurationServerContextValueHelloWorld>Drupal7Helloworld</drupal7ConfigurationServerContextValueHelloWorld>
+        <drupal7ConfigurationServerContextValueEshop>Drupal7Eshop</drupal7ConfigurationServerContextValueEshop>
+        <drupal7ConfigurationDatabaseNameValue>Database</drupal7ConfigurationDatabaseNameValue>
+        <drupal7ConfigurationDatabaseDescriptionValue>This is Database Configuration</drupal7ConfigurationDatabaseDescriptionValue>
+        <drupal7ConfigurationDatabaseEnvironmentValue>Production</drupal7ConfigurationDatabaseEnvironmentValue>
+        <drupal7ConfigurationDatabaseTypeValue>Database</drupal7ConfigurationDatabaseTypeValue>
+        <drupal7ConfigurationDatabaseHostValue>localhost</drupal7ConfigurationDatabaseHostValue>
+        <drupal7ConfigurationDatabasePortValue>3306</drupal7ConfigurationDatabasePortValue>
+        <drupal7ConfigurationDatabaseDBUsernameValue>root</drupal7ConfigurationDatabaseDBUsernameValue>
+        <drupal7ConfigurationDatabaseDBNameValueHelloWorld>testDrupal7HelloWorldProjectDatabase</drupal7ConfigurationDatabaseDBNameValueHelloWorld>
+        <drupal7ConfigurationDatabaseDBNameValueEshop>testDrupal7EshopProjectDatabase</drupal7ConfigurationDatabaseDBNameValueEshop>
+        <functionalFramework>Grid</functionalFramework>
+    </phresco>
+</environment>

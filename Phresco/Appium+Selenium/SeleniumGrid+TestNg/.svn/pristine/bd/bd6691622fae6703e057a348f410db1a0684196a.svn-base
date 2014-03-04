@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="FactoryDataProviderSampleTest" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="FactoryDataProviderSampleTest" junit="false" preserve-order="true">
+
+		
+		<classes>
+			<class name="com.photon.phresco.testcases.FactoryDataProviderSampleTest" />
+		</classes>
+
+	</test>
+
+
+</suite>
+ 
+
+ 	
+ 

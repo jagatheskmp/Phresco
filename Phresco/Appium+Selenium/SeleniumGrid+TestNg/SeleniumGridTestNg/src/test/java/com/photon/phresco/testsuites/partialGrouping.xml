@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="PartialGrouping" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="PartialGroupingTest" junit="false" preserve-order="true">
+
+		<groups>
+			<run>
+				<include name="SmokeTest"></include>
+				<!-- <include name="funcTest"></include> -->
+				<exclude name="funcTest"></exclude>
+			</run>
+		</groups>
+
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.PartialGroupingEshop" />
+		</classes>
+
+	</test>
+
+</suite>
+
+
+<!-- name: SingleSuite
+threadCount: 4
+parameters: { n: 42 }
+ 
+tests:
+  - name: Regression2
+    parameters: { count: 10 }
+    excludedGroups: [ broken ]
+    classes:
+      - test.listeners.ResultEndMillisTest
+ 
+
+ 	
+ 
+ -->

@@ -1,0 +1,79 @@
+[0.003][INFO]:      ChromeDriver 22.0.1203.0 D:\Grid2\chromedriver_win_22.0.1203.0\chromedriver.exe
+[0.902][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "WINDOWS"
+}
+
+[0.903][INFO]:      Launching chrome: "C:\Documents and Settings\vairamuthu_m\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[3.709][INFO]:      Connected to Chrome successfully. Version: 23.0.1271.97
+[3.719][FINE]:      Command received (/session/50c6e69e5ec378063f8403112a816e12)
+[3.719][FINE]:      Command finished (/session/50c6e69e5ec378063f8403112a816e12) with response {
+   "sessionId": "50c6e69e5ec378063f8403112a816e12",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "22.0.1203.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "23.0.1271.97",
+      "webStorageEnabled": true
+   }
+}
+
+[3.801][FINE]:      Command received (/session/50c6e69e5ec378063f8403112a816e12/url) with params {
+   "url": "http://172.16.29.45:9876/nodejshw"
+}
+
+[3.801][FINER]:     Waiting for all views to stop loading...
+[3.802][FINER]:     Done waiting for all views to stop loading
+[9.645][FINER]:     Waiting for all views to stop loading...
+[9.747][FINER]:     Done waiting for all views to stop loading
+[9.747][FINE]:      Command finished (/session/50c6e69e5ec378063f8403112a816e12/url) with response {
+   "sessionId": "50c6e69e5ec378063f8403112a816e12",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.811][FINE]:     Command received (/session/50c6e69e5ec378063f8403112a816e12/element) with params {
+   "using": "tag name",
+   "value": "body"
+}
+
+[14.811][FINER]:    Waiting for all views to stop loading...
+[14.811][FINER]:    Done waiting for all views to stop loading
+[14.841][FINER]:    Waiting for all views to stop loading...
+[14.842][FINER]:    Done waiting for all views to stop loading
+[14.842][FINE]:     Command finished (/session/50c6e69e5ec378063f8403112a816e12/element) with response {
+   "sessionId": "50c6e69e5ec378063f8403112a816e12",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355824631191"
+   }
+}
+
+[14.870][FINE]:     Command received (/session/50c6e69e5ec378063f8403112a816e12/element/:wdc:1355824631191/text)
+[14.870][FINER]:    Waiting for all views to stop loading...
+[14.870][FINER]:    Done waiting for all views to stop loading
+[14.936][FINER]:    Waiting for all views to stop loading...
+[14.936][FINER]:    Done waiting for all views to stop loading
+[14.936][FINE]:     Command finished (/session/50c6e69e5ec378063f8403112a816e12/element/:wdc:1355824631191/text) with response {
+   "sessionId": "50c6e69e5ec378063f8403112a816e12",
+   "status": 0,
+   "value": "Hello World"
+}
+
+[14.967][FINE]:     Command received (/session/50c6e69e5ec378063f8403112a816e12)
+[16.456][INFO]:     Chrome shutdown

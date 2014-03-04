@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+
+		<androidHybridHelloWorldNameValue>AndroidHybridHelloWorldPrj</androidHybridHelloWorldNameValue>
+        <androidHybridHelloWorldCodeValue>AndHybHello</androidHybridHelloWorldCodeValue>
+        <androidHybridHelloWorldDescriptionValue>This is AndroidHybridHelloWorld Project</androidHybridHelloWorldDescriptionValue>
+        <androidHybridHelloWorldVersionValue>1.0.0</androidHybridHelloWorldVersionValue> 
+	
+		
+		<androidHybridHelloWorldCheckBoxXpath>//a[text()='AndroidHybridHelloWorldPrj']/preceding-sibling::input</androidHybridHelloWorldCheckBoxXpath>
+        <androidHybridHelloWorldEditApplicationLinkXpath>//a[contains(text(),'AndroidHybridHelloWorldPrj-androidhybrid')]</androidHybridHelloWorldEditApplicationLinkXpath>
+        <androidHybridServerVersion>2.3.3</androidHybridServerVersion>
+		<emulatorValue>Emulator</emulatorValue>
+		
+		<androidHybridEshopNameValue>AndroidHybridEshopProj</androidHybridEshopNameValue>
+        <androidHybridEshopCodeValue>AndHybEshop</androidHybridEshopCodeValue>
+        <androidHybridEshopDescriptionValue>This is AndroidHybridEshop Project</androidHybridEshopDescriptionValue>
+        <androidHybridEshopVersionValue>1.0.0</androidHybridEshopVersionValue> 
+		<androidHybridValue>Android Hybrid</androidHybridValue>
+		<androidHybridVersionValue>2.3.3</androidHybridVersionValue>
+		
+		
+		<androidHybridEshopCheckBoxXpath>//a[text()='AndroidHybridEshopProj']/preceding-sibling::input</androidHybridEshopCheckBoxXpath>
+        <androidHybridEshopEditApplicationLinkXpath>//a[contains(text(),'AndroidHybridEshopProj-androidhybrid')]</androidHybridEshopEditApplicationLinkXpath>
+       
+ 	  	<pilotProjectEshopValue>EShop</pilotProjectEshopValue>   
+  	  	
+  	  	 
+       	<androidHybridConfigServNameValue>Native_Server</androidHybridConfigServNameValue>
+      	<androidHybridConfigservDescValue>Server configuration</androidHybridConfigservDescValue>
+      	<androidHybridconfigServEnvValue>Production</androidHybridconfigServEnvValue>
+      	<androidHybridconfigServValue>Server</androidHybridconfigServValue>      	
+      	<androidHybridconfigServProtocolValue>http</androidHybridconfigServProtocolValue>
+      	<androidHybridconfigServHostValue>172.16.17.180</androidHybridconfigServHostValue>
+     	<androidHybridconfigServPortValue>8080</androidHybridconfigServPortValue>
+     	<androidHybridconfigServerTypeValue>Apache Tomcat</androidHybridconfigServerTypeValue>
+		<androidHybridconfigServVersionValue>7.0.x</androidHybridconfigServVersionValue>
+        <androidHybridconfigServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\webapps</androidHybridconfigServDeployDirectoryValue>
+       
+        <androidHybridconfigServContextValueEshop>mobilewidget</androidHybridconfigServContextValueEshop>
+      
+       
+      	
+		
+		
+</phresco>
+</environment>
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MultipleTestSuiteMultipleBrowser" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="VerifyEshopAppFirefox" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+	
+	 <test name="VerifyEshopAppChrome" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+	
+	<test name="VerifyEshopAppiexplorer" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="iexplorer" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+		
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+	 
+	<test name="VerifyEshopAppSafari" junit="false" preserve-order="true">
+
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<parameter name="browser" value="safari" />
+		<parameter name="platform" value="WINDOWS" />
+
+		<classes>
+			<class name="com.photon.phresco.testcases.Eshop" />
+		</classes>
+
+	</test>
+
+</suite>
+ 
+
+ 	
+ 

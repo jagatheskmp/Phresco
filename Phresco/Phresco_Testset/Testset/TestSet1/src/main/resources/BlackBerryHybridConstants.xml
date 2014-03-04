@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<blackBerryHybridNameValue>BlackBerryHybridSampleProj</blackBerryHybridNameValue>
+        <blackBerryHybridDescriptionValue>This is the BlackBerry Hybrid project</blackBerryHybridDescriptionValue>
+        <BlackBerryTechnologyHybridValue>Blackberry Hybrid</BlackBerryTechnologyHybridValue>
+      	<blackBerryHybridEditApplicationLinkXpath>//a[contains(text(),'BlackBerryHybridSampleProj-blackberryhybrid')]</blackBerryHybridEditApplicationLinkXpath>
+        <blackBerryConfigServNameValue>Server</blackBerryConfigServNameValue>
+      	<blackBerryConfigservDescValue>Server configuration</blackBerryConfigservDescValue>
+      	<blackBerryconfigServEnvValue>Production</blackBerryconfigServEnvValue>
+      	<blackBerryconfigServValue>Server</blackBerryconfigServValue>      	
+      	<blackBerryconfigServProtocolValue>http</blackBerryconfigServProtocolValue>
+      	<blackBerryconfigServHostValue>172.16.17.180</blackBerryconfigServHostValue>
+     	<blackBerryconfigServPortValue>8080</blackBerryconfigServPortValue>     	
+        <blackBerryconfigServContextValueEshop>mobilewidget</blackBerryconfigServContextValueEshop>
+        <blackBerryBuildTargetValue>Emulator</blackBerryBuildTargetValue>
+		<blackBerryServerValue>Apache Tomcat</blackBerryServerValue>
+		<functionalFramework>Grid</functionalFramework>
+	</phresco>             
+</environment>

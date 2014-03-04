@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		<iPhoneNativeEshopNameValue>iPhoneNativeEshop</iPhoneNativeEshopNameValue>
+        <iPhoneNativeEshopCodeValue>iPhoneEshop</iPhoneNativeEshopCodeValue>
+        <iPhoneNativeEshopDescriptionValue>This is iPhoneNativeEshop Project</iPhoneNativeEshopDescriptionValue>
+        <iPhoneNativeEshopVersionValue>1.0.0</iPhoneNativeEshopVersionValue> 
+		<iPhoneNativeValue>iPhone Native</iPhoneNativeValue>
+		<iPhoneNativeVersionValue></iPhoneNativeVersionValue>
+		
+		<iPhoneNativeEshopCheckBoxXpath>//a[text()='iPhoneNativeEshop']/preceding-sibling::input</iPhoneNativeEshopCheckBoxXpath>
+        <iPhoneNativeEshopEditApplicationLinkXpath>//a[contains(text(),'iPhoneNativeEshop-iphone')]</iPhoneNativeEshopEditApplicationLinkXpath>
+       
+		
+  	  	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>    
+       
+       
+      	<iPhoneNativeConfigWebServiceNameValue>WebService</iPhoneNativeConfigWebServiceNameValue>
+     	<iPhoneNativeConfigWebserviceDesc>WebService configuration for IPhone Native Eshop project</iPhoneNativeConfigWebserviceDesc>
+      	<iPhoneNativeconfigWebserviceEnvValue>Production</iPhoneNativeconfigWebserviceEnvValue>
+      	<iPhoneNativeconfigWebserviceValue>WebService</iPhoneNativeconfigWebserviceValue>      	
+      	<iPhoneNativeconfigWebserviceProtocolValue>http</iPhoneNativeconfigWebserviceProtocolValue>
+      	<iPhoneNativeconfigWebserviceHostValue>172.16.17.180</iPhoneNativeconfigWebserviceHostValue>
+      	<iPhoneNativeconfigWebservicePortValue>2020</iPhoneNativeconfigWebservicePortValue>      	
+      
+     	<iPhoneNativeEshopconfigWebserviceContextEshopValue>eshop</iPhoneNativeEshopconfigWebserviceContextEshopValue>
+		
+				     
+		
+		<iPhoneNativeHelloWorldNameValue>iPhoneNativeHelloWorld</iPhoneNativeHelloWorldNameValue>
+        <iPhoneNativeHelloWorldCodeValue>iPhoneHello</iPhoneNativeHelloWorldCodeValue>
+        <iPhoneNativeHelloWorldDescriptionValue>This is iPhoneNativeHelloWorld Project</iPhoneNativeHelloWorldDescriptionValue>
+        <iPhoneNativeHelloWorldVersionValue>1.0.0</iPhoneNativeHelloWorldVersionValue> 
+	
+		
+		<iPhoneNativeHelloWorldCheckBoxXpath>//a[text()='iPhoneNativeHelloWorld']/preceding-sibling::input</iPhoneNativeHelloWorldCheckBoxXpath>
+        <iPhoneNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'iPhoneNativeHelloWorld-iphone')]</iPhoneNativeHelloWorldEditApplicationLinkXpath>
+       
+		
+
+</phresco>
+</environment>
+

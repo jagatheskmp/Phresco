@@ -1,0 +1,59 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="module">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="configurations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="configuration" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="tableName"/>
+                    <xs:element type="xs:string" name="fieldName"/>
+                    <xs:element type="xs:string" name="variableName"/>
+                    <xs:element name="parameter">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="value">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="lang" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element type="xs:string" name="required"/>
+                          <xs:element type="xs:string" name="editable"/>
+                          <xs:element type="xs:string" name="description"/>
+                          <xs:element type="xs:string" name="key"/>
+                          <xs:element type="xs:string" name="multiple"/>
+                          <xs:element type="xs:string" name="sort"/>
+                          <xs:element type="xs:string" name="show"/>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="defaultValue"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                  <xs:attribute type="xs:string" name="required" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:float" name="version"/>
+      <xs:attribute type="xs:string" name="name"/>
+      <xs:attribute type="xs:string" name="description"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

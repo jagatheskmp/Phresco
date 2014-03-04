@@ -1,0 +1,31 @@
+<suite name="SelectProductEshop" parallel="tests" thread-count="5" verbose="3">
+
+	<test name="SelectProductEshop" junit="false" preserve-order="true">
+		<parameter name="device" value="android" />
+		<parameter name="version" value="4.2.1" />
+		<parameter name="platform" value="MAC" />
+		<parameter name="package" value="com.photon.phresco.hybrid" />
+		<parameter name="activity" value="eshop.activity.MainActivity" />
+		<parameter name="app"
+			value="/Users/kalish/Desktop/PhrescoAppiumConvert/AndroidHybrid/Android/do_not_checkin/target/Android.apk" />
+		<parameter name="serverip" value="localhost" />
+		<classes>
+			<class name="com.photon.phresco.eshop.SelectProductEshopTest" />
+			<methods>
+				<include name="testBrowseTelevision"></include>
+				<include name="testBrowseComputer"></include>
+				<include name="testBrowseMobilePhone"></include>
+				<include name="testBrowseAudioDevice"></include>
+				<include name="testBrowseCamera"></include>
+				<include name="testBrowseTablet"></include>
+				<include name="testBrowseMovieandMusic"></include>
+				<include name="testBrowseVideoGames"></include>
+				<include name="testBrowseMp3Players"></include>
+				<include name="testBrowseAccessories"></include>
+				<include name="testCheckout"></include>
+			</methods>
+		</classes>
+	</test>
+
+
+</suite>

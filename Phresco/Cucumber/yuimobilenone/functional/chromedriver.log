@@ -1,0 +1,83 @@
+[0.002][INFO]:      ChromeDriver 23.0.1240.0 C:\Documents and Settings\jagatheswaran_s\Desktop\Cucumber\yuimobilenone\functional\chromedriver\windows\chromedriver.exe
+[1.046][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [ "start-maximized" ],
+   "chromeOptions": {
+      "args": [ "start-maximized" ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.078][INFO]:      Launching chrome: "C:\Documents and Settings\jagatheswaran_s\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors --start-maximized about:blank
+[3.770][INFO]:      Connected to Chrome successfully. Version: 18.0.1025.152
+[3.794][FINE]:      Command received (/session/6f4885432d283e2c526cf75f2b731cf5)
+[3.794][FINE]:      Command finished (/session/6f4885432d283e2c526cf75f2b731cf5) with response {
+   "sessionId": "6f4885432d283e2c526cf75f2b731cf5",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "18.0.1025.152",
+      "webStorageEnabled": true
+   }
+}
+
+[3.831][FINE]:      Command received (/session/6f4885432d283e2c526cf75f2b731cf5/url) with params {
+   "url": "http://localhost:7080/yuimultinone"
+}
+
+[3.831][FINER]:     Waiting for all views to stop loading...
+[3.831][FINER]:     Done waiting for all views to stop loading
+[8.514][FINER]:     Waiting for all views to stop loading...
+[8.515][FINER]:     Done waiting for all views to stop loading
+[8.515][FINE]:      Command finished (/session/6f4885432d283e2c526cf75f2b731cf5/url) with response {
+   "sessionId": "6f4885432d283e2c526cf75f2b731cf5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[8.535][FINE]:      Command received (/session/6f4885432d283e2c526cf75f2b731cf5/element) with params {
+   "using": "tag name",
+   "value": "body"
+}
+
+[8.535][FINER]:     Waiting for all views to stop loading...
+[8.536][FINER]:     Done waiting for all views to stop loading
+[8.581][FINER]:     Waiting for all views to stop loading...
+[8.581][FINER]:     Done waiting for all views to stop loading
+[8.581][FINE]:      Command finished (/session/6f4885432d283e2c526cf75f2b731cf5/element) with response {
+   "sessionId": "6f4885432d283e2c526cf75f2b731cf5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1378882709478"
+   }
+}
+
+[8.609][FINE]:      Command received (/session/6f4885432d283e2c526cf75f2b731cf5/element/:wdc:1378882709478/text)
+[8.609][FINER]:     Waiting for all views to stop loading...
+[8.611][FINER]:     Done waiting for all views to stop loading
+[8.697][FINER]:     Waiting for all views to stop loading...
+[8.698][FINER]:     Done waiting for all views to stop loading
+[8.698][FINE]:      Command finished (/session/6f4885432d283e2c526cf75f2b731cf5/element/:wdc:1378882709478/text) with response {
+   "sessionId": "6f4885432d283e2c526cf75f2b731cf5",
+   "status": 0,
+   "value": ""
+}
+

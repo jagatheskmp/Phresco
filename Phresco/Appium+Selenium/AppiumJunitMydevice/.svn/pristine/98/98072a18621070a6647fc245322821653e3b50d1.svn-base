@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EshopTestSuite" parallel="tests" thread-count="5" verbose="3">
+
+	<test name="VerifyEshopApp" junit="false"
+		preserve-order="true">
+		
+		    <groups>
+			    <dependencies>
+      				<group name="group1" depends-on="group2 group3" />
+      				<group name="group4" depends-on="group1" />
+    			</dependencies>
+
+			</groups> 
+
+			<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+			<parameter name="browser" value="firefox" />
+			<parameter name="platform" value="WINDOWS" />
+			
+			<classes>
+				<class name="com.photon.phresco.testcases.EshopXMLDependency" />
+			</classes>
+			
+	</test>
+		
+</suite>
+ 
+
+ 	
+ 

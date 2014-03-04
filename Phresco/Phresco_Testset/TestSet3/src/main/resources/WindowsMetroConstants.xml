@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<windowsMetroNameValue>WindowsMetroSampleProject</windowsMetroNameValue>
+        <windowsMetroCodeValue>WindMetrProj</windowsMetroCodeValue>
+        <windowsMetroDescriptionValue>This is the Windows Metro  project</windowsMetroDescriptionValue>
+        <windowsMetroVersionValue>1.0.0</windowsMetroVersionValue>        
+        <technologyWindowsMetroValue>Windows Metro</technologyWindowsMetroValue>
+        <technologyWindowsMetroVersionValue>7.x</technologyWindowsMetroVersionValue>
+        
+       	<windowsMetroCheckBoxXpath>//a[text()='WindowsMetroSampleProject']/preceding-sibling::input</windowsMetroCheckBoxXpath>
+      	<windowsMetroEditApplicationLinkXpath>//a[contains(text(),'WindowsMetroSampleProject-windowsmetro')]</windowsMetroEditApplicationLinkXpath>
+ 
+</phresco>             
+</environment>

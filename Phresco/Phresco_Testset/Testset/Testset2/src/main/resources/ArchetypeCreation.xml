@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<environment>
+	<phresco>
+		<projectName>CombinationofThreeLayer</projectName>
+		<projectDesc>This is 2.0 New Feature technology</projectDesc>
+		<technologynodeJsServiceValue>Node JS Web Service</technologynodeJsServiceValue>
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multiYuiWidgetValue>HTML5 Multichannel YUI Widget</multiYuiWidgetValue>
+		<multiYuiWidgetVersionValue>1.6</multiYuiWidgetVersionValue>
+		<widgetServerValue>Apache Tomcat</widgetServerValue>   
+	   	<widgetServerVersionValue>//input[@name='downloads_apache-tomcat']</widgetServerVersionValue>
+		<androidNativeValue>Android Native</androidNativeValue>
+		<nodeJsServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-CombinationofThreeLay...')]</nodeJsServiceHelloWorldEditApplicationLinkXpath>
+		<nodeJsServiceServerValue>NodeJs</nodeJsServiceServerValue>
+		<nodeJsServiceConfigurationServerPortValue>4587</nodeJsServiceConfigurationServerPortValue>
+		<nodeJsServiceConfigurationServerContextValueHelloWorld>nodeJsServiceHelloworldPro</nodeJsServiceConfigurationServerContextValueHelloWorld>
+		<multiYuiWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-html5multichannelyuiw...')]</multiYuiWidgetHelloWorldEditApplicationLinkXpath>
+		<configServNameValue>Server</configServNameValue>
+		<configservDescValue>This is Server configuration</configservDescValue>
+		<configServEnvValue>Production</configServEnvValue>
+		<configServValue>Server</configServValue>
+		<configServProtocolValue>http</configServProtocolValue>
+		<configServHostValue>localhost</configServHostValue>
+		<configServPortValue>8080</configServPortValue>
+		<configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+		<multiYuiWidgetconfigServContextValueHelloWorld>MultiYuiWidgetHelloWorldPro</multiYuiWidgetconfigServContextValueHelloWorld>
+		<androidNativeHelloWorldEditApplicationLinkXpath>//a[contains(text(),'CombinationofThreeLayer-androidnative')]</androidNativeHelloWorldEditApplicationLinkXpath>
+		<emulatorValue>Emulator</emulatorValue>
+		<functionalFramework>Grid</functionalFramework>
+		<functionalFrameworkRob>Robotium</functionalFrameworkRob>
+		<sdkValue>4.1.2</sdkValue> 
+	</phresco>
+</environment>

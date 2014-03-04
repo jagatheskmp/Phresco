@@ -1,0 +1,151 @@
+/**
+ * PHR_html_jquery_mobileapp
+ *
+ * Copyright (C) 1999-2013 Photon Infotech Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.photon.phresco.testcases;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.photon.phresco.Screens.WelcomeScreen;
+import com.photon.phresco.uiconstants.PhrescoUiConstants;
+import com.photon.phresco.uiconstants.UIConstants;
+import com.photon.phresco.uiconstants.UserInfoConstants;
+
+public class EshopDependencyGroup {
+
+	private PhrescoUiConstants phrescoUiConstants;
+	private WelcomeScreen welcomeScreen;
+	private String methodName;
+	private UIConstants uiConstants;
+	private UserInfoConstants userInfoConstants;
+
+	@Parameters(value = { "browser", "platform" })
+	@BeforeTest(alwaysRun=true)
+	public void setUp(String browser, String platform) throws Exception {
+		try {
+			phrescoUiConstants = new PhrescoUiConstants();
+			userInfoConstants = new UserInfoConstants();
+			uiConstants = new UIConstants();
+			String selectedBrowser = browser;
+			String selectedPlatform = platform;
+
+			methodName = Thread.currentThread().getStackTrace()[1]
+					.getMethodName();
+
+			String applicationURL = phrescoUiConstants.getProtocol() + "://"
+					+ phrescoUiConstants.getHost() + ":"
+					+ phrescoUiConstants.getPort() + "/";
+			welcomeScreen = new WelcomeScreen(selectedBrowser,
+					selectedPlatform, applicationURL,
+					phrescoUiConstants.getContext(), userInfoConstants,
+					uiConstants,  phrescoUiConstants);
+
+		} catch (Exception exception) {
+			exception.printStackTrace();
+		}
+	}
+
+	@Test
+
+	public void withoutGroup() throws InterruptedException,
+			IOException, Exception {
+		try {
+			System.out.println("*************withoutGroup***********************");
+			Assert.assertNotNull(welcomeScreen);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	@Test(groups = { "group1"})
+	public void verifyAudioDevices()
+			throws InterruptedException, IOException, 
+			Exception {
+		try {
+
+			System.out
+					.println("--------- verifyAudioDevices() in group1-------------");
+			methodName = Thread.currentThread().getStackTrace()[1]
+					.getMethodName();
+
+			welcomeScreen.clickOnBrowse(methodName);
+			welcomeScreen.AudioDevices(methodName);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+		
+	}
+
+	@Test(dependsOnGroups = { "group1.*" })
+	public void verifyCameras()
+			throws InterruptedException, IOException, Exception {
+		try {
+
+			System.out
+					.println("---------verifyCameras() in group1-------------");
+			welcomeScreen.clickOnBrowseTab(methodName);
+			welcomeScreen.Cameras(methodName);
+		} catch (Exception t) {
+			t.printStackTrace();
+
+		}
+	}
+
+	@Test (groups = { "group2"})
+	public void verifyVideoGames()
+	 		throws InterruptedException, IOException, Exception {
+	 	try {
+
+	 		System.out
+	 				.println("---------verifyVideoGames() in group2-------------");
+	 		welcomeScreen.clickOnBrowseTab(methodName);
+	 		welcomeScreen.VideoGames(methodName);
+		} catch (Exception t) {
+	 		t.printStackTrace();
+
+	 	}
+	}
+
+	@Test (groups = { "group2"})
+	 public void verifyTelevision()
+	 		throws InterruptedException, IOException, Exception {
+	 	try {
+
+	 		System.out
+	 				.println("---------verifyTelevision() in group2-------------");
+	 		welcomeScreen.clickOnBrowseTab(methodName);
+	 		welcomeScreen.Television(methodName);
+	 	} catch (Exception t) {
+	 		t.printStackTrace();
+
+	 	}
+	 }
+
+	 
+	@AfterTest(alwaysRun=true)
+	public void tearDown() {
+		welcomeScreen.closeBrowser();
+	}
+}
+

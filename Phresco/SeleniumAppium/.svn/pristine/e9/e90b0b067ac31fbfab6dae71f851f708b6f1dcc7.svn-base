@@ -1,0 +1,50 @@
+<identifiers>
+    <!-- Login Identifiers -->
+	<login type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</login>
+	<go type="xpath">//window[1]/scrollview[1]/webview[1]/button[1]</go>
+	<!-- Menu button and menu List Identifiers -->
+	<menubutton type="xpath">//window[1]/scrollview[1]/webview[1]/image[1]</menubutton>
+	<find type="name">Find</find>
+	<labelprint type="name">Label Print</labelprint>
+	<signprint type="name">Sign Print</signprint>
+	<fill type="name">Fill</fill>
+	<!-- Find Search Identifiers-->
+	<findSearch type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</findSearch>
+	<findSearchIcon type="xpath">//window[1]/scrollview[1]/webview[1]/image[3]</findSearchIcon>
+	<findSearchIconField type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</findSearchIconField>
+	<findSearchWomensCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[14]</findSearchWomensCategory>
+	<findSearchMensCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[22]</findSearchMensCategory>
+	<findSearchElectronicsCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[20]</findSearchElectronicsCategory>
+	<findSearchShoesCategory type="xpath">//window[1]/scrollview[1]/webview[1]/text[18]</findSearchShoesCategory>
+	<categoryDiscription type="xpath"> //window[1]/scrollview[1]/webview[1]/text[14]</categoryDiscription>
+	<categoryViewAll type="xpath">//window[1]/scrollview[1]/webview[1]/link[1]</categoryViewAll>
+	<categoryViewCancel type="name">Store Info</categoryViewCancel>
+	<!-- Label Print Identifiers -->
+	<itemPogNumber type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</itemPogNumber>
+    <itemPrintTitle type="name">Print Generic Label</itemPrintTitle>
+    <itemQuantity type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</itemQuantity>
+    <genericLabel type="name">Generic Label</genericLabel>
+    <!-- Sign Print Identifiers -->
+    <singleItem type="name">Single Item</singleItem>
+    <multiItemSign type="name">Multi-Item Sign</multiItemSign>
+    <planoGram type="name">Planogram</planoGram>
+    <reprintExistingSign type="name">Reprint Existing Sign</reprintExistingSign>
+    <signDate type="cord">52X138</signDate>
+    <signSize type="cord">52X268</signSize>
+    <signNext type="name">Next</signNext>
+    <signSearch type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</signSearch>
+    <multiSignDate type="cord">52X138</multiSignDate>
+    <multiSignSize type="cord">52X268</multiSignSize>
+    <multiSignNext type="name">Next</multiSignNext>
+    <multiSignQuantity type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</multiSignQuantity>
+    <batchNameButton type="name">Add to Batch</batchNameButton>
+    <batchNameField type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</batchNameField>
+    <planoGramSearch type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</planoGramSearch>
+    <planoGramSign type="cord">52X138</planoGramSign>
+    <rePrintDate type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</rePrintDate>
+    <!-- Label Print Identifiers -->
+    <fillMenuSearch type="xpath">//window[1]/scrollview[1]/webview[1]/textfield[1]</fillMenuSearch>
+    <fillMenuContinue type="xpath">//window[1]/scrollview[1]/webview[1]/text[10]</fillMenuContinue>
+	 <!-- Logout Identifiers -->
+	<logout type="name">Logout</logout>
+</identifiers>

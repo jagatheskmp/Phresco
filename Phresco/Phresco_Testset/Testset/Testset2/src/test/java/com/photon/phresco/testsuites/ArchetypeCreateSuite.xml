@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PhrescoFrameworkArchetypeTestCaseSuite" verbose="1">
+
+	<test name="ArchetypeTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.Archetype.ArchetypeCreateTest" />
+			<methods>
+				<include name="testArchetypeCreation"></include>
+				<!-- <include name="testNodeJsWebserviceHelloWorldProjectEdit"></include>
+				<include name="testNodeJsWebserviceHelloWorldProjectAddFeature"></include>
+				<include name="testNodeJsHelloWorldProjectConfigurationServer"></include>
+				<include name="testNodeJsHelloWorldRunAgainstSource"></include> -->
+				<include name="testMultiYuiWidgetHelloWorldProjectEditApplication"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectAddFeature"></include>
+				<include name="testMultiYuiWidgetProjectHelloWorldAddConfigurationServer"></include>
+				<include name="testMultiYuiWidgetProjectBuild"></include>
+				<include name="testMultiYuiWidgetProjectdeploy"></include>
+				<include name="testAndroidNativeHelloWorldProjectEdit"></include>
+				<include name="testAndroidNativeHelloWorldProjectAddFeature"></include>
+				<include name="testAndroidNativeHelloWorldBuild"></include>
+				<include name="testAndroidNativeHelloWorldDeploy"></include>
+
+			</methods>
+		</classes>
+	</test>
+</suite>

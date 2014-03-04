@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+    <phresco>
+
+        <SharePointHelloWorldNameValue>SharePointHelloWorldProject</SharePointHelloWorldNameValue>
+        <SharePointHelloWorldCodeValue>SharePoinHello</SharePointHelloWorldCodeValue>
+        <SharePointHelloWorldDescriptionValue>This is the SharePoint HelloWorld project</SharePointHelloWorldDescriptionValue>
+        <SharePointHelloWorldVersionValue>1.1.1</SharePointHelloWorldVersionValue>        
+        <technologySharePointValue>Sharepoint</technologySharePointValue>
+        
+
+       <SharePointHelloWorldCheckBoxXpath>//a[text()='SharePointHelloWorldProject']/preceding-sibling::input</SharePointHelloWorldCheckBoxXpath>
+       <SharePointHelloWorldEditApplicationLinkXpath>//a[contains(text(),'SharePointHelloWorldProject-sharepoint')]</SharePointHelloWorldEditApplicationLinkXpath>
+ 		
+        <SharePointPilotProjectValue>Resource Management</SharePointPilotProjectValue>       
+        <SharePointServerValue>Sharepoint Server</SharePointServerValue>
+        <SharePointServerCheckBox>//td[2]/div/div/div/div/input</SharePointServerCheckBox>
+        
+        <SharePointResourceNameValue>SharePointResourceManaProject</SharePointResourceNameValue>
+        <SharePointResourceCodeValue>SharePointHello</SharePointResourceCodeValue>
+        <SharePointResourceDescriptionValue>This is the SharePoint Resource project</SharePointResourceDescriptionValue>
+        <SharePointResourceVersionValue>1.1.1</SharePointResourceVersionValue> 
+		
+        <SharePointResourceCheckBoxXpath>//a[text()='SharePointResourceManaProject']/preceding-sibling::input</SharePointResourceCheckBoxXpath>
+      	 <SharePointResourceEditApplicationLinkXpath>//a[contains(text(),'SharePointResourceManaProject-sharepoint')]</SharePointResourceEditApplicationLinkXpath>
+        
+        <SharePointConfigurationServerNameValue>Server</SharePointConfigurationServerNameValue>
+        <SharePointConfigurationServerDescriptionValue>This is Server Configuration</SharePointConfigurationServerDescriptionValue>
+        <SharePointConfigurationServerEnvironmentValue>Production</SharePointConfigurationServerEnvironmentValue>
+        <SharePointConfigurationServerTypeValue>Server</SharePointConfigurationServerTypeValue>
+        <SharePointConfigurationServerProtocolHttpValue>http</SharePointConfigurationServerProtocolHttpValue>
+
+        <SharePointConfigurationServerHostValue>framework-win2</SharePointConfigurationServerHostValue>
+        <SharePointConfigurationServerHelloWorldPortValue>2020</SharePointConfigurationServerHelloWorldPortValue>
+         <SharePointConfigurationServerResourcePortValue>8080</SharePointConfigurationServerResourcePortValue>
+        
+       
+        <SharePointConfigurationServerDeployDirectoryValue>C:\</SharePointConfigurationServerDeployDirectoryValue>
+        <SharePointConfigurationServerContextValue>Pages/Default.aspx</SharePointConfigurationServerContextValue>
+     
+        </phresco>
+
+</environment>

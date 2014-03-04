@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.23.1.jar -hub 

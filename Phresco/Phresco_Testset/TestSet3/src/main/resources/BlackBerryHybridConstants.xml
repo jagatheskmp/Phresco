@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		
+		<blackBerryHybridNameValue>BlackBerryHybridSampleProj</blackBerryHybridNameValue>
+        <blackBerryHybridCodeValue>BlaBerHybProj</blackBerryHybridCodeValue>
+        <blackBerryHybridDescriptionValue>This is the BlackBerry Hybrid project</blackBerryHybridDescriptionValue>
+        <blackBerryHybridVersionValue>1.0.0</blackBerryHybridVersionValue>        
+        <technologyBlackBerryHybridValue>Blackberry Hybrid</technologyBlackBerryHybridValue>
+        <technologyBlackBerryHybridVersionValue>7.x</technologyBlackBerryHybridVersionValue>
+        
+       	<blackBerryHybridCheckBoxXpath>//a[text()='BlackBerryHybridSampleProj']/preceding-sibling::input</blackBerryHybridCheckBoxXpath>
+      	<blackBerryHybridEditApplicationLinkXpath>//a[contains(text(),'BlackBerryHybridSampleProj-blackberryhybrid')]</blackBerryHybridEditApplicationLinkXpath>
+ 		  
+        <blackBerryConfigServNameValue>Server</blackBerryConfigServNameValue>
+      	<blackBerryConfigservDescValue>Server configuration</blackBerryConfigservDescValue>
+      	<blackBerryconfigServEnvValue>Production</blackBerryconfigServEnvValue>
+      	<blackBerryconfigServValue>Server</blackBerryconfigServValue>      	
+      	<blackBerryconfigServProtocolValue>http</blackBerryconfigServProtocolValue>
+      	<blackBerryconfigServHostValue>172.16.17.180</blackBerryconfigServHostValue>
+     	<blackBerryconfigServPortValue>8080</blackBerryconfigServPortValue>     	
+        <blackBerryconfigServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</blackBerryconfigServDeployDirectoryValue>
+        <blackBerryconfigServContextValueEshop>mobilewidget</blackBerryconfigServContextValueEshop>
+        <blackBerryBuildTargetValue>Emulator</blackBerryBuildTargetValue>
+
+</phresco>             
+</environment>

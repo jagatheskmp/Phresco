@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+	        <phpHelloWorldNameValue>PHPSampleHelloWorldProj</phpHelloWorldNameValue>
+	        <phpHelloWorldDescriptionValue>This is the PHP HelloWorld project</phpHelloWorldDescriptionValue>
+	        <technologyPHPValue>PHP</technologyPHPValue>        
+	        <phpBlogNameValue>PHPSampleBlogProject</phpBlogNameValue>
+	        <phpBlogDescriptionValue>This is the PHP Blog project</phpBlogDescriptionValue>
+	       	<phpHelloWorldEditApplicationLinkXpath>//a[contains(text(),'PHPSampleHelloWorldProj-')]</phpHelloWorldEditApplicationLinkXpath>
+	       	<phpBlogEditApplicationLinkXpath>//a[contains(text(),'PHPSampleBlogProject-')]</phpBlogEditApplicationLinkXpath>
+	        <phpServerValue>Apache Server</phpServerValue>
+	        <phpDatabaseValue>MYSQL</phpDatabaseValue>
+	        <phpPilotProjectBlogValue>Blog</phpPilotProjectBlogValue>
+	        <phpConfigurationServerNameValue>Server</phpConfigurationServerNameValue>
+	        <phpConfigurationServerDescriptionValue>This is Server Configuration</phpConfigurationServerDescriptionValue>
+	        <phpConfigurationServerEnvironmentValue>Production</phpConfigurationServerEnvironmentValue>
+	        <phpConfigurationServerTypeValue>Server</phpConfigurationServerTypeValue>
+	        <phpConfigurationServerProtocolHttpValue>http</phpConfigurationServerProtocolHttpValue>
+	        <phpConfigurationServerProtocolHttpsValue>https</phpConfigurationServerProtocolHttpsValue>
+	        <phpConfigurationServerHostValue>localhost</phpConfigurationServerHostValue>
+	        <phpConfigurationServerPortValue>80</phpConfigurationServerPortValue>		       
+	        <phpConfigurationServerDeployDirectoryValue>C:\wamp\www</phpConfigurationServerDeployDirectoryValue>
+	        <phpConfigurationServerContextValueHelloWorld>PhpNone</phpConfigurationServerContextValueHelloWorld>
+	       	<phpConfigurationServerContextValueBlog>phpBlog</phpConfigurationServerContextValueBlog>
+	        <phpConfigurationDatabaseNameValue>Database</phpConfigurationDatabaseNameValue>
+	        <phpConfigurationDatabaseDescriptionValue>This is Database Configuration</phpConfigurationDatabaseDescriptionValue>
+	        <phpConfigurationDatabaseEnvironmentValue>Production</phpConfigurationDatabaseEnvironmentValue>
+	        <phpConfigurationDatabaseTypeValue>Database</phpConfigurationDatabaseTypeValue>
+	        <phpConfigurationDatabaseHostValue>localhost</phpConfigurationDatabaseHostValue>
+	        <phpConfigurationDatabasePortValue>3306</phpConfigurationDatabasePortValue>
+	        <phpConfigurationDatabaseDBUsernameValue>root</phpConfigurationDatabaseDBUsernameValue>
+	        <phpConfigurationDatabaseDBNameValueHelloWorld>testPhpHelloWorldProjectDatabase</phpConfigurationDatabaseDBNameValueHelloWorld>
+	     	<phpConfigurationDatabaseDBNameValueBlog>testPhpBlogProjectDatabase</phpConfigurationDatabaseDBNameValueBlog>
+	        <functionalFramework>Grid</functionalFramework>
+    </phresco>
+</environment>

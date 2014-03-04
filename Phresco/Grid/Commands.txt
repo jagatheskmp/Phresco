@@ -1,0 +1,36 @@
+1.To start node(execpting chrome):
+
+java -jar selenium-server-standalone-2.37.0.jar -role webdriver -nodeConfig nodeconfig.json
+java -jar selenium-server-standalone-2.37.0.jar -role node -nodeConfig nodeconfig.json
+2.To start node(when tests need to be run in chrome also):
+	
+IEand chrome
+
+java -Dwebdriver.chrome.driver=D:\doc\Grid\chromedriver.exe -Dwebdriver.ie.driver=D:\doc\Grid\IEDriverServer.exe -jar selenium-server-standalone-2.37.0.jar -role node -nodeConfig nodeconfig.json
+
+
+
+java -jar selenium-server-standalone-2.37.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 7575 -browser browserName=firefox,version=18,platform=WINDOWS
+
+
+
+IE:::::::::java -Dwebdriver.ie.driver=D:\doc\Grid\IEDriverServer.exe -jar selenium-server-standalone-2.37.0.jar -role node -nodeConfig nodeconfig.json
+
+java -jar selenium-server-standalone-2.37.0.jar -role hub -hubConfig hubconfig.json
+
+
+particular xml in cmd:
+mvn clean -Dtests=NoPackageTest test
+
+
+adb -s <device-id> -e install -r <path-to-selenium>/android-server-2.20.apk
+adb -s <device-id> shell am start -a android.intent.action.MAIN -n org.openqa.selenium.android.app/.MainActivity
+adb -s <device-id> forward tcp:8080, tcp:8080
+
+java -jar selenium-server-standalone-2.32.0.jar -role node -host <nodeipaddress> -port 5555 -hub http://<hubipaddress>:4444/grid/register
+
+java -jar selenium-server-standalone-2.37.0.jar -role node -host 172.16.22.108 -port 5555 -hub http://172.16.22.28:4444/grid/register
+
+java -jar selenium-server-standalone-2.21.0.jar -role hub
+
+java -jar selenium-server-standalone-2.21.0.jar -role node -hub http://localhost:4444/grid/register

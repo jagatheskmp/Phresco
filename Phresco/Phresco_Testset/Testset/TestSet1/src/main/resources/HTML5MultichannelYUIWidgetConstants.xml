@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+	    <multiYuiWidgetHelloworldNameValue>MultiYuiWidHelloworldProj</multiYuiWidgetHelloworldNameValue>
+        <multiYuiWidgetHelloworldDescriptionValue>This is MultiYuiWidgetHelloworld Project</multiYuiWidgetHelloworldDescriptionValue>
+		<multiYuiWidgetEshopNameValue>MultiYuiWidEshopProj</multiYuiWidgetEshopNameValue>
+        <multiYuiWidgetEshopDescriptionValue>This is MultiYuiWidgetEshop Project</multiYuiWidgetEshopDescriptionValue>
+	    <multiYuiWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidHelloworldProj-html5multichannelyu...')]</multiYuiWidgetHelloWorldEditApplicationLinkXpath>
+        <multiYuiMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidEshopProj-html5multichannelyuiwidg...')]</multiYuiMobWidgetEshopEditApplicationLinkXpath>
+		<widgetServerValue>Apache Tomcat</widgetServerValue>   
+	   	<widgetServerVersionValue>//input[@name='downloads_apache-tomcat']</widgetServerVersionValue>
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multiYuiWidgetValue>HTML5 Multichannel YUI Widget</multiYuiWidgetValue>
+		<multiYuiWidgetVersionValue>1.6</multiYuiWidgetVersionValue>
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>This is Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>3030</configServPortValue>
+        <configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+        <multiYuiWidgetconfigServContextValueHelloWorld>MultiYuiWidgetHelloworld</multiYuiWidgetconfigServContextValueHelloWorld>
+        <multiYuiServContextValueEshop>MultiYuiWidgetEshop</multiYuiServContextValueEshop>
+      	<configWebServiceNameValue>eshopService</configWebServiceNameValue>
+     	<configWebserviceDesc>This is eshopService configuration</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>6060</configWebservicePortValue>      	
+      	<multiYuiWebserviceContextEshopValue>eshop</multiYuiWebserviceContextEshopValue>
+      	<functionalFramework>Grid</functionalFramework>
+	</phresco>
+</environment>
+ 

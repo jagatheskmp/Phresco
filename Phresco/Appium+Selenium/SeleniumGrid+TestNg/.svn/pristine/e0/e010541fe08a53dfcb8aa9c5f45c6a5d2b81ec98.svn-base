@@ -1,0 +1,30 @@
+<automation>
+	<appurl>http://172.16.22.28:3030/jquerymobileshop</appurl>
+	<gridinfo>
+		<huburl>http://localhost:4444/wd/hub/</huburl>
+		<nodeinfos>
+			<nodeinfo id="localhost">
+				<nodeurl>http://localhost:5555/wd/hub/</nodeurl>
+				<platform>WINDOWS</platform>
+				<browser>Chrome, Firefox</browser>
+			</nodeinfo>
+		</nodeinfos>
+	</gridinfo>
+	<teststeps>
+		<step action="Click" id="Browse" name="Browse Button" type="Control" value="//img[@src='images/eshop/browse_icon.png']" />
+		<step action="Click" id="AudioDevice" name="audio device icon" type="Control" value="//a/span[contains(text(),'Audio Devices')]" />
+		<step action="Click" id="Mobile" name="mobile device icon" type="Control" value="//a/span[contains(text(),'Mobile Phones')]" />
+	</teststeps>
+	<testsuites>
+		<testsuite name="eshop" nodeinfos="localhost">
+			<testcase name="AudioDevice Device">
+				<step id="Audio-Step-2">Browse</step>
+				<step id="Audio-Step-3">AudioDevice</step>
+			</testcase>
+	 	<testcase name="Mobile Phone">
+				<step id="Mobile-Step-2">Browse</step>
+				<step id="Mobile-Step-3">Mobile</step>
+			</testcase>
+		</testsuite>
+	</testsuites> 
+</automation>

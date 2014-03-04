@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+    <phresco>
+
+        <phpHelloWorldNameValue>PHPCloneHelloWorldProj</phpHelloWorldNameValue>
+        <phpHelloWorldCodeValue>PhpHelloClone</phpHelloWorldCodeValue>
+        <phpHelloWorldDescriptionValue>This is the PHP HelloWorld project Clone Configuration</phpHelloWorldDescriptionValue>
+        <phpHelloWorldVersionValue>1.1.1</phpHelloWorldVersionValue>        
+        <technologyPHPValue>PHP</technologyPHPValue>        
+
+        <phpHelloWorldCheckBoxXpath>//a[text()='PHPCloneHelloWorldProj']/preceding-sibling::input</phpHelloWorldCheckBoxXpath>
+        <phpHelloWorldEditApplicationLinkXpath>//a[contains(text(),'PHPCloneHelloWorldProj-php')]</phpHelloWorldEditApplicationLinkXpath>
+ 		
+       
+        <phpServerValue>Apache Server</phpServerValue>
+        <phpDatabaseValue>MYSQL</phpDatabaseValue>
+
+        
+        <phpConfigurationServerNameValue>Server</phpConfigurationServerNameValue>
+        <phpConfigurationServerDescriptionValue>This is Server Configuration</phpConfigurationServerDescriptionValue>
+        <phpConfigurationServerEnvironmentValue>Production</phpConfigurationServerEnvironmentValue>
+        <phpConfigurationServerTypeValue>Server</phpConfigurationServerTypeValue>
+        <phpConfigurationServerProtocolHttpValue>http</phpConfigurationServerProtocolHttpValue>
+        <phpConfigurationServerProtocolHttpsValue>https</phpConfigurationServerProtocolHttpsValue>
+        <phpConfigurationServerHostValue>localhost</phpConfigurationServerHostValue>
+        <phpConfigurationServerPortValue>80</phpConfigurationServerPortValue>
+       
+        <phpConfigurationServerDeployDirectoryValue>C:\wamp\www</phpConfigurationServerDeployDirectoryValue>
+        <phpConfigurationServerContextValueHelloWorld>PhpNoneClone</phpConfigurationServerContextValueHelloWorld>
+       
+        <phpConfigurationDatabaseNameValue>Database</phpConfigurationDatabaseNameValue>
+        <phpConfigurationDatabaseDescriptionValue>This is Database Configuration</phpConfigurationDatabaseDescriptionValue>
+        <phpConfigurationDatabaseEnvironmentValue>Production</phpConfigurationDatabaseEnvironmentValue>
+        <phpConfigurationDatabaseTypeValue>Database</phpConfigurationDatabaseTypeValue>
+        <phpConfigurationDatabaseHostValue>localhost</phpConfigurationDatabaseHostValue>
+        <phpConfigurationDatabasePortValue>3306</phpConfigurationDatabasePortValue>
+        <phpConfigurationDatabaseDBUsernameValue>root</phpConfigurationDatabaseDBUsernameValue>
+        <phpConfigurationDatabaseDBNameValueHelloWorld>testphpHelloWorldDatabaseClone</phpConfigurationDatabaseDBNameValueHelloWorld>
+
+     
+       
+        
+        <jQueryMobWidgetEshopNameValue>JQueryMobEshopCloneProj</jQueryMobWidgetEshopNameValue>
+        <jQueryMobWidgetEshopCodeValue>JQMobClone</jQueryMobWidgetEshopCodeValue>
+        <jQueryMobWidgetEshopDescriptionValue>This is JQueryMobileWidgetEshop Project</jQueryMobWidgetEshopDescriptionValue>
+        <jQueryMobWidgetEshopVersionValue>1.0.0</jQueryMobWidgetEshopVersionValue> 
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<jQueryMobWidgetValue>HTML5 JQuery Mobile Widget</jQueryMobWidgetValue>
+		<jQueryMobWidgetVersionValue>1.5</jQueryMobWidgetVersionValue>
+		
+		<jQueryMobWidgetEshopCheckBoxXpath>//a[text()='JQueryMobEshopCloneProj']/preceding-sibling::input</jQueryMobWidgetEshopCheckBoxXpath>
+        <jQueryMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'JQueryMobEshopCloneProj-html5jquerymobilewidget')]</jQueryMobWidgetEshopEditApplicationLinkXpath>
+       		
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+      	        	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration for Clone Configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+        
+        <jqueryconfigServContextValueEshop>JQueryMobileWidgetEshopClone</jqueryconfigServContextValueEshop>
+     
+      	<configWebServiceNameValue>WebService</configWebServiceNameValue>
+     	<configWebserviceDesc>WebService configuration for JQueryMobileWidget project for Clone Configuration</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>2020</configWebservicePortValue> 
+     	
+     	<jqueryconfigWebserviceContextEshopValue>eshop</jqueryconfigWebserviceContextEshopValue>
+	
+	
+        
+     
+        <envName>Testing</envName>
+        <envDesc>This is Testing environment</envDesc>
+        <envTesting>Testing</envTesting>
+        
+   
+
+    </phresco>
+
+</environment>

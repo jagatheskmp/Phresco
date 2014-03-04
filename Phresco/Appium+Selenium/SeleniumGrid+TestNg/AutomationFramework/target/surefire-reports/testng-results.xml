@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation TestSuite" duration-ms="4233" started-at="2013-11-22T04:22:13Z" finished-at="2013-11-22T04:22:17Z">
+    <groups>
+    </groups>
+    <test name="Audio Device" duration-ms="4233" started-at="2013-11-22T04:22:13Z" finished-at="2013-11-22T04:22:17Z">
+      <class name="com.photon.phresco.automation.TestCase">
+        <test-method status="PASS" signature="testExecution()[pri:0, instance:com.photon.phresco.automation.TestCase@77cfb802]" test-instance-name="Microphone Audio Device Test" name="testExecution" duration-ms="4222" started-at="2013-11-22T09:52:13Z" finished-at="2013-11-22T09:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecution -->
+      </class> <!-- com.photon.phresco.automation.TestCase -->
+    </test> <!-- Audio Device -->
+  </suite> <!-- Automation TestSuite -->
+</testng-results>

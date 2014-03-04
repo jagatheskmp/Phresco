@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<windowsPhoneNameValue>WindowsPhoneSampleProject</windowsPhoneNameValue>
+        <windowsPhoneDescriptionValue>This is the Windows Phone  project</windowsPhoneDescriptionValue>
+        <technologyWindowsPhoneValue>Windows Phone</technologyWindowsPhoneValue>
+      	<windowsPhoneEditApplicationLinkXpath>//a[contains(text(),'WindowsPhoneSampleProject-windowsphone')]</windowsPhoneEditApplicationLinkXpath>
+      	<functionalFramework>Grid</functionalFramework>
+	</phresco>             
+</environment>

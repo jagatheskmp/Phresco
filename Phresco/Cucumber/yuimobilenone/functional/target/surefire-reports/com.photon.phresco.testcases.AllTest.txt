@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.photon.phresco.testcases.AllTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.657 sec <<< FAILURE!
+Then the page title returned should be \"Hello World\"      Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.photon.phresco.Screens.BaseScreen.isTextPresent(BaseScreen.java:207)
+	at com.photon.phresco.testcases.HelloWorldTestCase.thePageTitleReturned(HelloWorldTestCase.java:61)
+	at ?.Then the page title returned should be "Hello World"(com\photon\phresco\testcases\helloworld.feature:8)
+Scenario: Hello World should be displayed    Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.photon.phresco.Screens.BaseScreen.isTextPresent(BaseScreen.java:207)
+	at com.photon.phresco.testcases.HelloWorldTestCase.thePageTitleReturned(HelloWorldTestCase.java:61)
+	at ?.Then the page title returned should be "Hello World"(com\photon\phresco\testcases\helloworld.feature:8)

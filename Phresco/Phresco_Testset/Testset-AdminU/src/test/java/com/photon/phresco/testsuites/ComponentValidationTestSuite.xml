@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ComponentValidationTestSuite" verbose="1">
+	<test name="ComponentValidationTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.testcases.ComponentsPageValidationTest" />
+			<methods>
+				<include name="testValidLogin" />
+				<include name="testComponentsPageValidation" />
+				<include name="testModulesPageWithoutMandatoryFieldsValidation" />
+				<include name="testJslibrariesPageWithoutMandatoryFieldsValidation" />
+				<include name="testComponentPageWithoutMandatoryFieldsValidation" />
+				<include name="testArchetypeCancelButton" />
+				<include name="testArchetypeSaveWithoutMandatoryFields" />
+				<include name="testCreateArchetypeWithoutJar" />
+				<include name="testCreateArchetypeWithAnotherCustomer" />
+				<include name="testDeleteArchetypeWithAnotherCustomer" />
+				<include name="testCreateArchetypeWithoutTechnologyVersion" />
+				<include name="testCreateArchetypeWithoutApplicableFeatures" />
+				<include name="testTechnologyGroupCreation" />
+				<include name="testTechnologyGroupCancelButton" />
+				<include name="testTechnologyGroupDeletion" />
+			</methods>
+		</classes>
+	</test>	
+</suite> 

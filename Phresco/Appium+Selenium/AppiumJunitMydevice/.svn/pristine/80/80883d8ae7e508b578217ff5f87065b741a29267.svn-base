@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="TESTNG FUNCTIONALITIES" parallel="tests"
+	thread-count="5" verbose="3">
+
+	<test name="Multiple groups include" junit="false" preserve-order="true">
+		<parameter name="jqueryMobilewidgetdataXml" value="/WidgetData.xml" />
+		<classes>
+			<class name="com.photon.phresco.testcases.FactoryDataproviderTest" />
+		</classes>
+	</test>
+
+
+
+
+</suite> 
+  

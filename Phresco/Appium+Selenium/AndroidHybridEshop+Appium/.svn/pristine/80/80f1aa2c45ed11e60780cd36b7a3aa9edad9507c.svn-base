@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTest" thread-count="10">
+	<suite-files>
+		<suite-file path="./UIValidationSuite.xml" />
+		<suite-file path="./RegisterSuite.xml" />
+		<suite-file path="./LoginSuite.xml" />
+		<suite-file path="./SelectProductSuite.xml" />
+	</suite-files>
+</suite>

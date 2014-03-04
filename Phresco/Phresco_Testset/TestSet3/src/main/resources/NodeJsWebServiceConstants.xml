@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <phresco>
+        <nodeJsServiceHelloWorldNameValue>NodeJsWebServiceHelloWorld</nodeJsServiceHelloWorldNameValue>
+        <nodeJsServiceHelloWorldCodeValue>NodeJsHello</nodeJsServiceHelloWorldCodeValue>
+        <nodeJsServiceHelloWorldDescriptionValue>This is the nodeJsService HelloWorld project</nodeJsServiceHelloWorldDescriptionValue>
+        <nodeJsServiceHelloWorldVersionValue>1.1.1</nodeJsServiceHelloWorldVersionValue>        
+        <technologynodeJsServiceValue>Node JS Web Service</technologynodeJsServiceValue>
+        
+        <nodeJsServiceHelloWorldCheckBoxXpath>//a[text()='NodeJsWebServiceHelloWorld']/preceding-sibling::input</nodeJsServiceHelloWorldCheckBoxXpath>
+        <nodeJsServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'NodeJsWebServiceHelloWorld-nodejswebservice')]</nodeJsServiceHelloWorldEditApplicationLinkXpath>
+ 		                     
+        <nodeJsServiceServerValue>NodeJs</nodeJsServiceServerValue>
+        <nodeJsServiceDatabaseValue>MYSQL</nodeJsServiceDatabaseValue>
+
+        
+        <nodeJsServiceConfigurationServerNameValue>Server</nodeJsServiceConfigurationServerNameValue>
+        <nodeJsServiceConfigurationServerDescriptionValue>This is Server Configuration</nodeJsServiceConfigurationServerDescriptionValue>
+        <nodeJsServiceConfigurationServerEnvironmentValue>Production</nodeJsServiceConfigurationServerEnvironmentValue>
+        <nodeJsServiceConfigurationServerTypeValue>Server</nodeJsServiceConfigurationServerTypeValue>
+        <nodeJsServiceConfigurationServerProtocolHttpValue>http</nodeJsServiceConfigurationServerProtocolHttpValue>
+        <nodeJsServiceConfigurationServerProtocolHttpsValue>https</nodeJsServiceConfigurationServerProtocolHttpsValue>
+        <nodeJsServiceConfigurationServerHostValue>localhost</nodeJsServiceConfigurationServerHostValue>
+        <nodeJsServiceConfigurationServerPortValue>8090</nodeJsServiceConfigurationServerPortValue>
+      
+        <nodeJsServiceConfigurationServerDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\webapps</nodeJsServiceConfigurationServerDeployDirectoryValue>
+        <nodeJsServiceConfigurationServerContextValueHelloWorld>NodeJsServiceHelloworld</nodeJsServiceConfigurationServerContextValueHelloWorld>
+       
+        <nodeJsServiceConfigurationDatabaseNameValue>Database</nodeJsServiceConfigurationDatabaseNameValue>
+        <nodeJsServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</nodeJsServiceConfigurationDatabaseDescriptionValue>
+        <nodeJsServiceConfigurationDatabaseEnvironmentValue>Production</nodeJsServiceConfigurationDatabaseEnvironmentValue>
+        <nodeJsServiceConfigurationDatabaseTypeValue>Database</nodeJsServiceConfigurationDatabaseTypeValue>
+        <nodeJsServiceConfigurationDatabaseHostValue>localhost</nodeJsServiceConfigurationDatabaseHostValue>
+        <nodeJsServiceConfigurationDatabasePortValue>3306</nodeJsServiceConfigurationDatabasePortValue>
+        <nodeJsServiceConfigurationDatabaseDBUsernameValue>root</nodeJsServiceConfigurationDatabaseDBUsernameValue>
+        <nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>testNodeJsHelloworldDatabase</nodeJsServiceConfigurationDatabaseDBNameValueHelloWorld>
+        		
+        <nodeJsServiceESHOPNameValue>NodeJsServiceEshopProj</nodeJsServiceESHOPNameValue>
+        <nodeJsServiceESHOPCodeValue>nodeJsEshop</nodeJsServiceESHOPCodeValue>
+        <nodeJsServiceESHOPDescriptionValue>This is the nodeJsService ESHOP project</nodeJsServiceESHOPDescriptionValue>
+        <nodeJsServiceESHOPVersionValue>1.1.1</nodeJsServiceESHOPVersionValue>        
+               
+        <nodeJsServicePilotProjectESHOPValue>Eshop</nodeJsServicePilotProjectESHOPValue>
+        <nodeJsServiceESHOPCheckBoxXpath>//a[text()='NodeJsServiceEshopProj']/preceding-sibling::input</nodeJsServiceESHOPCheckBoxXpath>
+        <nodeJsServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'NodeJsServiceEshopProj-nodejswebservice')]</nodeJsServiceESHOPEditApplicationLinkXpath>
+        
+        <nodeJsServiceConfigurationDatabaseDBNameValueESHOP>testNodeJsEshopDatabase</nodeJsServiceConfigurationDatabaseDBNameValueESHOP>
+        <nodeJsServiceConfigurationServerContextValueESHOP>NodeJsServiceEshop</nodeJsServiceConfigurationServerContextValueESHOP> 
+   
+    </phresco>
+</environment>

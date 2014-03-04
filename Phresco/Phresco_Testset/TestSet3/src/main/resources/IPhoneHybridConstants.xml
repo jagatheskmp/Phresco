@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+		<iPhoneHybridEshopNameValue>iPhoneHybridEshop</iPhoneHybridEshopNameValue>
+        <iPhoneHybridEshopCodeValue>iPhoneHyEshop</iPhoneHybridEshopCodeValue>
+        <iPhoneHybridEshopDescriptionValue>This is iPhoneHybridEshop Project</iPhoneHybridEshopDescriptionValue>
+        <iPhoneHybridEshopVersionValue>1.0.0</iPhoneHybridEshopVersionValue> 
+		<iPhoneHybridValue>iPhone Hybrid</iPhoneHybridValue>
+		<iPhoneHybridVersionValue></iPhoneHybridVersionValue>
+		
+		
+		<iPhoneHybridEshopCheckBoxXpath>//input[@id='173ba409-503e-43ed-970c-b03627656322']</iPhoneHybridEshopCheckBoxXpath>
+        <iPhoneHybridEshopEditApplicationLinkXpath>//a[contains(text(),'iPhoneHybridEshop-iphone')]</iPhoneHybridEshopEditApplicationLinkXpath>
+       
+		
+  	  	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>   
+  	  
+  	  	 
+       	<iPhoneHybridConfigServNameValue>Server</iPhoneHybridConfigServNameValue>
+      	<iPhoneHybridConfigservDescValue>Server configuration</iPhoneHybridConfigservDescValue>
+      	<iPhoneHybridconfigServEnvValue>Production</iPhoneHybridconfigServEnvValue>
+      	<iPhoneHybridconfigServValue>WebService</iPhoneHybridconfigServValue>      	
+      	<iPhoneHybridconfigServProtocolValue>http</iPhoneHybridconfigServProtocolValue>
+      	<iPhoneHybridconfigServHostValue>172.16.17.180</iPhoneHybridconfigServHostValue>
+     	<iPhoneHybridconfigServPortValue>8080</iPhoneHybridconfigServPortValue>
+     	
+        <iPhoneHybridconfigServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</iPhoneHybridconfigServDeployDirectoryValue>
+        <iPhoneHybridconfigServContextValueEshop>mobilewidget</iPhoneHybridconfigServContextValueEshop>
+        
+                  	
+		
+		<iPhoneHybridHelloWorldNameValue>iPhoneHybridHelloWorld</iPhoneHybridHelloWorldNameValue>
+        <iPhoneHybridHelloWorldCodeValue>iPhoneHyHello</iPhoneHybridHelloWorldCodeValue>
+        <iPhoneHybridHelloWorldDescriptionValue>This is iPhoneHybridHelloWorld Project</iPhoneHybridHelloWorldDescriptionValue>
+        <iPhoneHybridHelloWorldVersionValue>1.0.0</iPhoneHybridHelloWorldVersionValue> 
+	
+		
+		<iPhoneHybridHelloWorldCheckBoxXpath>//a[text()='iPhoneHybridHelloWorld']/preceding-sibling::input</iPhoneHybridHelloWorldCheckBoxXpath>
+        <iPhoneHybridHelloWorldEditApplicationLinkXpath>//a[contains(text(),'iPhoneHybridHelloWorld-iphone')]</iPhoneHybridHelloWorldEditApplicationLinkXpath>
+       
+
+</phresco>
+</environment>
+
+

@@ -1,0 +1,68 @@
+<suite name="Mydevice" parallel="tests" thread-count="5" verbose="3">
+
+	<!-- <test name="MyDeviceTest-Android" junit="false" preserve-order="true">
+		<parameter name="device" value="android" />
+		<parameter name="version" value="4.2.1" />
+		<parameter name="platform" value="MAC" />
+		<parameter name="package" value="com.target.stores.mystoremanager.prod" />
+		<parameter name="activity" value="MyStoreManager" />
+		<parameter name="app"
+			value="/Users/chelladurai/Desktop/CD/MyDeviceAndroid/do_not_checkin/target/MyDeviceAndroid.apk" />
+		<parameter name="serverip" value="127.0.0.1" />
+		<classes>
+			<class name="com.photon.phresco.mydevice.MyDeviceTest" />
+			<methods>
+				<include name="testLogin" />
+				<include name="testMenuBarVerification" />
+				<include name="testFindSearchDpci" />
+				<include name="testFindSearchPlu" />
+				<include name="testFindSearchUpc" />
+				<include name="testFindSearchKeyword" />
+				<include name="testFindSearchWomensCategory" />
+				<include name="testFindSearchMensCategory" />
+				<include name="testFindSearchElectronicsCategory" />
+				<include name="testFindSearchShoesCategory" />
+				<include name="testLabelPrint" />
+				<include name="testSingleSignItem" />
+				<include name="testMultiSignItem" />
+				<include name="testPlanoGram" />
+				<include name="testReprintExistingSign" />
+				<include name="testfill" />
+				<include name="testLogout" />
+			</methods>
+		</classes>
+	</test> -->
+	<test name="MyDeviceTest-iphone" junit="false" preserve-order="true">
+		<parameter name="device" value="ios" />
+		<parameter name="version" value="7.0" />
+		<parameter name="platform" value="MAC" />
+		<parameter name="package" value="" />
+		<parameter name="activity" value="" />
+		<parameter name="app"
+			value="/Users/chelladurai/Desktop/CD/myDevice/do_not_checkin/target/Debug-iphonesimulator/Phresco.app" />
+		<parameter name="serverip" value="127.0.0.1" />
+		<classes>
+			<class name="com.photon.phresco.mydevice.MyDeviceTest" />
+			<methods>
+				<include name="testLogin" />
+				<include name="testMenuBarVerification" />
+				<include name="testFindSearchDpci" />
+				<include name="testFindSearchPlu" />
+				<include name="testFindSearchUpc" />
+				<include name="testFindSearchKeyword" />
+				<include name="testFindSearchWomensCategory" />
+				<include name="testFindSearchMensCategory" />
+				<include name="testFindSearchElectronicsCategory" />
+				<include name="testFindSearchShoesCategory" />
+				<include name="testLabelPrint" />
+				<include name="testSingleSignItem" />
+				<include name="testMultiSignItem" />
+				<include name="testPlanoGram" />
+				<include name="testReprintExistingSign" />
+				<include name="testfill" />
+				<include name="testLogout" />
+			</methods>
+		</classes>
+	</test>
+
+</suite>

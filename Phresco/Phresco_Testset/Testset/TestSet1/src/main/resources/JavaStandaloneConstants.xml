@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<javaStandaloneHelloWorldNameValue>JavaStandHelloWorld</javaStandaloneHelloWorldNameValue>
+        <javaStandaloneHelloWorldDescriptionValue>This is JavaStandalonHelloWorld Project</javaStandaloneHelloWorldDescriptionValue>
+		<javaStandaloneValue>Java Standalone</javaStandaloneValue>
+		<javaStandaloneHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JavaStandHelloWorld-')]</javaStandaloneHelloWorldEditApplicationLinkXpath>
+		<functionalFramework>Grid</functionalFramework>
+	</phresco>
+</environment>
+
+

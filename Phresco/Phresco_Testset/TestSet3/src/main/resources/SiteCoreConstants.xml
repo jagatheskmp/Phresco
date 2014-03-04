@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+
+		<siteCoreHelloWorldNameValue>SiteCoreSampleHelloWorldProj</siteCoreHelloWorldNameValue>
+        <siteCoreHelloWorldCodeValue>SiteCoreHello</siteCoreHelloWorldCodeValue>
+        <siteCoreHelloWorldDescriptionValue>This is the SiteCore HelloWorld project</siteCoreHelloWorldDescriptionValue>
+        <siteCoreHelloWorldVersionValue>1.1.1</siteCoreHelloWorldVersionValue>        
+        <technologySiteCoreValue>Site Core</technologySiteCoreValue>
+        <siteCoreSever>IIS</siteCoreSever>
+
+       	<siteCoreHelloWorldCheckBoxXpath>//a[text()='SiteCoreSampleHelloWorldProj']/preceding-sibling::input</siteCoreHelloWorldCheckBoxXpath>
+      	<siteCoreHelloWorldEditApplicationLinkXpath>//a[contains(text(),'SiteCoreSampleHelloWorldProj-sitecore')]</siteCoreHelloWorldEditApplicationLinkXpath>
+ 	
+        
+        <siteCoreServerName>SeverConfiguration</siteCoreServerName>
+        <siteCoreServerDiscription>Site Core Server configuration</siteCoreServerDiscription>
+        <siteCoreServerEnvironment>Production</siteCoreServerEnvironment>
+        <siteCoreServerType>Server</siteCoreServerType>
+        <siteCoreServerProtocol>http</siteCoreServerProtocol>
+        <siteCoreServerHost>localhost</siteCoreServerHost>
+        <siteCoreServerPort>8090</siteCoreServerPort>
+        
+        <siteCoreServerDeployDir>C:\inetpub\wwwroot\SiteCore</siteCoreServerDeployDir>
+        <siteCoreServerSiteName>SampleSite</siteCoreServerSiteName>
+        <siteCoreServerAppName>SampleApp</siteCoreServerAppName>  
+       
+
+ </phresco>
+ </environment>

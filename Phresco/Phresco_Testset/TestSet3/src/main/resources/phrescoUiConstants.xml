@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+				<environment>
+					 <phresco>
+								
+						        <!-- Phresco FrameWorkLogin -->
+				<userNameXpath>//input[@id='xlInput']</userNameXpath>
+				<passwordXpath>//div[2]/input</passwordXpath>
+				<loginButtonXpath>//input[@value='Login']</loginButtonXpath>
+				
+				<!-- Phresco FrameWork Main Menu -->
+				<MainMenuProjectTab>//label[@id='lbl_hdr_projects']</MainMenuProjectTab>
+				
+				<!-- Project Creation -->
+				<projectTabXpath>//a[@id='applications']/label</projectTabXpath>
+				<customerDropdown>//div[@id='customerSelect']/div/a/label</customerDropdown>
+				
+				<addprojectButtonXpath>//form[@id='formProjectList']/div/input</addprojectButtonXpath>
+				<projectNameXpath>//div[@id='projectNameControl']/div/input</projectNameXpath>
+				<projectCodeXpath>//input[@name='projectCode']</projectCodeXpath>
+				<projectDescriptionXpath>//textarea[@id='projDesc']</projectDescriptionXpath>
+				<projectVersionXpath>//input[@id='projVersion']</projectVersionXpath>
+				<projectCreateButtonXpath>//input[@id='createProject']</projectCreateButtonXpath>
+				
+				<!-- Project Edit(To Choose Layers) App Info-->
+				<applicationLayerCheckBoxAllXpath>//input[@id='checkAll1']</applicationLayerCheckBoxAllXpath>
+				<applicationLayerTechnologyXpath>//select[@name='app-layerTechnology']</applicationLayerTechnologyXpath> 
+				<appInfoCodeXpath>//input[@id='code']</appInfoCodeXpath>
+				<appInfoDescriptionXpath>//textarea[@id='textarea']</appInfoDescriptionXpath>
+				<appInfoVersionXpath>//input[@id='applicationVersion']</appInfoVersionXpath>
+				<appInfoPilotProjectXpath>//div[7]/div/select</appInfoPilotProjectXpath>
+				<appInfoServerCheckAllXpath>//input[@id='checkAll1']</appInfoServerCheckAllXpath>
+				
+				<appInfoServerSelectXpath>//select[@id='1_serverName']</appInfoServerSelectXpath>
+				<appInfoServerVersionXpath>//div[@id='1_serverVersion']/div/div/div/input</appInfoServerVersionXpath>
+				     
+				<appInfoDatabaseCheckAllXpath>//input[@id='checkAll2']</appInfoDatabaseCheckAllXpath>
+				<appInfoDatabaseSelectXpath>//select[@id='1_databaseName']</appInfoDatabaseSelectXpath>
+				<appInfoDatabaseVersion>//input[@name='downloads_mysql']</appInfoDatabaseVersion>        
+				<appInfoNextButtonXpath>//input[@id='next']</appInfoNextButtonXpath> 
+				
+				      <!-- To Select Features -->
+				<featuresSelectDropdownXpath>//div[@id='featureselect']/ul/li/a/label</featuresSelectDropdownXpath>
+				<featureFinishButtonXpath>//input[@id='finish']</featureFinishButtonXpath>
+				
+				<!-- Configuration Tab Scenario -->
+				<configurationTabXpath>//label[@id='lbl_app_menu_config']</configurationTabXpath>
+				<configurationAddButtonXpath>//input[@id='configAdd']</configurationAddButtonXpath>
+				<configurationAddNameXpath>//input[@id='configName']</configurationAddNameXpath>
+				<configurationAddDescriptionXpath>//textarea[@id='configDesc']</configurationAddDescriptionXpath>
+				<configurationAddEnvironmentXpath>//select[@id='environment']</configurationAddEnvironmentXpath>
+				<configurationAddTypeXpath>//select[@id='templateType']</configurationAddTypeXpath>
+				
+								<!-- Configutration Server Keys -->
+				      <configurationServerProtocolXpath>//select[@id='protocol']</configurationServerProtocolXpath>
+				      <configurationServerHostXpath>//input[@id='host']</configurationServerHostXpath>
+				      <configurationServerPortXpath>//input[@id='port']</configurationServerPortXpath>		
+				      <configurationServerTypeXpath>//select[@id='type']</configurationServerTypeXpath>
+				<configurationServerVersionXpath>//select[@id='version']</configurationServerVersionXpath>
+				<configurationServerDeployDirectoryXpath>//input[@id='deploy_dir']</configurationServerDeployDirectoryXpath>
+				<configurationServerUsernameXpath>//input[@id='admin_username']</configurationServerUsernameXpath>
+				      <configurationServerPasswordXpath>//input[@id='admin_password']</configurationServerPasswordXpath>
+				<configurationServerContextXpath>//input[@id='context']</configurationServerContextXpath>
+				<configurationSaveButtonXpath>//input[@id='saveConfiguration']</configurationSaveButtonXpath>
+				<configurationDbSave>//div[2]/input</configurationDbSave>
+							
+										<!-- configuration for ASP DotNet and sitecore -->
+				<ConfigurationSiteName>//input[@id='siteName']</ConfigurationSiteName>	
+				<ConfigurationAppName>//input[@id='appName']</ConfigurationAppName>	
+				<siteCoreInstallationPath>//input[@id='siteCoreInstPath']</siteCoreInstallationPath>	
+				
+				      				<!-- Configuration DataBase Keys -->       
+				<configurationDatabaseHostXpath>//input[@id='host']</configurationDatabaseHostXpath>
+				<configurationDatabasePortXpath>//input[@id='port']</configurationDatabasePortXpath>
+				<configurationDatabaseDBUsernameXpath>//input[@id='username']</configurationDatabaseDBUsernameXpath>
+				<configurationDatabaseDBNameXpath>//input[@id='dbname']</configurationDatabaseDBNameXpath>
+				<!-- <configurationDatabaseDatabaseTypeXpath>//input[@id='type']</configurationDatabaseDatabaseTypeXpath>
+				<configurationDatabaseDBTypeXpath>//input[@id='Database']</configurationDatabaseDBTypeXpath>
+				<configurationDatabaseVersionXpath></configurationDatabaseVersionXpath> -->
+				  
+				<!-- To Create WebLayer Projects -->
+				<webLayerCheckBoxXpath>//span[@id='webLayerControl']/span/input</webLayerCheckBoxXpath>
+				<webLayerGroupXpath>//select[@name='web-layerTechGroup']</webLayerGroupXpath>
+				<webLayerTechnologyXpath>//select[@name='web-layerTechnology']</webLayerTechnologyXpath>
+				<webLayerVersionXpath>//select[@name='web-layerVersion']</webLayerVersionXpath>
+				
+				<!-- To Edit WebLayes Projects -->
+				<webServiceCheckBoxXpath>//div[10]/section/div/section/span/span/input</webServiceCheckBoxXpath>
+				<webServiceJSON>//input[@name='webservice']</webServiceJSON>
+				 
+				 <!-- Web Service Configuration -->
+				      <configurationWebServiceProtocolXpath>//select[@id='protocol']</configurationWebServiceProtocolXpath>
+				      <configurationWebServiceHostXpath>//input[@id='host']</configurationWebServiceHostXpath>
+				      <configurationWebServicePortXpath>//input[@id='port']</configurationWebServicePortXpath>
+				     	<configurationWebServiceUsernameXpath>//input[@id='username']</configurationWebServiceUsernameXpath>
+				      <configurationWebServicePasswordXpath>//input[@id='password']</configurationWebServicePasswordXpath>
+				      <configurationWebServiceContextXpath>//input[@id='context']</configurationWebServiceContextXpath>    
+				       
+				<!-- To Create Mobile Layers Projects -->
+				<mobileLayerCheckBoxXpath>//span[@id='mobileLayerControl']/span/input</mobileLayerCheckBoxXpath>
+				<mobileLayerAndroidCheckBoxXpath>//input[@id='android']</mobileLayerAndroidCheckBoxXpath>
+				<mobileLayerAndroidTypeXpath>//select[@name='androidTechnology']</mobileLayerAndroidTypeXpath>
+				<mobileLayerAndroidVersionXpath>//div[@id='androidLayerDiv']/div[3]/select</mobileLayerAndroidVersionXpath>
+				<mobileLayerAndroidPhoneCheckBoxXpath>//div[@id='androidLayerDiv']/div[4]/input</mobileLayerAndroidPhoneCheckBoxXpath>
+				<mobileLayerAndroidTabletCheckBoxXpath>//div[@id='androidLayerDiv']/div[5]/input</mobileLayerAndroidTabletCheckBoxXpath>
+				<mobileLayerBlackBerryCheckBoxXpath>//div[@id='bbLayerDiv']/div/input</mobileLayerBlackBerryCheckBoxXpath>
+				<mobileLayerBlackBerryTypeXpath>//select[@name='bbTechnology']</mobileLayerBlackBerryTypeXpath>
+				<mobileLayerBlackBerryVersionXpath>//div[@id='bbLayerDiv']/div[3]/select</mobileLayerBlackBerryVersionXpath>
+				<mobileLayerBlackBerryPhoneCheckBoxXpath>//div[@id='bbLayerDiv']/div[4]/input</mobileLayerBlackBerryPhoneCheckBoxXpath>
+				<mobileLayerBlackBerryTabletCheckBoxXpath>//div[@id='bbLayerDiv']/div[5]/input</mobileLayerBlackBerryTabletCheckBoxXpath>
+				<mobileLayerIphoneCheckBoxXpath>//div[@id='iphoneLayerDiv']/div/input</mobileLayerIphoneCheckBoxXpath>
+				<mobileLayerIphoneTypeXpath>//select[@name='iphoneTechnology']</mobileLayerIphoneTypeXpath>
+				<mobileLayerIphoneVersionXpath>//div[@id='iphoneLayerDiv']/div[3]/select</mobileLayerIphoneVersionXpath>
+				<mobileLayerIphonePhoneCheckBoxXpath>//div[@id='iphoneLayerDiv']/div[4]/input</mobileLayerIphonePhoneCheckBoxXpath>
+				<mobileLayerIphoneTabletCheckBoxXpath>//div[@id='iphoneLayerDiv']/div[5]/input</mobileLayerIphoneTabletCheckBoxXpath>
+				<mobileLayerWindowsCheckBoxXpath>//div[@id='windowsLayerDiv']/div/input</mobileLayerWindowsCheckBoxXpath>
+				<mobileLayerWindowsTypeXpath>//div[@id='windowsLayerDiv']/div[2]/select</mobileLayerWindowsTypeXpath>
+				<mobileLayerWindowsVersionXpath>//div[@id='windowsLayerDiv']/div[3]/select</mobileLayerWindowsVersionXpath>
+				<mobileLayerWindowsPhoneCheckBoxXpath>//div[@id='windowsLayerDiv']/div[4]/input</mobileLayerWindowsPhoneCheckBoxXpath>
+				<mobileLayerWindowsTabletCheckBoxXpath>//div[@id='windowsLayerDiv']/div[5]/input</mobileLayerWindowsTabletCheckBoxXpath>
+				
+				 <!-- CodeValidation For ApplicationLayer -->
+				<codeXpath>//a[@id='code']/label</codeXpath>
+				<validateTab>satheea</validateTab>
+				<selectFunctional>//form[@id='code']/div/selectl</selectFunctional>
+				<functionalXpath>//option[@value='functional']</functionalXpath>
+				
+				<!-- Build Scenario For ApplicationLayer --> 
+				      <buildXpath>//a[@id='buildView']/label</buildXpath>
+				      <generatebuildXpath>//a[@id='generateBuild']</generatebuildXpath>
+				      <buildName>//input[@id='buildName']</buildName>
+				      <selectEnvironment>//input[@name='environmentName']</selectEnvironment>
+				      <selectSecondEnvironment>//li[2]/input</selectSecondEnvironment>
+				      <buildButton>//input[@id='build']</buildButton>
+				      <deployButton>//td[5]/a/img</deployButton>
+				      <selectSql>//input[@id='btnAddAll']</selectSql>
+				      <deployOk>//input[@id='deploy']</deployOk>
+				      
+				     <executeSql>//input[@id='executeSql']</executeSql>
+				      
+				      <nodeJsbuildStop>//input[@id='runAgainstSourceStop']</nodeJsbuildStop>
+				      <nodeJsRunagainst>//input[@id='runAgainstSourceStart']</nodeJsRunagainst>
+				      <nodeJsrun>//input[@id='startServer']</nodeJsrun>
+				      <skipUnitTest>//input[@id='skipTest']</skipUnitTest>
+				      
+				      <buidNameValue>First</buidNameValue>
+				<!--  Build Scenario for mobile layer -->
+				 <buildNumber>//input[@id='buildNumber']</buildNumber>
+				 <mobileBuildEnvironment>//select[@id='environmentName']</mobileBuildEnvironment>
+					 <buildProjectNumber>1</buildProjectNumber>
+				   	 <ProductionValue>Production</ProductionValue>
+				       <androidSdk>2.3.3</androidSdk>
+				       <sdkBuildXpath>//select[@id='sdk']</sdkBuildXpath>
+				       <buildEmulator>//option[@value='emulator']</buildEmulator>
+				  	<appInfoTomcatServerValue>Apache Tomcat</appInfoTomcatServerValue>     
+				<TomacatServerVersionValue>//td[2]/div/div/div/div/input</TomacatServerVersionValue>
+				       <blackBerryTarget>//select[@id='target']</blackBerryTarget>
+				     
+				    <simulatorValue>iphonesimulator6.0</simulatorValue>
+				    <simulatorVersionXpath>//select[@id='sdkVersion']</simulatorVersionXpath>
+				    <simulatorversion>6.0</simulatorversion>
+				    <simulatorFamilyXpath>//select[@id='family']</simulatorFamilyXpath>
+				    <simulatorFamilyValue>iphone</simulatorFamilyValue>
+				    
+				    <!--  Import application Xpath -->
+				<importApplicationTab>//input[@id='importAppln']</importApplicationTab>
+				<repoType>//select[@name='repoType']</repoType>
+				<repoURL>//input[@id='repoUrl']</repoURL>
+				<credentialCheckBox>//input[@id='credentials']</credentialCheckBox>
+				<applicationUsername>//input[@id='userName']</applicationUsername>
+				<applicationPassword>//input[@id='password']</applicationPassword>
+				<headRevision>//input[@id='revisionHead']</headRevision>
+				<revision>//input[@id='revision']</revision>
+				<revisionTextBox>//input[@id='revisionVal']</revisionTextBox>
+				<importApplicationSubmit>//input[@id='importUpdateAppln']</importApplicationSubmit>
+				<Repo_Url_pass_value>com.photon.phresco.sample</Repo_Url_pass_value>
+				
+				
+				<!-- clone configuration -->
+				
+				<configEnvTab>//a[@id='addEnvironments']</configEnvTab>
+				<envName>//input[@id='envName']</envName>
+				<envDescription>//textarea[@id='envDesc']</envDescription>
+				<envAddButton>//input[@id='add']</envAddButton>
+				<setAddDefaultButton>//input[@id='setAsDefault']</setAddDefaultButton>
+				<envOkButton>//input[@id='createEnvironment']</envOkButton>
+				<productionSelectCheckbox>//input[@id='Production']</productionSelectCheckbox>
+				<cloneEnvSelect>//select[@id='configEnv']</cloneEnvSelect>
+				<cloneButton>//input[@id='cloneConfiguration']</cloneButton>
+				<firstCloneButton>//td[6]/a/img</firstCloneButton>
+				<secondCloneButton>//tr[2]/td[6]/a/img</secondCloneButton>
+				<textVerify>cloned successfully</textVerify>
+				
+				
+				
+				 <!-- unit test -->
+				<qualitybtn>//a[@id='quality']/label</qualitybtn>
+				 <unittestbtn>//a[@id='unit']/label</unittestbtn>
+				 <unittesttap>//form/div/ul/li/a</unittesttap>
+				 <unittestok>//div[3]/a</unittestok> 
+				 <unittestdevices>//div/select</unittestdevices>
+				 <Unittest_test>//div[3]/input[2]</Unittest_test>
+				 <emulator>Emulator</emulator>
+				 <!-- iPhone UnitTest -->
+				  <sdk>//div/select</sdk>
+				  <Sdkvalueunit>iphonesimulator6.0</Sdkvalueunit>
+				  <target>//div[2]/div/select</target>
+				  <targetvalue>ApplicationTest</targetvalue>
+				  <appcheckclick>//div[3]/div/input</appcheckclick>
+				  <targervalue1>LogicTest</targervalue1>
+				  <targetvalue2>UnitTests</targetvalue2>
+				  
+				<!--  Videos -->
+				 <phresco_videos>//div/div/img</phresco_videos>
+				 <play_videos>//div[@id='videoPlayer']/div[2]/span</play_videos>
+				 <sharepoint_pjt_videos>//a[2]/div/div/img</sharepoint_pjt_videos>
+				 <share_point_deploy_vedios>//a[3]/div/div/img</share_point_deploy_vedios>
+				
+				 <aboutphreco_link>//a[contains(text(),'About Phresco')]</aboutphreco_link>
+				 <UpdateAvailable>//div[@id='popupPage']/div[3]/input[2]</UpdateAvailable>
+				 <cancelbutton>//div[@id='popupPage']/div[3]/input</cancelbutton>
+				 
+				<!--  Performance test constans -->
+				  <performancetestbtn>//a[@id='performance']/label</performancetestbtn>
+				  <performancetesttab>//form/div/input</performancetesttab>
+				  <testaganist>//div[@id='testAgainstControl']/div/select</testaganist>
+				  <testaganist_value>Server</testaganist_value> 
+				  <testresultname_value1>Database</testresultname_value1>
+				  <testresultname_value2>Web Services</testresultname_value2>
+				  <showsetting>//form/div/div[2]/div/input</showsetting>
+				  <testresultname>//div[5]/div/select</testresultname>
+				  <testresultname_value>SampleTest</testresultname_value>
+				  <noofusers>//div[6]/div/input</noofusers>
+				  <noofusersvalue>2</noofusersvalue>
+				  <rampupperiod>//div[7]/div/input</rampupperiod>
+				  <rampupperiod_value>2</rampupperiod_value>
+				  <loopcount>//div[8]/div/input</loopcount>
+				  <loopcountvalue>2</loopcountvalue>
+				  <testtabclick>//div[3]/input[2]</testtabclick>
+				  <performancepopclose>//div[3]/a</performancepopclose>
+				  <namefield_value>Test</namefield_value>
+				  <context_value>SampleContext</context_value>
+				  <configuration_value1>Server</configuration_value1>
+				  <configuration_value>Web Services</configuration_value>
+				  <configuration_value2>Database</configuration_value2>
+				  <namefield>//fieldset[@id='context']/table/tbody/tr/td/input</namefield>
+				             
+				  <namefield1>//div[10]/div/div[2]/div/fieldset/table/tbody/tr/td/input</namefield1>
+				              
+				  <queryclick>//td[3]/textarea</queryclick>
+				  <queryvalue>Select* from table;</queryvalue>
+				  <context>//fieldset[@id='context']/table/tbody/tr/td[2]/input</context>
+				  <configuration>//select[@id='configurations']</configuration>
+				  <addcontextclick>//div[10]/div/div[2]/div/fieldset/legend/input</addcontextclick>
+				  
+				  
+				<!--  Load Test Xpath  -->
+				 <Loadtestbtn>//label[@id='lbl_quality_menu_load']</Loadtestbtn>
+				 <Keyclick>//tbody[@id='propTempTbodyForHeader']/tr/td/input</Keyclick>
+				 <keyvalue>Test</keyvalue>
+				 <valueclick>//tbody[@id='propTempTbodyForHeader']/tr/td[2]/input</valueclick>
+				 <valuepass>2</valuepass>
+				 <testresultload>//div[@id='testNameControl']/div/input</testresultload>
+				 <droppop_up>//option</droppop_up>
+				 <dropdownweb>//option[2]</dropdownweb>
+				 
+				<!--  Functional Test Xpath -->
+				  
+				<functionaltestbtn>//label[@id='lbl_quality_menu_funtional']</functionaltestbtn>
+				<functionaltesttab>//input[@id='functionalTest']</functionaltesttab>
+				
+				 
+				<!-- Project Updation -->
+				 <feature1>//input[@value='ReportGenerator']</feature1>
+				 <feature2>//input[@value='Weather']</feature2>
+				<!--  <feature3>//input[@value='Commenting system']</feature3> -->
+				  <Trackfeatures>//form[@id='formFeatures']/input</Trackfeatures> 
+				  <featuresjquery1>//div[@id='accordianchange']/div/div/div/section/span/span/input</featuresjquery1>
+				  <featuresjquery2>//div[@id='accordianchange']/div/div/div[2]/section/span/span/input</featuresjquery2>
+				  <androidfearure1>//div[@id='accordianchange']/div/div/div/section/span/span/input</androidfearure1>
+				  <androidfearure2>//div[@id='accordianchange']/div/div/div[2]/section/span/span/input</androidfearure2>
+				  
+              <!-- Environment Creation & Global Settings -->   
+              <settins>//a[@id='settings']/label</settins>
+              <Environment>//a[@id='addEnvironments']</Environment>
+              <Envname>//input[@id='envName']</Envname>
+              <Description>//textarea[@id='envDesc']</Description>
+              <Addenvironment>//input[@id='add']</Addenvironment>
+              <env_ok>//input[@id='createEnvironment']</env_ok>
+              <Server_type>//div[4]/div/select</Server_type>
+              
+              <applies_to>//div[@id='multiselectAppliesTo']/div/div/div/div/ul/li[16]/input</applies_to>
+              <servertype>//select[@id='type']</servertype>
+              <saveGlobalSettings>//form[@id='formConfigAdd']/div[2]/input</saveGlobalSettings>
+              <Env_Status_verification>//div[@id='loadEnv']/div/div/section/div/section/span/span/input</Env_Status_verification>
+			<!-- selecting different database and server  and database -->
+			<server_root_click>//span[@id='serverLayerControl']/span/input</server_root_click>
+			<Database_root_click>//span[@id='databaseLayerControl']/span/input</Database_root_click>
+			<xamp_server_click>//td/select</xamp_server_click>	 
+			<xamp_version_click>//td[2]/div/div/div/div/input</xamp_version_click>
+			<mongodb_database_click>//select[@id='1_databaseName']</mongodb_database_click>
+			<MongoDb_database_version>//input[@name='downloads_mongodb']</MongoDb_database_version>
+			<phpBlogCheckBoxXpath>//a[text()='PHPSampleBlogProject']/preceding-sibling::input</phpBlogCheckBoxXpath>
+       		<phpBlogEditApplicationLinkXpath>//a[contains(text(),'PHPSampleBlogProject-php')]</phpBlogEditApplicationLinkXpath>
+			
+       		<!-- ToolTip Verification -->
+       		
+       		<open_folder_xpath>//img[@id='folderIcon']</open_folder_xpath>
+       		<copy_path_tooltip>//img[@title='Copy path']</copy_path_tooltip>
+       		<functional_test_click>//label[@id='lbl_quality_menu_funtional']</functional_test_click>
+       		<Red_Theme_change>//li[@id='themeContainer']/ul/li[2]/a[2]/img</Red_Theme_change>
+       		<Blue_Theme_change>//li[@id='themeContainer']/ul/li[2]/a/img</Blue_Theme_change>
+       		<Green_Theam_change>//li[@id='themeContainer']/ul/li/a/img</Green_Theam_change>
+       		<Help_tab_verification>//label[@id='lbl_hdr_help']</Help_tab_verification>
+       		<Download_Tab>//label[@id='lbl_app_menu_download']</Download_Tab>
+       		<Download_Server_Root_xpath>//section[@id='subcontainer']/div/section/div/section/span/span</Download_Server_Root_xpath>
+       		<Download_Database_Root_xpath>//section[@id='subcontainer']/div/section/div/section/span[2]/span</Download_Database_Root_xpath>
+       		<Download_others_root_xpath>//section[@id='subcontainer']/div/section/div/section/span[3]/span</Download_others_root_xpath>
+			<Report_Tab_click>//label[@id='lbl_app_menu_report']</Report_Tab_click>
+			<Configure_tab_click>//a[@id='configurePopup']</Configure_tab_click>
+			<Configure_report_click>//input[@id='checkAllReports']</Configure_report_click>
+			<Report_Tab_ok>//input[@id='createReportConfig']</Report_Tab_ok>
+			<Set_as_Default>//input[@id='setAsDefault']</Set_as_Default>
+			<AlertMessage_env_popup>Select atleast one environment</AlertMessage_env_popup>
+			<env_created_success_message>Environment(s) updated successfully</env_created_success_message>
+			<env_delete>//input[@id='Testing']</env_delete>
+			<env_Delete_button_click>//input[@id='deleteBtn']</env_Delete_button_click>
+			<env_delete_popup>//input[@id='delete']</env_delete_popup>
+			<env_deleted_success_message>Environment Testing deleted successfully</env_deleted_success_message>
+			
+			
+		<!-- Project Delete Xpath -->
+		   <Project_checkbox_click>//a[text()='PHPSampleHelloWorldProj']/preceding-sibling::input</Project_checkbox_click>
+		   <Project_delete_button_ok>//input[@id='deleteBtn']</Project_delete_button_ok>
+		   <Project_delete_popup_ok>//input[@id='deleteProject']</Project_delete_popup_ok>
+		   <Project_deleted_message>Project deleted successfully</Project_deleted_message>
+		   
+		   <!-- Configuration messages -->
+		   <Configuration_production_click>//input[@id='Production']</Configuration_production_click>
+		   <Configuration_default_messages>Configuration(s) is not available </Configuration_default_messages>
+		  <!--  build deletion Xpath -->
+		  <build_check_box_click>//input[@name='build-number']</build_check_box_click>
+		  <Build_delete_button_click>//input[@id='deleteButton']</Build_delete_button_click>
+		  <Build_delete_pop_ok>//input[@id='deleteBuild']</Build_delete_pop_ok>
+		  <Build_Delete_warning_message>Build(s) deleted successfully</Build_Delete_warning_message>
+		  <!-- Project creation page -->
+		  <project_created_message>Project PHPSampleHelloWorldProj Created Successfully</project_created_message>
+		  <Server_created_message>Server Created Successfully</Server_created_message>
+		  <Database_created_message>Database Created Successfully</Database_created_message>
+		  <sonar_Report_tool_tip>xpath=(//img[@title='Generate Report'])[2]</sonar_Report_tool_tip>
+		  <Repo_Add_tooltip>xpath=(//img[@title='Add to repo'])[2]</Repo_Add_tooltip>
+		  <Repo_commit_tooltip>xpath=(//img[@title='Commit'])[2]</Repo_commit_tooltip>
+		  <Repo_update_tooltip>xpath=(//img[@title='Update'])[2]</Repo_update_tooltip>
+		  <invalid_url>Invalid URL</invalid_url>
+		  
+		  <import_application_cancel_button>//div[3]/input</import_application_cancel_button>
+		   <imagearrowXpath>//div[@id='signOut']/aside</imagearrowXpath>
+		  <Green_image_arrow>//aside</Green_image_arrow>
+		  <blue_image_arrow>//aside/img</blue_image_arrow>
+		  <Addproject_name_message>Name is missing</Addproject_name_message>
+		  <Addproject_code_message>Code is missing</Addproject_code_message>
+		  <Addproject_version_message>Version is empty</Addproject_version_message>
+		  <Addproject_create_message>Select atleast one Technology</Addproject_create_message>
+		  
+		  </phresco>
+			
+				 
+		</environment>
+				  

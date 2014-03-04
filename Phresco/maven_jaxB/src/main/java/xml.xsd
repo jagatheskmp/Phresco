@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="keywordredirects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="keywordredirect" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="rd_redirectTerm_value"/>
+              <xs:element type="xs:string" name="rd_RedirectUrl_value"/>
+              <xs:element type="xs:string" name="search_Profile"/>
+              <xs:element type="xs:string" name="start_Date"/>
+              <xs:element type="xs:string" name="end_Date"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="description" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

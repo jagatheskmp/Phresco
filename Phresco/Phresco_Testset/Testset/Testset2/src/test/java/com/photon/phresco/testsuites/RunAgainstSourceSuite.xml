@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RunAgainstTestCaseSuite" verbose="1">
+
+   <test name="CleanDatabaseTest" junit="false" preserve-order="true">
+       <parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.preconditions.CleanUp"/>
+			<methods>
+				<include name="testjavaWebServiceEshopRunDatabase"></include> 
+				<include name="testNodeJsEshopRunDatabase"></include>
+			</methods>
+		</classes>
+	</test> 
+	
+	<test name="NodeJsWebserviceTest" junit="false" preserve-order="true">
+	    <parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+		<class name="com.photon.phresco.RunAgainstSource.RunAgainstSourceTest"/>
+			<methods>
+				 <include name="testNodeJsWebserviceHelloWorldProjectCreation"></include> 
+				<include name="testNodeJsWebserviceHelloWorldProjectEdit"></include> 	
+				<include name="testNodeJsWebserviceHelloWorldProjectAddFeature"></include>
+				<include name="testNodeJsHelloWorldProjectConfigurationServer"></include>
+				<include name="testNodeJsHelloWorldRunAgainstSource"></include> 
+				<include name="testNodeJsWebserviceEshopProjectCreation"></include> 
+				<include name="testNodeJsWebserviceEshopProjectEdit"></include> 
+				<include name="testNodeJsWebserviceEshopProjectAddFeature"></include>
+				<include name="testNodeJsEshopdProjectConfigurationServer"></include> 
+				<include name="testNodeJsEshopRunDatabase"></include>	
+				<include name="testNodeJsEshopRunAgainstSource"></include>
+				<include name="testJavaWebserviceHelloWorldProjectCreation"></include> 
+				<include name="testjavaWebServiceHelloWorldProjectEdit"></include> 
+				<include name="testjavaWebServiceHelloWorldProjectAddFeature"></include>	
+				<include name="testjavaWebServiceHelloWorldAddServerConfiguration"></include> 
+				<include name="testJavaWebserviceHelloWorldRunAgainstSource"></include>
+				<include name="testJavaWebserviceEshopProjectCreation"></include> 
+				<include name="testJavaWebserviceEshopProjectEdit"></include> 	
+				<include name="testjavaWebServiceEshopProjectAddFeature"></include>	
+				<include name="testjavaWebServiceEshopAddServerConfiguration"></include> 
+				<include name="testJavaWebserviceEshopRunAgainstSource"></include>  
+				 <include name="testMultiYuiWidgetHelloWorldProjectCreation"></include> 
+				<include name="testMultiYuiWidgetHelloWorldProjectEditApplication"></include> 
+				<include name="testMultiYuiWidgetHelloWorldProjectAddFeature"></include>	
+				<include name="testMultiYuiWidgetProjectHelloWorldAddConfigurationServer"></include> 
+				<include name="testMultiYuiWidgetHelloWorldProjectRunAgainstSource"></include> 
+				<include name="testMultiYuiWidgetProjectEshopCreate"></include> 
+				<include name="testMultiYuiWidgetEshopProjectEditApplication"></include> 	
+				<include name="testMultiYuiWidgetProjectEshopAddFeature"></include>	
+				<include name="testMultiYuiWidgetProjectEshopAddConfigurationServer"></include> 
+				<include name="testMultiYuiWidgetProjectEshopAddConfigurationWebservice"></include> 
+				<include name="testMultiYuiWidgetProjectEshopRunAgainstSource"></include> 
+			    <include name="testYuiMobileWidgetHelloWorldProjectCreation"></include> 
+				<include name="testYuiMobileWidgetHelloWorldProjectEditApplication"></include> 
+				<include name="testYuiMobileWidgetHelloWorldProjectAddFeature"></include>	
+				<include name="testYuiMobileWidgetProjectHelloWorldAddConfigurationServer"></include> 
+				<include name="testYuiMobileWidgetHelloWorldProjectRunAgainstSource"></include>
+				<include name="testYuiMobileWidgetEshopProjectCreation"></include> 
+				<include name="testYuiMobileWidgetEshopProjectEditApplication"></include> 	
+				<include name="testYuiMobileWidgetProjectEshopAddFeature"></include>	
+				<include name="testYuiMobileWidgetProjectEshopAddConfigurationServer"></include> 
+				<include name="testYuiMobileWidgetProjectEshopAddConfigurationWebservice"></include> 
+				<include name="testYuiMobileWidgetProjectEshoprunAgainstSource"></include>  
+			</methods>
+		</classes> 
+	</test>
+</suite>
+   

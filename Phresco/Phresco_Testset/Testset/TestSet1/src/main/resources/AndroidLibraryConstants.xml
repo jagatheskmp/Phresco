@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<androidLibraryNameValue>AndroidLibrarySamplePro</androidLibraryNameValue>
+        <androidLibraryDescriptionValue>This is the Android Library sample project</androidLibraryDescriptionValue>
+        <technologyAndroidLibraryValue>Android Library</technologyAndroidLibraryValue>
+      	<androidLibraryEditApplicationLinkXpath>//a[contains(text(),'AndroidLibrarySamplePro-androidlibrary')]</androidLibraryEditApplicationLinkXpath>
+      	<sdkValue>4.1.2</sdkValue>
+      	<functionalFramework>Robotium</functionalFramework>
+	</phresco>
+</environment>

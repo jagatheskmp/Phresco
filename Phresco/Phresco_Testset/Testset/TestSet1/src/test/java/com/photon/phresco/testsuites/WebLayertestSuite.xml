@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="WebLayerWebLayeruite" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="JQueryMobileWidgetTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.WebLayer.HTML5JQueryMobileWidgetTest" />
+			<methods>
+				<include name="testJQueryMobileWidgetHelloWorldProjectCreation"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectEditApplication"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectAddFeature"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectAddConfigurationServer"></include>
+				<!-- <include name="testJQueryMobileWidgetHelloWorldProjectBuild"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectDeploy"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectUnitTestJs"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectUnitTestJava"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectPerformanceTestForAganistServer"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectLoadTestAganistServer"></include> -->
+				<include name="testJQueryMobileWidgetHelloWorldProjectCodeSourceJs"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectCodeSourceJava"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectCodeSourceHtml"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectCodeSourceJsf"></include>
+				<include name="testJQueryMobileWidgetHelloWorldProjectCodeFunctional"></include>
+				<include name="testJQueryMobileWidgetEshopProjectCreation"></include>
+				<include name="testJQueryMobileWidgetEshopProjectEditApplication"></include>
+				<include name="testJQueryMobileWidgetEshopProjectAddFeature"></include> 
+				<include name="testJQueryMobileWidgetEshopProjectAddConfigurationServer"></include>
+				<!-- <include name="testJQueryMobileWidgetEshopProjectAddConfigurationWebservice"></include>
+				<include name="testJQueryMobileWidgetEshopProjectBuild"></include>
+				<include name="testJQueryMobileWidgetEshopProjectDeploy"></include>
+				<include name="testJQueryMobileWidgetEshopProjectUnitTestJs"></include>
+				<include name="testJQueryMobileWidgetEshopProjectUnitTestJava"></include>
+				<include name="testJQueryMobileWidgetEshopProjectPerformanceTestForAganistServer"></include>
+				<include name="testJQueryMobileWidgetEshopProjectPerformanceTestForAganistWebservice"></include>
+				<include name="testJQueryMobileWidgetEshopProjectLoadTestAganistServer"></include>
+				<include name="testJQueryMobileWidgetEshopProjectLoadTestAganistWebservices"></include> -->
+				<include name="testJQueryMobileWidgetEshopProjectCodeSourceJs"></include>
+				<include name="testJQueryMobileWidgetEshopProjectCodeSourceJava"></include>
+				<include name="testJQueryMobileWidgetEshopProjectCodeSourceHtml"></include>
+				<include name="testJQueryMobileWidgetEshopProjectCodeSourceJsf"></include>
+				<include name="testJQueryMobileWidgetEshopProjectCodeFunctional"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<!-- <test name="MultiJqueryWidgetTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class
+				name="com.photon.phresco.WebLayer.HTML5MultichannelJQueryWidgetTest" />
+			<methods>
+				<include name="testMultiJQueryWidgetHelloWorldProjectCreation"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectEditApplication"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectAddFeature"></include>
+				<include
+					name="testMultiJQueryWidgetHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectBuild"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectDeploy"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectUnitTestJs"></include>
+				<include name="testMultiJQueryWidgetHelloWorldProjectUnitTestJava"></include>
+				<include
+					name="testMultiJQueryWidgetHelloWorldProjectPerformanceTestForAganistServer"></include>
+				<include
+					name="testMultiJQueryWidgetHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testMultiJQueryWidgetEshopProjectCreation"></include>
+				<include name="testMultiJQueryWidgetEshopProjectEditApplication"></include>
+				<include name="testMultiJQueryWidgetEshopProjectAddFeature"></include>
+				<include name="testMultiJQueryWidgetEshopProjectAddConfigurationServer"></include>
+				<include
+					name="testMultiJQueryWidgetEshopProjectAddConfigurationWebservice"></include>
+				<include name="testMultiJQueryWidgetEshopProjectBuild"></include>
+				<include name="testMultiJQueryWidgetEshopProjectDeploy"></include>
+				<include name="testMultiJQueryWidgetEshopProjectUnitTestJs"></include>
+				<include name="testMultiJQueryWidgetEshopProjectUnitTestJava"></include>
+				<include
+					name="testMultiJQueryWidgetEshopProjectPerformanceTestForAganistServer"></include>
+				<include
+					name="testMultiJQueryWidgetEshopProjectPerformanceTestForAganistWebservice"></include>
+				<include name="testMultiJQueryWidgetEshopProjectLoadTestAganistServer"></include>
+				<include
+					name="testMultiJQueryWidgetEshopProjectLoadTestAganistWebservices"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="MultiYuiWidgetTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.WebLayer.HTML5MultichannelYUIWidgetTest" />
+			<methods>
+				<include name="testMultiYuiWidgetHelloWorldProjectCreation"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectCreation"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectEditApplication"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectAddFeature"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectBuild"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectDeploy"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectUnitTestJs"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectUnitTestJava"></include>
+				<include
+					name="testMultiYuiWidgetHelloWorldProjectPerformanceTestForAganistServer"></include>
+				<include name="testMultiYuiWidgetHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testMultiYuiWidgetEshopProjectCreate"></include>
+				<include name="testMultiYuiWidgetEshopProjectEditApplication"></include>
+				<include name="testMultiYuiWidgetEshopProjectAddFeature"></include>
+				<include name="testMultiYuiWidgetEshopProjectAddConfigurationServer"></include>
+				<include name="testMultiYuiWidgetEshopProjectAddConfigurationWebservice"></include>
+				<include name="testMultiYuiWidgetEshopProjectBuild"></include>
+				<include name="testMultiYuiWidgetEshopProjectDeploy"></include>
+				<include name="testMultiYuiWidgetEshopProjectUnitTestJs"></include>
+				<include name="testMultiYuiWidgetEshopProjectUnitTestJava"></include>
+				<include
+					name="testMultiYuiWidgetEshopProjectPerformanceTestForAganistServer"></include>
+				<include
+					name="testMultiYuiWidgetEshopProjectPerformanceTestForAganistWebservice"></include>
+				<include name="testMultiYuiWidgetEshopProjectLoadTestAganistServer"></include>
+				<include name="testMultiYuiWidgetEshopProjectLoadTestAganistWebservices"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<test name="YuiMobileWidgetTest" junit="false" preserve-order="true">
+		<parameter name="browser" value="googlechrome" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.photon.phresco.WebLayer.HTML5YUIMobileWidgetTest" />
+			<methods>
+				<include name="testYuiMobileWidgetHelloWorldProjectCreation"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectEditApplication"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectAddFeature"></include>
+				<include
+					name="testYuiMobileWidgetHelloWorldProjectAddConfigurationServer"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectBuild"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectDeploy"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectUnitTestJs"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectUnitTestJava"></include>
+				<include
+					name="testYuiMobileWidgetHelloWorldProjectPerformanceTestForAganistServer"></include>
+				<include name="testYuiMobileWidgetHelloWorldProjectLoadTestAganistServer"></include>
+				<include name="testYuiMobileWidgetEshopProjectCreation"></include>
+				<include name="testYuiMobileWidgetEshopProjectEditApplication"></include>
+				<include name="testYuiMobileWidgetEshopProjectAddFeature"></include>
+				<include name="testYuiMobileWidgetEshopProjectAddConfigurationServer"></include>
+				<include name="testYuiMobileWidgetEshopProjectAddConfigurationWebservice"></include>
+				<include name="testYuiMobileWidgetEshopProjectBuild"></include>
+				<include name="testYuiMobileWidgetEshopProjectDeploy"></include>
+				<include name="testYuiMobileWidgetEshopProjectUnitTestJs"></include>
+				<include name="testYuiMobileWidgetEshopProjectUnitTestJava"></include>
+				<include
+					name="testYuiMobileWidgetEshopProjectPerformanceTestForAganistServer"></include>
+				<include
+					name="testYuiMobileWidgetEshopProjectPerformanceTestForAganistWebservice"></include>
+				<include name="testYuiMobileWidgetEshopProjectLoadTestAganistServer"></include>
+				<include name="testYuiMobileWidgetEshopProjectLoadTestAganistWebservices"></include>
+			</methods>
+		</classes>
+	</test>-->
+</suite>  

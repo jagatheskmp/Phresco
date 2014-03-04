@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+	    <multiYuiWidgetHelloworldNameValue>MultiYuiWidHelloworldProj</multiYuiWidgetHelloworldNameValue>
+        <multiYuiWidgetHelloworldCodeValue>MultiYuiMobHello</multiYuiWidgetHelloworldCodeValue>
+        <multiYuiWidgetHelloworldDescriptionValue>This is MultiYuiWidgetHelloworld Project</multiYuiWidgetHelloworldDescriptionValue>
+        <multiYuiWidgetHelloworldVersionValue>1.0.0</multiYuiWidgetHelloworldVersionValue> 
+		
+		<multiYuiWidgetconfigServContextValueHelloWorld>MultiYuiWidgetHelloworld</multiYuiWidgetconfigServContextValueHelloWorld>
+		
+		<multiYuiWidgetHelloWorldCheckBoxXpath>//a[text()='MultiYuiWidHelloworldProj']/preceding-sibling::input</multiYuiWidgetHelloWorldCheckBoxXpath>
+        <multiYuiWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidHelloworldProj-html5multichannelyuiwidget')]</multiYuiWidgetHelloWorldEditApplicationLinkXpath>
+       	
+       	<appInfoMultiYuiWidgetServerValue>Apache Tomcat</appInfoMultiYuiWidgetServerValue>     
+		<TomacatServerVersionValue>//td[2]/div/div/div/div/input</TomacatServerVersionValue>
+
+		<multiYuiWidgetEshopNameValue>MultiYuiWidEshopProj</multiYuiWidgetEshopNameValue>
+        <multiYuiWidgetEshopCodeValue>MultiYuiMobEshop</multiYuiWidgetEshopCodeValue>
+        <multiYuiWidgetEshopDescriptionValue>This is MultiYuiWidgetEshop Project</multiYuiWidgetEshopDescriptionValue>
+        <multiYuiWidgetEshopVersionValue>1.0.0</multiYuiWidgetEshopVersionValue> 
+		
+		<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<multiYuiWidgetValue>HTML5 Multichannel YUI Widget</multiYuiWidgetValue>
+		<multiYuiWidgetVersionValue>1.5</multiYuiWidgetVersionValue>
+		
+		<multiYuiMobWidgetEshopCheckBoxXpath>//a[text()='MultiYuiWidEshopProj']/preceding-sibling::input</multiYuiMobWidgetEshopCheckBoxXpath>
+        <multiYuiMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'MultiYuiWidEshopProj-html5multichannelyuiwidget')]</multiYuiMobWidgetEshopEditApplicationLinkXpath>
+       	
+      	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+            	
+      	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>Server configuration for MultiYui Widget project</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServProtocolValue>http</configServProtocolValue>
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>8080</configServPortValue>
+        <configServDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\apache-tomcat-7.0.25\webapps</configServDeployDirectoryValue>
+       
+        <multiYuiServContextValueEshop>MultiYuiWidgetEshop</multiYuiServContextValueEshop>
+     
+      	<configWebServiceNameValue>WebService</configWebServiceNameValue>
+     	<configWebserviceDesc>WebService configuration for MultiYui Widget project</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>2020</configWebservicePortValue>      	
+      
+      	<multiYuiWebserviceContextEshopValue>eshop</multiYuiWebserviceContextEshopValue>
+	
+	
+	
+	
+	
+
+
+</phresco>
+</environment>
+ 

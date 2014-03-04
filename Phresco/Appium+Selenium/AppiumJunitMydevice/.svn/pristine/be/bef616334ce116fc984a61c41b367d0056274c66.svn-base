@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestWebServerFactory" parallel="tests" thread-count="5" verbose="3">
+
+	<test name="T1">
+		<parameter name="number-of-times" value="10" />
+		<class name="com.photon.phresco.testcases.TestWebServer" />
+	</test>
+
+	<test name="T2">
+		<parameter name="number-of-times" value="20" />
+		<class name="com.photon.phresco.testcases.TestWebServer" />
+	</test>
+
+	<test name="T3">
+		<parameter name="number-of-times" value="30" />
+		<class name="com.photon.phresco.testcases.TestWebServer" />
+	</test>
+	
+</suite>
+ 
+
+ 	
+ 

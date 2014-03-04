@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<iPhoneHybridEshopNameValue>iPhoneHybridEshop</iPhoneHybridEshopNameValue>
+        <iPhoneHybridEshopDescriptionValue>This is iPhoneHybridEshop Project</iPhoneHybridEshopDescriptionValue>
+		<iPhoneHybridHelloWorldNameValue>iPhoneHybridHelloWorld</iPhoneHybridHelloWorldNameValue>
+        <iPhoneHybridHelloWorldDescriptionValue>This is iPhoneHybridHelloWorld Project</iPhoneHybridHelloWorldDescriptionValue>
+		<iPhoneHybridEshopEditApplicationLinkXpath>//a[contains(text(),'iPhoneHybridEshop-iphone')]</iPhoneHybridEshopEditApplicationLinkXpath>
+        <iPhoneHybridHelloWorldEditApplicationLinkXpath>//a[contains(text(),'iPhoneHybridHelloWorld-iphone')]</iPhoneHybridHelloWorldEditApplicationLinkXpath>
+		<iPhoneHybridValue>iPhone Hybrid</iPhoneHybridValue>
+  	  	<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>   
+       	<iPhoneHybridConfigServNameValue>Server</iPhoneHybridConfigServNameValue>
+      	<iPhoneHybridConfigservDescValue>Server configuration</iPhoneHybridConfigservDescValue>
+      	<iPhoneHybridconfigServEnvValue>Production</iPhoneHybridconfigServEnvValue>
+      	<iPhoneHybridconfigServValue>WebService</iPhoneHybridconfigServValue>      	
+      	<iPhoneHybridconfigServProtocolValue>http</iPhoneHybridconfigServProtocolValue>
+      	<iPhoneHybridconfigServHostValue>172.16.17.180</iPhoneHybridconfigServHostValue>
+     	<iPhoneHybridconfigServPortValue>8080</iPhoneHybridconfigServPortValue>
+        <iPhoneHybridconfigServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</iPhoneHybridconfigServDeployDirectoryValue>
+        <iPhoneHybridconfigServContextValueEshop>mobilewidget</iPhoneHybridconfigServContextValueEshop>
+        <sdkValue>iphonesimulator6.0</sdkValue>
+     	<targetValue>Phresco</targetValue>
+     	<sdkVersion>6.0</sdkVersion>
+     	<sdkFamily>iphone</sdkFamily>
+     	<unitTestSdkValue>iphonesimulator6.0</unitTestSdkValue>
+     	<unitTestTargetValue>UnitTest</unitTestTargetValue>
+     	<functionalFramework>UI Automation</functionalFramework>
+	</phresco>
+</environment>
+
+

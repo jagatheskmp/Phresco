@@ -1,0 +1,11 @@
+<suite name="Automation TestSuite" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="Audio Device" junit="false" preserve-order="true">
+
+		<classes>
+			<class name="com.photon.phresco.automation.AutomationFactory" />
+		</classes>
+
+	</test>
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+	<phresco>
+		<jQueryMobWidgetHelloworldNameValue>JQueryMobileWidHelloworldProj</jQueryMobWidgetHelloworldNameValue>
+        <jQueryMobWidgetHelloworldDescriptionValue>This is JQueryMobileWidgetHelloworld Project</jQueryMobWidgetHelloworldDescriptionValue>
+        <jQueryMobWidgetEshopNameValue>JQueryMobileWidgetEshopProj</jQueryMobWidgetEshopNameValue>
+        <jQueryMobWidgetEshopDescriptionValue>This is JQueryMobileWidgetEshop Project</jQueryMobWidgetEshopDescriptionValue>
+        <jQueryMobWidgetHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JQueryMobileWidHelloworldProj-html5jquerymobi...')]</jQueryMobWidgetHelloWorldEditApplicationLinkXpath>
+       	<jQueryMobWidgetEshopEditApplicationLinkXpath>//a[contains(text(),'JQueryMobileWidgetEshopProj-html5jquerymobile...')]</jQueryMobWidgetEshopEditApplicationLinkXpath>
+       	<html5WebLayerValue>HTML5</html5WebLayerValue>
+		<jQueryMobWidgetValue>HTML5 JQuery Mobile Widget</jQueryMobWidgetValue>
+		<jQueryMobWidgetVersionValue>1.6</jQueryMobWidgetVersionValue>
+		<pilotProjectEshopValue>Eshop</pilotProjectEshopValue>  
+        <widgetServerValue>Apache Tomcat</widgetServerValue>   
+	   	<widgetServerVersionValue>//input[@name='downloads_apache-tomcat']</widgetServerVersionValue>
+     	<configServNameValue>Server</configServNameValue>
+      	<configservDescValue>This is Server configuration</configservDescValue>
+      	<configServEnvValue>Production</configServEnvValue>
+      	<configServValue>Server</configServValue>      	
+      	<configServHostValue>localhost</configServHostValue>
+     	<configServPortValue>3030</configServPortValue>
+     	<configServProtocolValue>http</configServProtocolValue>
+        <configServDeployDirectoryValue>C:\apache-tomcat-7.0.14\webapps</configServDeployDirectoryValue>
+        <jqueryconfigServContextValueEshopHW>JQueryMobileWidgetHW</jqueryconfigServContextValueEshopHW>
+        <jqueryconfigServContextValueEshop>JQueryMobileWidgetEshop</jqueryconfigServContextValueEshop>
+      	<configWebServiceNameValue>eshopService</configWebServiceNameValue>
+     	<configWebserviceDesc>This is eshopService configuration</configWebserviceDesc>
+      	<configWebserviceEnvValue>Production</configWebserviceEnvValue>
+      	<configWebserviceValue>WebService</configWebserviceValue>      	
+      	<configWebserviceHostValue>172.16.17.180</configWebserviceHostValue>
+      	<configWebservicePortValue>6060</configWebservicePortValue> 
+      	<configWebserviceProtocolValue>http</configWebserviceProtocolValue>
+     	<jqueryconfigWebserviceContextEshopValue>eshop</jqueryconfigWebserviceContextEshopValue>
+     	<functionalFramework>Grid</functionalFramework>
+	</phresco>
+</environment>

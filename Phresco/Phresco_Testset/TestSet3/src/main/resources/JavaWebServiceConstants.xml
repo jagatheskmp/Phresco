@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+    <phresco>
+
+        <javaWebServiceHelloWorldNameValue>JavaWebServiceHelloWorldProj</javaWebServiceHelloWorldNameValue>
+        <javaWebServiceHelloWorldCodeValue>JavaWebHello</javaWebServiceHelloWorldCodeValue>
+        <javaWebServiceHelloWorldDescriptionValue>This is the JavaWebService HelloWorld project</javaWebServiceHelloWorldDescriptionValue>
+        <javaWebServiceHelloWorldVersionValue>1.1.1</javaWebServiceHelloWorldVersionValue>        
+        <technologyjavaWebServiceValue>Java WebService</technologyjavaWebServiceValue>
+        
+
+       <javaWebServiceHelloWorldCheckBoxXpath>//a[text()='JavaWebServiceHelloWorldProj']/preceding-sibling::input</javaWebServiceHelloWorldCheckBoxXpath>
+       <javaWebServiceHelloWorldEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceHelloWorldProj-javawebservice')]</javaWebServiceHelloWorldEditApplicationLinkXpath>
+ 	
+        <javaWebServiceServerValue>Apache Tomcat</javaWebServiceServerValue>
+        <javaWebServiceDatabaseValue>MYSQL</javaWebServiceDatabaseValue>
+
+        
+        <javaWebServiceConfigurationServerNameValue>Server</javaWebServiceConfigurationServerNameValue>
+        <javaWebServiceConfigurationServerDescriptionValue>This is Server Configuration</javaWebServiceConfigurationServerDescriptionValue>
+        <javaWebServiceConfigurationServerEnvironmentValue>Production</javaWebServiceConfigurationServerEnvironmentValue>
+        <javaWebServiceConfigurationServerTypeValue>Server</javaWebServiceConfigurationServerTypeValue>
+        <javaWebServiceConfigurationServerProtocolHttpValue>http</javaWebServiceConfigurationServerProtocolHttpValue>
+        <javaWebServiceConfigurationServerProtocolHttpsValue>https</javaWebServiceConfigurationServerProtocolHttpsValue>
+        <javaWebServiceConfigurationServerHostValue>localhost</javaWebServiceConfigurationServerHostValue>
+        <javaWebServiceConfigurationServerPortValue>8080</javaWebServiceConfigurationServerPortValue>        
+        <javaWebServiceConfigurationServerDeployDirectoryValue>D:\Jagathes\apache_tomcat-7.0.25\webapps</javaWebServiceConfigurationServerDeployDirectoryValue>
+        <javaWebServiceConfigurationServerContextValueHelloWorld>JavaWebServiceHelloWorld</javaWebServiceConfigurationServerContextValueHelloWorld>
+       
+        <javaWebServiceConfigurationDatabaseNameValue>Database</javaWebServiceConfigurationDatabaseNameValue>
+        <javaWebServiceConfigurationDatabaseDescriptionValue>This is Database Configuration</javaWebServiceConfigurationDatabaseDescriptionValue>
+        <javaWebServiceConfigurationDatabaseEnvironmentValue>Production</javaWebServiceConfigurationDatabaseEnvironmentValue>
+        <javaWebServiceConfigurationDatabaseTypeValue>Database</javaWebServiceConfigurationDatabaseTypeValue>
+        <javaWebServiceConfigurationDatabaseHostValue>localhost</javaWebServiceConfigurationDatabaseHostValue>
+        <javaWebServiceConfigurationDatabasePortValue>3306</javaWebServiceConfigurationDatabasePortValue>
+        <javaWebServiceConfigurationDatabaseDBUsernameValue>root</javaWebServiceConfigurationDatabaseDBUsernameValue>
+ 
+        
+     
+        <javaWebServiceESHOPNameValue>JavaWebServiceEshopProj</javaWebServiceESHOPNameValue>
+        <javaWebServiceESHOPCodeValue>JavaEshop</javaWebServiceESHOPCodeValue>
+        <javaWebServiceESHOPDescriptionValue>This is the JavaWebService ESHOP project</javaWebServiceESHOPDescriptionValue>
+        <javaWebServiceESHOPVersionValue>1.1.1</javaWebServiceESHOPVersionValue>        
+       
+       
+        <javaWebServicePilotProjectESHOPValue>Eshop</javaWebServicePilotProjectESHOPValue>
+  		
+  		<javaWebServiceESHOPCheckBoxXpath>//a[text()='JavaWebServiceEshopProj']/preceding-sibling::input</javaWebServiceESHOPCheckBoxXpath>
+        <javaWebServiceESHOPEditApplicationLinkXpath>//a[contains(text(),'JavaWebServiceEshopProj-javawebservice')]</javaWebServiceESHOPEditApplicationLinkXpath>
+ 		
+        <javaWebServiceConfigurationDatabaseDBNameValueESHOP>testjavaWebServiceEshopDatabase</javaWebServiceConfigurationDatabaseDBNameValueESHOP>
+        <javaWebServiceConfigurationServerContextValueESHOP>JavaWebServiceEshop</javaWebServiceConfigurationServerContextValueESHOP> 
+   
+
+    </phresco>
+
+</environment>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+           <Browser>firefox</Browser>
+		   <selenium>
+               <server.host>localhost</server.host>
+               <server.port>4444</server.port>
+               <speed>300</speed>
+           </selenium>
+           <Server>
+               <context>jquerymultieshop</context>
+               <protocol>http</protocol>
+               <host>localhost</host>
+               <port>7080</port>
+			</Server>
+			<Resolution></Resolution>
+          
+</environment>

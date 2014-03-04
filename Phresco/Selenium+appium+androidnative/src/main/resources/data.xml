@@ -1,0 +1,34 @@
+<uiData>
+	<loginData>12341234</loginData>
+	<searchProductText>Search Product</searchProductText>
+	<scanorKeyAisleText>Scan or Key Aisle,</scanorKeyAisleText>
+	<inputTypeText>Input Type</inputTypeText>
+	<enterPOGNumbert>Enter POG Number</enterPOGNumbert>
+	<enterKeyboardEvent>Enter</enterKeyboardEvent>
+	<!-- Data values for find search -->
+	<searchDpci>1234</searchDpci>
+	<searchPlu>1234</searchPlu>
+	<searchUpc>1234</searchUpc>
+	<searchKeyword>chocolate</searchKeyword>
+	<searchWomensCategory>Sarees</searchWomensCategory>
+	<searchMensCategory>tshirt</searchMensCategory>
+	<searchElectronicsCategory>ipad</searchElectronicsCategory>
+	<searchShoesCategory>fila</searchShoesCategory>
+	<!-- data values for label print -->
+	<itemPogNumber>1234</itemPogNumber>
+	<quantityValue>3</quantityValue>
+	<!-- data values for sign print -->
+	<singleSignDate>01/08/2013</singleSignDate>
+	<singleSignSize>7*11</singleSignSize>
+	<sigleSignSearch>123</sigleSignSearch>
+	<multiSignDate>02/08/2013</multiSignDate>
+	<multiSignSize>4*11</multiSignSize>
+	<multiSignSearch>12345</multiSignSearch>
+	<multiSignQuantity>3</multiSignQuantity>
+	<multiSignBatchName>test</multiSignBatchName>
+	<planoSignSearch>1234</planoSignSearch>
+	<planoSignFormat>7*11 [4]</planoSignFormat>
+	<panoSignBatchName>planoTest</panoSignBatchName>
+	<rePrintDateFormat>02/08/2013</rePrintDateFormat>
+	<fillSearchData>1234</fillSearchData>
+</uiData>
